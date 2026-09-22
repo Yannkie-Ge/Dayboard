@@ -1,0 +1,524 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全天候成长看板 · 帮助手册（离线）</title><style>:root{--bg:#0d1117;--bg2:#161b22;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--line:#30363d;--code:#161b22}
+:root{color-scheme:dark}
+[data-theme="light"]{--bg:#fff;--bg2:#f6f8fa;--text:#1f2328;--muted:#656d76;--accent:#0969da;--line:#d0d7de;--code:#f6f8fa}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.65;font-size:15px}
+.layout{display:flex;height:100vh;overflow:hidden}
+.sidebar{width:284px;flex-shrink:0;background:var(--bg2);border-right:1px solid var(--line);display:flex;flex-direction:column}
+.brand{padding:16px 18px;border-bottom:1px solid var(--line)}.brand .t{font-size:15px;font-weight:700}.brand .s{font-size:11.5px;color:var(--muted);margin-top:3px}
+.navwrap{flex:1;overflow:auto;padding:10px}
+.navgroup{font-size:11px;color:var(--muted);letter-spacing:.5px;padding:14px 10px 5px}
+.nav a{display:block;padding:7px 10px;border-radius:7px;color:var(--text);text-decoration:none;font-size:13.5px;margin:1px 0}
+.nav a:hover{background:rgba(125,125,125,.14)}
+.nav a.on{background:var(--accent);color:#fff}
+.foot{padding:10px 14px;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}
+.content{flex:1;overflow:auto;position:relative;scroll-behavior:smooth}
+.pages{max-width:880px;margin:0 auto;padding:34px 42px 90px}
+.doc{padding-bottom:40px;margin-bottom:34px;border-bottom:1px solid var(--line)}.doc:last-child{border-bottom:none}
+.doc h1{font-size:25px;margin:0 0 6px}.doc h2{font-size:18.5px;margin:26px 0 10px;padding-bottom:7px;border-bottom:1px solid var(--line)}.doc h3{font-size:15.5px;margin:20px 0 8px}
+.doc p{margin:10px 0}.doc a{color:var(--accent);text-decoration:none}.doc a:hover{text-decoration:underline}
+.doc code{background:var(--code);padding:1.5px 5px;border-radius:5px;font-size:.88em;font-family:Consolas,Monaco,monospace}
+.doc pre{background:var(--code);border:1px solid var(--line);border-radius:9px;padding:12px 14px;overflow:auto}.doc pre code{background:none;padding:0;font-size:.85em}
+.doc blockquote{border-left:3px solid var(--accent);background:var(--bg2);color:var(--text);padding:8px 14px;margin:12px 0;border-radius:0 8px 8px 0}
+.doc ul,.doc ol{margin:10px 0;padding-left:22px}.doc li{margin:4px 0}
+.doc table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13.5px}.doc th,.doc td{border:1px solid var(--line);padding:7px 10px;text-align:left}.doc th{background:var(--bg2)}
+.top{display:flex;align-items:center;gap:12px;padding:12px 20px;background:var(--bg2);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.top .hamb{display:none;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:7px;padding:6px 11px;font-size:15px;cursor:pointer}
+.top .title{font-weight:600;font-size:14.5px;flex:1}
+.top .btn{border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:7px;padding:6px 12px;font-size:13px;cursor:pointer}
+.backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40}.backdrop.show{display:block}
+@media(max-width:760px){.sidebar{position:fixed;top:0;left:0;bottom:0;z-index:50;transform:translateX(-101%);transition:transform .22s;width:280px;box-shadow:4px 0 20px rgba(0,0,0,.4)}.sidebar.open{transform:none}.top .hamb{display:block}.pages{padding:20px 18px 80px}.doc h1{font-size:22px}}</style></head><body><div class="layout"><aside class="sidebar"><div class="brand"><div class="t">📖 帮助手册</div><div class="s">全天候成长看板 · 离线单文件</div></div><nav class="navwrap"><div class="navgroup">🚀 开始</div><a href="#index">帮助索引</a>
+<a href="#onboard">新手引导</a>
+<div class="navgroup">📅 日常使用</div><a href="#board">今日看板</a>
+<a href="#pomo">番茄钟</a>
+<a href="#tasks">待办看板</a>
+<a href="#calendar">日历</a>
+<div class="navgroup">🎯 计划进度</div><a href="#schedule">编辑计划 · 周期排程</a>
+<a href="#subj">科目管理</a>
+<a href="#study">学习进度 · 里程碑</a>
+<a href="#syllabus">大纲编辑器</a>
+<div class="navgroup">📊 复盘洞察</div><a href="#stats">数据分析</a>
+<a href="#summary">周期总结</a>
+<a href="#compare">周 / 双周对比</a>
+<div class="navgroup">✈️ 生活工具</div><a href="#travel">旅行日程</a>
+<a href="#trips-import">📥 导入行程（深度）</a>
+<a href="#meditate">冥想舱</a>
+<a href="#countdown">倒计时</a>
+<a href="#smart-import">智能导入 · 拍照识别</a>
+<div class="navgroup">🤖 AI · 数据</div><a href="#ai">AI 增强</a>
+<a href="#settings">设置</a>
+<a href="#backup">数据备份与恢复</a>
+<div class="navgroup">📚 备考专项</div><a href="#mistake">错题本</a></nav><div class="foot">v2026-09-22 · 22 篇 · 离线可看 · 侧边导航</div></aside><div class="backdrop"></div><div class="content"><div class="top"><button class="hamb" type="button">☰</button><span class="title">全天候成长看板 · 帮助手册</span><button class="btn theme" type="button">☀ 亮色</button></div><div class="pages"><section class="doc" id="index"><h1>📖 帮助中心 · 索引</h1>
+<blockquote>全天候成长看板 · Daily Board 的<strong>分功能帮助文档</strong>。每个功能一份独立说明，按需查阅。<br>返回主文档：<code>../README.md</code></blockquote>
+<p>---</p>
+<h2>🚀 先看这个</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#onboard"><code>新手引导.md</code></a></td><td>第一次打开怎么快速上手、把日程和打卡跑起来</td></tr></tbody></table>
+<p>---</p>
+<h2>🗓️ 日常使用（每天都会碰）</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#board"><code>今日看板.md</code></a></td><td>主驾驶舱：时段区块打卡（✓/◐/✕）+ 成就/总结/状态/感悟</td></tr><tr><td><a href="#pomo"><code>番茄钟.md</code></a></td><td>专注计时，自动锁定当前时段，可「运行到本时段结束」</td></tr><tr><td><a href="#tasks"><code>待办看板.md</code></a></td><td>四象限任务 + 收集箱 + AI 整理 + 时间冲突检测</td></tr><tr><td><a href="#calendar"><code>日历.md</code></a></td><td>月历总览，点日期跳转到那天看板</td></tr></tbody></table>
+<p>---</p>
+<h2>🎯 计划与进度</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#schedule"><code>编辑计划与周期排程.md</code></a></td><td>定义每天区块与「学期/假期」多套方案，按日期自动套用</td></tr><tr><td><a href="#subj"><code>科目管理.md</code></a></td><td>项目/科目的名称、颜色、目标、章节进度</td></tr><tr><td><a href="#study"><code>学习进度与项目里程碑.md</code></a></td><td>阶段 + 分层里程碑，项目包库一键导入</td></tr><tr><td><a href="#syllabus"><code>大纲编辑器.md</code></a></td><td>把考纲/课纲结构化成可勾选、可追踪的清单</td></tr></tbody></table>
+<p>---</p>
+<h2>📊 复盘与洞察</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#stats"><code>数据分析.md</code></a></td><td>KPI、30 天趋势、分类环形、16 周热力图、徽章墙</td></tr><tr><td><a href="#summary"><code>周期总结.md</code></a></td><td>周/阶段自动汇总：投入、风险、成就、复盘、感悟</td></tr><tr><td><a href="#compare"><code>周与双周对比.md</code></a></td><td>相邻周期横向对比，看节奏增减</td></tr></tbody></table>
+<p>---</p>
+<h2>✈️ 生活与工具</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#travel"><code>旅行日程.md</code></a></td><td>独立的行程模块：新建 / 导入 / 编辑 / 规划进看板</td></tr><tr><td><a href="#trips-import"><code>旅行日程导入帮助.md</code></a></td><td>「导入行程」的格式、字段与 FAQ（深度文档）</td></tr><tr><td><a href="#meditate"><code>冥想舱.md</code></a></td><td>离线环境音场 + 4-2-6 呼吸，近 14 天记录</td></tr><tr><td><a href="#countdown"><code>倒计时.md</code></a></td><td>考研/考试/出发等关键节点的倒数</td></tr><tr><td><a href="#smart-import"><code>智能导入（拍照识别）.md</code></a></td><td>端侧 OCR 识别课表/大纲/题目/攻略 → 结构化</td></tr></tbody></table>
+<p>---</p>
+<h2>🤖 AI 与数据</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#ai"><code>AI增强.md</code></a></td><td>AI 规划/周报/撰写/写总结，需先配模型</td></tr><tr><td><a href="#settings"><code>设置.md</code></a></td><td>基础偏好 + AI 模型设置（地址/模型/视觉模型/密钥）</td></tr><tr><td><a href="#backup"><code>数据备份与恢复.md</code></a></td><td>导出/导入整份备份（导入＝整份替换）</td></tr></tbody></table>
+<p>---</p>
+<h2>📚 备考专项</h2>
+<table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#mistake"><code>错题本.md</code></a></td><td>错题结构化收集与复习（可拍照识别题干）</td></tr></tbody></table>
+<p>---</p>
+<blockquote>提示：本文档随功能迭代更新；若某功能行为与文档不符，以应用内实际表现与主 <code>README.md</code> 为准。</blockquote></section>
+<section class="doc" id="onboard"><h1>新手引导 · 使用帮助</h1>
+<blockquote>第一次打开看板时的「快速上手」流程，帮你几分钟内把日程排起来、把打卡跑通，不用先读完整本手册。</blockquote>
+<h2>一、什么时候出现</h2>
+<p>首次打开（或重置后）自动弹出引导；也可在设置里重新打开。</p>
+<h2>二、引导会带你做什么</h2>
+<ol><li><strong>选场景 / 套模板</strong>：从 中小学、大学、考公、考研 等预设里选一个，一键生成一周的时段排布。</li><li><strong>认识三块主区</strong>：今日看板（打卡）、待办看板（任务）、学习进度（项目/里程碑）。</li><li><strong>走一遍打卡</strong>：教你在区块上标 ✓/◐/✕，并写一条当日成就。</li><li><strong>了解进阶</strong>：提示「编辑计划」改排程、「数据 → 导入备份」体验示例、「设置」开关 AI。</li></ol>
+<h2>三、快速上手五步（浓缩版）</h2>
+<ol><li>双击 <code>index.html</code> 打开。</li><li>引导里选一个预设模板（或直接去「编辑计划」自建）。</li><li>到「📋 今日看板」按当天实际点打卡。</li><li>想体验成品效果：去「数据 → 导入备份」，选 <code>demos/</code> 里任意一个 JSON。</li><li>有需要再开 AI：去「⚙ 设置 → AI 模型设置」填模型。</li></ol>
+<h2>四、要点</h2>
+<ul><li>引导只是「起步加速器」，随时可跳过或在设置里重看。</li><li>不选模板也行——空看板也能直接打卡，之后再慢慢补排程。</li><li>所有引导操作都本地生效，不会上传任何数据。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：引导关掉了还想再看？</strong></p>
+<p>A：在「⚙ 设置」里找「重新打开新手引导 / 重置引导」之类的入口再次启动。</p>
+<p><strong>Q：选了模板但想改？</strong></p>
+<p>A：去「编辑计划」按自己节奏改区块即可，模板只是起点。</p>
+<p><strong>Q：关掉引导后一片空白？</strong></p>
+<p>A：说明还没有排程——去「编辑计划」加区块，或「导入备份」载入示例。</p></section>
+<section class="doc" id="board"><h1>今日看板 · 使用帮助</h1>
+<blockquote>看板的「主驾驶舱」。从清晨到深夜，一天被切成多个<strong>时段区块</strong>，你在每块上打卡、写总结，日积月累形成完整成长记录。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏切到 <strong>📋 今日看板</strong>（默认首页）。顶部日期文字可点击，配合底部 🗓️ 日历可翻到任意一天。</p>
+<h2>二、时段区块（Block）</h2>
+<p>一天按「生活 / 学习 / 健康 / 心智 / 休息 / 工作」六大分类切成若干区块，每块有：</p>
+<ul><li>起止时间（如 <code>07:00 – 08:00</code>）</li><li>标题（如「数学模考」「晨跑」）</li><li>所属分类（决定统计归类与配色）</li></ul>
+<p>区块由「编辑计划 / 周期排程」按星期几自动套用，也可被单次调整（智能导入、旅行规划）覆盖。</p>
+<h2>三、怎么用（每日三步）</h2>
+<ol><li><strong>打卡</strong>：每块右侧标记状态</li></ol>
+<ul><li>✓ 完成（done）</li><li>◐ 部分（part，算一半时长）</li><li>✕ 跳过（skip）</li><li>不点 = 未打卡，统计不计入</li></ul>
+<ol><li><strong>写当日复盘</strong>（每天末尾）：</li></ol>
+<ul><li><strong>今日成就</strong>：写下 3 件有掌控感的事（正向反馈，强化坚持）</li><li><strong>今日总结 &amp; 状态</strong>：记录心情 / 精力 / 睡眠</li><li><strong>当日感悟</strong>：随手记想法、灵感、卡点</li></ul>
+<ol><li><strong>块级 AI 总结</strong>（可选）：学习类区块带 ✍ 按钮，配好 AI 模型后，可让 AI 根据你今日完成情况自动写该项目的学习总结。</li></ol>
+<h2>四、要点</h2>
+<ul><li>完成率、连续打卡天数、专注时长都基于这里的打卡状态计算，是「数据分析」「周期总结」的数据来源。</li><li>翻到历史日期补打卡也有效——示例数据多落在历史日期，想看填充效果请切到对应日期。</li><li>顶部 KPI（连续打卡 / 完成率 / 专注分钟）实时反映当天。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：区块太多/太少，怎么改？</strong></p>
+<p>A：去「编辑计划」（周期排程）增删区块、调时间，改完后对应星期自动套用。</p>
+<p><strong>Q：某天临时有事，不想按排程来？</strong></p>
+<p>A：直接在当天拖动/编辑区块即可，只影响那一天；或用「智能导入」把课表/排班识别进来覆盖当天。</p>
+<p><strong>Q：AI 写总结点不动？</strong></p>
+<p>A：需先在「⚙ 设置 → AI 模型设置」配置模型，否则按钮提示「先填好模型」。</p></section>
+<section class="doc" id="pomo"><h1>番茄钟 · 使用帮助</h1>
+<blockquote>把「专注」变成看得见的一段段时间。番茄钟和今日看板的时段区块联动，帮你把计划真正坐实成专注时长。</blockquote>
+<h2>一、入口</h2>
+<ul><li>顶部/区块工具栏的 <strong>🍅 番茄钟</strong> 按钮；</li><li>或直接在某条时段区块上启动，自动锁定到这一块。</li></ul>
+<h2>二、它怎么工作</h2>
+<p>打开番茄钟时会<strong>自动锁定「本时段计划」</strong>——即当前时刻落在 <code>[起,止]</code> 内的当日区块，显示成「<code>起–止 · 标题</code>」，并据此算出默认时长。</p>
+<ul><li><strong>运行到本时段结束</strong>（开关，记忆上次选择）：勾选后，计时长度 = 到该区块结束时间为止，到点自动停。适合「这一节自习就专注到下课」。</li><li>不勾选则按区块时长（或默认 25 分钟）整段计时。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>点 🍅 打开弹窗，确认锁定的区块/时长。</li><li>点 <strong>开始</strong> → 圆环进度走动，状态显示「专注中 · 约 HH:MM 结束」。</li><li>中途可 <strong>暂停</strong>（再点继续）；结束前可随时停。</li><li>时间到会 <strong>响一声提醒</strong>「这一轮结束了」，按钮变「再来一轮」。</li><li>点「再来一轮」按同样设置重新开始。</li></ol>
+<h2>四、要点</h2>
+<ul><li>专注时长会累计进当天的「专注分钟」，并计入「数据分析」的专注趋势与徽章。</li><li>锁定的区块时长来自你的排程；没排程时退化为默认专注时长。</li><li>「运行到本时段结束」只在今天且该区块尚未结束时可勾选。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：番茄钟和区块打卡是一回事吗？</strong></p>
+<p>A：不是。打卡记「这块做没做」，番茄钟记「实际专注了多久」。两者都会进统计，但维度不同。</p>
+<p><strong>Q：没有声音提醒？</strong></p>
+<p>A：浏览器通常要求先有交互才允许播放声音；首次点「开始」即已解锁音频，后续结束提醒可正常响。</p>
+<p><strong>Q：想自定义 25/5 节奏？</strong></p>
+<p>A：目前时长取自区块或默认专注值；「运行到本时段结束」是推荐的贴合排程用法。</p></section>
+<section class="doc" id="tasks"><h1>待办看板 · 使用帮助</h1>
+<blockquote>用「重要 / 紧急」四象限管理任务，配「收集箱 + AI 自动整理」把碎片想法先收后理，还有时间冲突检测帮你排得下。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>🎯 待办看板</strong>。</p>
+<h2>二、四象限</h2>
+<p>任务按两个维度落位：</p>
+<ul><li><strong>重要且紧急</strong>：立刻做。</li><li><strong>重要不紧急</strong>：排进计划（看板区块 / 项目里程碑）。</li><li><strong>紧急不重要</strong>：授权或快速处理。</li><li><strong>不重要不紧急</strong>：删掉或以后再说。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>收集箱速记</strong>：脑中冒出的事先丢进「收集箱」，不打断当下；空闲时再整理。</li><li><strong>AI 自动整理</strong>（需配模型）：把收集箱里的一堆想法交给 AI，自动归类、拆解、排进四象限。</li><li><strong>建任务</strong>：填标题、选象限、可设日期/关联项目、备注。</li><li><strong>时间冲突检测</strong>：给任务排了具体时段后，系统检测与看板区块/其他任务的重叠，提示你顺延或调整。</li><li><strong>完成/归档</strong>：做完标记完成，沉淀进历史。</li></ol>
+<h2>四、要点</h2>
+<ul><li>待办和「今日看板区块」是两套：待办是任务清单，区块是时间排布。把重要不紧急的待办落成区块，才算排进日程。</li><li>AI 整理依赖「设置 → AI 模型设置」；未配置时收集箱仍可手动整理。</li><li>冲突检测关注的是「同一时段被排满」，帮你避免计划看起来很满、实际做不完。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：AI 整理不动？</strong></p>
+<p>A：先去「⚙ 设置 → AI 模型设置」填好服务地址/模型/密钥。</p>
+<p><strong>Q：四象限和日程区块重复了吗？</strong></p>
+<p>A：不重复。待办解决「做什么、先做什么」，区块解决「几点做」；两者通过「落成区块」打通。</p>
+<p><strong>Q：收集箱会丢吗？</strong></p>
+<p>A：收集箱内容存在本地，和看板一起随「导出备份」带走；整理前不会消失。</p></section>
+<section class="doc" id="calendar"><h1>日历 · 使用帮助</h1>
+<blockquote>一页看全月，点任意日期直达那天看板。补课、补打卡、回看历史都靠它。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>🗓️ 日历</strong>（今日看板顶部的日期文字点开也是它）。</p>
+<h2>二、它有什么</h2>
+<ul><li><strong>月历总览</strong>：当前月及前后月份网格，每天一个格子。</li><li><strong>完成率着色</strong>：有打卡的日期按完成率上色（越绿越高），一眼看出哪天充实、哪天空了。</li><li><strong>今日高亮</strong>：当前日期特殊标记。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>翻月：左右切换月份。</li><li><strong>点某天</strong> → 跳到那天「今日看板」，可打卡 / 写总结 / 补复盘。</li><li>从数据散点回看：在「数据分析」热力图点某天也会跳到这里对应的那天。</li><li>历史示例数据多落在具体日期（如考研示例 <code>2026-07-05~07-25</code>），翻到对应日期才能看到填充的打卡。</li></ol>
+<h2>四、要点</h2>
+<ul><li>日历是「导航」，不存数据；它读的是 <code>days</code> 里各天的打卡状态。</li><li>想看某天详情，点进去即可；想看长期趋势，去「数据分析」的 16 周热力图。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：某天是灰的/无着色？</strong></p>
+<p>A：那天没有打卡记录（完成率 0），着色逻辑只对有记录的日子生效。</p>
+<p><strong>Q：点日期没反应？</strong></p>
+<p>A：通常会切到那天看板；若卡住，刷新页面或检查是否在点「今天」本身（已停在今日）。</p>
+<p><strong>Q：能直接在这里打卡吗？</strong></p>
+<p>A：不能，日历只导航；打卡在「今日看板」对应那天做。</p></section>
+<section class="doc" id="schedule"><h1>编辑计划与周期排程 · 使用帮助</h1>
+<blockquote>这是看板的「作息发动机」：你定义好一天由哪些时段区块组成、按星期几套用，看板就每天自动把对应排布铺好。支持「学期 / 假期」等多套方案并存。</blockquote>
+<h2>一、入口</h2>
+<ul><li>今日看板顶部「<strong>编辑计划</strong>」或「数据 → 计划/排程」；</li><li>区块上也能直接调起编辑器改某块。</li></ul>
+<h2>二、两个概念</h2>
+<ul><li><strong>周期排程（方案）</strong>：一套「星期几 → 当天的区块集合」的规则。例如「上学日方案」（周一~周五不同）、「寒暑假方案」。</li><li><strong>区间生效</strong>：方案可设生效区间（如 <code>2026-09-01 ~ 2027-01-20</code> 覆盖学期），区间内按日期自动套用对应星期几的排布。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>新建/选择方案</strong>：命名（如「考研强化」），设生效起止日期。</li><li><strong>编排每周</strong>：对周一~周日分别增删区块，设定每块</li></ol>
+<ul><li>起止时间（<code>s</code> / <code>e</code>）</li><li>标题</li><li>分类（生活/学习/健康/心智/休息/工作）</li><li>关联科目（学习类块可绑定科目，便于「学习进度」汇总）</li><li>备注</li></ul>
+<ol><li><strong>多套并存</strong>：可同时有「上学日 + 寒暑假」两套，按日期区间自动切换，互不覆盖。</li><li><strong>套模板</strong>：内置多种模板（中小学/大学/考公/考研…），一键生成再微调。</li><li>保存后，对应日期的看板立即按新排布渲染。</li></ol>
+<h2>四、要点</h2>
+<ul><li>排程只定义「框架」，每天的实际打卡状态存在 <code>days</code> 里，互不影响。</li><li>历史日期如果在方案生效区间内，翻过去也会显示对应排布（示例数据即如此）。</li><li>单次调整（智能导入/旅行规划覆盖某天）不会改变常驻方案，只当天生效。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：改了计划，为什么历史某天没变？</strong></p>
+<p>A：排程按日期套用；若那天在方案区间内会更新，但若你手动改过那天或那天在另一方案区间，以实际为准。</p>
+<p><strong>Q：想临时换一套作息（如考试周）？</strong></p>
+<p>A：新建一个区间覆盖考试周的方案即可，结束后自动回落到原方案。</p>
+<p><strong>Q：区块时间冲突会怎样？</strong></p>
+<p>A：编辑器允许重叠，但实际打卡统计按各自区块独立计；建议用「智能导入」的冲突策略（顺延/取消/裁剪）处理密集排班。</p></section>
+<section class="doc" id="subj"><h1>科目管理 · 使用帮助</h1>
+<blockquote>科目（项目）是「学习进度」的载体：每门课/每个备考科目都有独立的进度、章节、里程碑，并被今日看板的区块引用。管理好科目，进度汇总才准。</blockquote>
+<h2>一、入口</h2>
+<ul><li><strong>📚 学习进度</strong> 模块里的「管理科目 / 编辑科目」；</li><li>编辑计划时给学习类区块「绑定科目」也会引到科目库。</li></ul>
+<h2>二、科目里有什么</h2>
+<p>每个科目（项目）可包含：</p>
+<ul><li><strong>名称 + 颜色</strong>：在进度、看板、总结里统一标识。</li><li><strong>目标（goal）</strong>：这个项目要达成的目标，会拼进 AI 规划 / 总结的提示词，让 AI 更懂你。</li><li><strong>附加任务提示（extra）</strong>：你给该项目的特殊要求，同样喂给 AI。</li><li><strong>章节进度</strong>：按章节记录学到哪、完成度。</li><li><strong>里程碑</strong>：拆成「阶段 + 分层里程碑」（已完成 / 进行中 / 待启动）。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>新建科目</strong>：填名称、选颜色，写清目标与附加提示。</li><li><strong>绑定区块</strong>：在「编辑计划」里把学习类区块关联到科目，之后该块的打卡会汇总进这个科目的投入。</li><li><strong>更新进度</strong>：在「学习进度」里维护章节 / 里程碑状态。</li><li><strong>AI 联动</strong>：配好模型后，今日看板上该科目的区块会出现 ✍「AI 写」按钮，按今日完成情况和你写的 goal/extra 生成学习总结。</li></ol>
+<h2>四、要点</h2>
+<ul><li>科目是「学习进度」「周期总结·各项目投入」「AI 周报」的数据基础——名字和颜色保持一致，复盘才清楚。</li><li>通用备考（考研/考公/资格考）可用内置「阶段 + 里程碑」模板快速建科目。</li><li>删除科目不会删掉历史打卡，但相关汇总会少一项。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：科目和「项目包库」里的包是什么关系？</strong></p>
+<p>A：项目包库是现成的科目/里程碑模板合集（如各职业资格考三阶段包），「导入」即生成对应科目；科目管理是对生成后的科目做日常维护。</p>
+<p><strong>Q：AI 总结总写不到点？</strong></p>
+<p>A：把 goal / extra 写具体（如「重点突破高数多元微分，周末模考」），AI 才有据可依。</p></section>
+<section class="doc" id="study"><h1>学习进度与项目里程碑 · 使用帮助</h1>
+<blockquote>把大目标拆成「阶段 + 分层里程碑」，再按日积累投入，进度一目了然。配「项目包库」可一键导入成熟备考模板。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>📚 学习进度</strong>。</p>
+<h2>二、核心概念</h2>
+<ul><li><strong>项目 / 科目</strong>：一个备考目标（如「考研数学」「教资科一」），见「科目管理」帮助。</li><li><strong>里程碑</strong>：项目下的关键节点，分层为「已完成 / 进行中 / 待启动」。</li><li><strong>投入</strong>：来自今日看板中绑定该科目的区块打卡分钟，自动汇总。</li><li><strong>风险预警</strong>：某项目近期无投入或落后，会在「周期总结」标「⚠ 高风险 / ↓ 落后」。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>看总览</strong>：每个项目显示颜色、累计投入分钟、里程碑 x/y、风险标签。</li><li><strong>维护里程碑</strong>：展开项目，把完成的里程碑标记「已完成」，新阶段的标「进行中」。</li><li><strong>导入项目包</strong>：点「项目包库」，选现成模板（职业资格考/考研各科三阶段包等）一键生成科目 + 里程碑，免手建。</li><li><strong>周/双周对比</strong>：相邻周期横向对比见「周与双周对比」帮助，看清节奏变化。</li><li><strong>AI 周报</strong>：配好模型后，可让 AI 根据各项目近期执行情况生成周报（见「AI 增强」）。</li></ol>
+<h2>四、要点</h2>
+<ul><li>进度不是手填的——它=里程碑状态 + 每日投入的叠加。坚持打卡，进度自然长。</li><li>「项目包库」的包多为「阶段 + 分层里程碑」结构，适合长线备考；导入后可按自己节奏改。</li><li>风险预警依赖「近期投入」：断更几天就会亮灯，是防止弃坑的好信号。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：导入了项目包，但看板没变化？</strong></p>
+<p>A：项目包建的是「科目 + 里程碑」，要让看板出现对应区块，还需在「编辑计划」把学习块绑定这些科目（或套用包自带的排程模板）。</p>
+<p><strong>Q：里程碑完成率虚高？</strong></p>
+<p>A：里程碑是手动标记的，请按真实进度更新；投入分钟才是客观证据，两者结合看最准。</p></section>
+<section class="doc" id="syllabus"><h1>大纲编辑器 · 使用帮助</h1>
+<blockquote>把考试大纲、课纲、复习大纲<strong>结构化</strong>成一个可勾选、可追踪进度的清单——告别「对着一页 PDF 不知道学到哪」。</blockquote>
+<h2>一、入口</h2>
+<ul><li>项目/科目下的「大纲」入口；</li><li>「智能导入」识别到「大纲」类型时，文字进大纲编辑器。</li></ul>
+<h2>二、它能做什么</h2>
+<ul><li><strong>结构化</strong>：把一段大纲文字（或拍照识别出的文字）整理成「章节 → 知识点」的层级清单。</li><li><strong>进度勾选</strong>：每个知识点标「未学 / 学习中 / 已掌握」。</li><li><strong>进度汇总</strong>：按章节显示完成度，和学习进度里的里程碑呼应。</li><li><strong>与 AI 联动</strong>：配好模型后可用 AI 辅助把杂乱大纲拆成层级、补说明。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>录入大纲</strong>：粘贴大纲文本，或拍照/选图识别（见「智能导入」）。</li><li><strong>结构化</strong>：手动或「用 AI 解析」把文字拆成层级；确认每行的归属。</li><li><strong>日常勾选</strong>：学完一个知识点就标记，进度自动累计。</li><li><strong>对照里程碑</strong>：大纲完成度可映射到项目的里程碑状态，复盘时一起看。</li></ol>
+<h2>四、要点</h2>
+<ul><li>大纲编辑器面向<strong>长线备考</strong>（考研各科、考公、资格考），让「庞大的考纲」变成可 daily 推进的清单。</li><li>识别在端侧 OCR，AI 解析需配模型；结果先确认再保存。</li><li>大纲数据存在本地，随备份带走。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：识别的大纲层级乱了？</strong></p>
+<p>A：在编辑器里手动调整父子关系，或换「用 AI 解析」重排；确认无误再存。</p>
+<p><strong>Q：大纲和里程碑重复吗？</strong></p>
+<p>A：不重复。大纲是「考纲知识点清单」，里程碑是「项目阶段节点」；大纲完成度可支撑里程碑判断。</p>
+<p><strong>Q：能导出大纲吗？</strong></p>
+<p>A：随「导出备份」整体带走。</p></section>
+<section class="doc" id="stats"><h1>数据分析 · 使用帮助</h1>
+<blockquote>把每天的打卡、专注、冥想、心情变成图表，让你「看见」自己的节奏和趋势。所有数据来自本地，断网也能看。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>📊 数据分析</strong>。</p>
+<h2>二、面板包含什么</h2>
+<ul><li><strong>KPI 卡</strong>：🔥 连续打卡（天）、⏱️ 累计专注（小时）、🧘 冥想累计（分钟/天）、🏅 解锁徽章（n/总数）。</li><li><strong>核心完成率趋势</strong>：近 30 天每日完成率折线，叠加 7 日移动平均，看整体走向。</li><li><strong>专注时长趋势</strong>：近 30 天每日专注分钟柱状图；下方「周/月汇总」表给日均专注与核心完成率（近 7 天 / 近 30 天）。</li><li><strong>分类投入环形图</strong>：近 30 天按六大分类（生活/学习/健康/心智/休息/工作）的时长占比，图例带小时数。</li><li><strong>打卡热力图</strong>：16 周方格，按当日完成率上色（越绿越高），点格子可跳到那天看板。</li><li><strong>状态 vs 完成率</strong>：近 14 天「心情」与「完成率」双柱对比，检验「状态好是否做得好」。</li><li><strong>徽章墙</strong>：所有徽章及解锁日期，未解锁的显示条件暗示。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>日常正常打卡，数据自动积累。</li><li>定期来这里看趋势：完成率是不是在掉？专注时长够不够？哪个分类投入最少？</li><li>点热力图某天 → 跳去补看 / 复盘那天。</li><li>看徽章墙找「还差什么」的小目标。</li></ol>
+<h2>四、要点</h2>
+<ul><li>所有指标基于 <code>days</code> 里的打卡状态与专注/冥想记录；不打卡的日子完成率为 0，会拉低均值——这是提醒，不是惩罚。</li><li>「分类投入」只统计标记为 done/part 的区块（part 算一半时长）。</li><li>趋势图随数据增长自动延伸，越用越有价值。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：完成率忽高忽低？</strong></p>
+<p>A：多半是某些天没打卡（显示 0）。保持每天至少点几下，曲线才平滑可信。</p>
+<p><strong>Q：冥想/专注没数据？</strong></p>
+<p>A：先用「冥想舱」冥想、用「番茄钟」专注，记录才会进来。</p>
+<p><strong>Q：徽章怎么解锁？</strong></p>
+<p>A：按对应行为达成（如连续打卡天数、累计专注时长），达成当天自动点亮，墙上有说明。</p></section>
+<section class="doc" id="summary"><h1>周期总结 · 使用帮助</h1>
+<blockquote>自动汇总结束的「周 / 阶段」，把散落在每天的努力收拢成一份可回看的成长档案。不用每天手填，到期自动生成。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>📑 周期总结</strong>。</p>
+<h2>二、它能总结什么</h2>
+<p>选好区间（周 / 自定义阶段）后，自动聚合该区间：</p>
+<ul><li><strong>KPI</strong>：记录天数（x / 总天数）、核心完成率(均)、专注时长(h)、冥想(min)、心情/精力(均)。</li><li><strong>各项目投入 · 完成情况</strong>：每个科目/项目的投入分钟 + 风险标签（✓ 正常 / ↓ 落后 / ⚠ 高风险）+ 里程碑 x/y + 累计% + 断更天数。</li><li><strong>本周期未投入 · 需关注</strong>：亮红灯/黄灯、近期零投入的项目，防弃坑。</li><li><strong>当日成就</strong>：区间内每天写的「3 件有掌控感的事」集合。</li><li><strong>复盘要点</strong>：区间内每天的总结摘要。</li><li><strong>💡 当日感悟</strong>：区间内的随手感悟。</li><li><strong>已归档总结</strong>：历史周期总结列表，可回看。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>周期结束（如周日晚上）来这里，选区间看总结。</li><li>重点看「风险项目」——哪些事这周期被忽略了，下周补。</li><li>把「当日成就 / 感悟」当周记回看，强化正反馈。</li><li>历史总结在「已归档」里长期留存，跨周/跨月对比用。</li></ol>
+<h2>四、要点</h2>
+<ul><li>总结完全来自你每天的打卡、成就、总结、感悟——<strong>平时填得越认真，总结越有用</strong>。</li><li>风险标签靠「近期投入」判断：某项目连续几天没绑定区块打卡，就会预警。</li><li>与「周与双周对比」「学习进度」互补：总结看「这一周期发生了什么」，对比看「和上一周期差多少」。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：提示「该区间还没有任何打卡记录」？</strong></p>
+<p>A：说明这段日期你没在对应天打卡（或日期选错）。先去那些天补打卡，总结才有内容。</p>
+<p><strong>Q：项目投入显示 0 但我在学？</strong></p>
+<p>A：今日看板里那块没「绑定科目」，或没标记完成。绑定科目并打卡，投入才会汇总进来。</p></section>
+<section class="doc" id="compare"><h1>周与双周对比 · 使用帮助</h1>
+<blockquote>把相邻的两个周期（上周 vs 本周，或上双周 vs 本双周）并排拉出来，直观看清节奏变化——哪里进步了、哪里滑坡了。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>📈 周 / 双周对比</strong>。</p>
+<h2>二、它比「周期总结」强在哪</h2>
+<ul><li>周期总结看「这一周期发生了什么」；</li><li>对比看「<strong>这一周期相比上一周期差多少</strong>」——增量、回落一目了然。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>选对比粒度：周（7 天）或双周（14 天）。</li><li>系统自动取「上一周期」与「本周期」两组数据并排：</li></ol>
+<ul><li>核心完成率、专注时长等核心指标的前后对比；</li><li>各项目投入的前后变化（哪些项目这周期多投了、哪些少了）；</li><li>里程碑推进差异。</li></ul>
+<ol><li>看红绿箭头：涨了绿、跌了红，快速定位需要关注的维度。</li><li>结合「周期总结」的「风险项目」一起读，制定下周策略。</li></ol>
+<h2>四、要点</h2>
+<ul><li>对比依赖「周期总结」的聚合数据，所以同样要求你平时认真打卡、写总结。</li><li>双周粒度更适合长线备考（考研/考公），能滤掉单周波动，看真实趋势。</li><li>它是「计划—执行—复盘—调整」闭环里的「调整」依据。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：对比数字和上期对不上？</strong></p>
+<p>A：对比取的是真实 <code>days</code> 数据聚合；若某天补打卡发生在对比之后，会反映进最新周期。</p>
+<p><strong>Q：为什么只有两周能比？</strong></p>
+<p>A：设计就是相邻周期横向比；更长时间跨度的趋势请看「数据分析」的 30 天折线/16 周热力图。</p>
+<p><strong>Q：项目投入对比里某项目消失了？</strong></p>
+<p>A：上周期没投入或没绑定科目时，该项目的对比项可能为空；正常。</p></section>
+<section class="doc" id="travel"><h1>旅行日程 · 使用帮助</h1>
+<blockquote>一个和「每日打卡、周期排程」完全独立的行程模块。一日游、多日游都能按天排，还能把某件事「规划」进具体日期的看板，让旅行和日常打卡真正打通。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>✈️ 旅行日程</strong>。</p>
+<h2>二、添加行程的两种方式</h2>
+<ul><li><strong>＋ 新建行程</strong>：手动逐步填标题、每天日期与事项（时间/地点/备注/类型）。</li><li><strong>📥 导入行程</strong>：批量载入现成 <code>.json</code>（自己导出的、朋友分享的、或仓库示例）。详细格式与字段见 <strong><a href="#trips-import"><code>旅行日程导入帮助.md</code></a></strong>。</li></ul>
+<blockquote>两种方式的区别：新建是手填，导入是离线批量载入（无需配 AI、无需联网）。导入只<strong>追加</strong>行程，不替换你已有的看板数据。</blockquote>
+<h2>三、行程里有什么</h2>
+<p>每条行程 = 标题 + 若干「天」，每天有若干「事项」：</p>
+<ul><li>起止时间 <code>s</code>/<code>e</code>、事项标题、地点 📍、备注、类型标签。</li></ul>
+<h2>四、导入之后能做什么</h2>
+<p>每条行程卡片上可：</p>
+<ul><li><strong>展开/折叠</strong>：看每天安排。</li><li><strong>⏫ 置顶</strong>：常用行程顶到最前。</li><li><strong>编辑</strong>：改标题/日期/事项（同新建编辑器）。</li><li><strong>删除</strong>：只删这一条，不影响别的。</li><li><strong>⏰ 规划 / 📅 整日规划 / 📅 整行程</strong>：把行程里的某件事、某一天、或整段行程，<strong>落进具体日期的看板</strong>当「生活」类自定义块（与常驻计划分离，只当天生效；冲突自动顺延）。这就是「旅行」和「日常」打通的地方。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：导入后在今日看板看不到？</strong></p>
+<p>A：行程在「✈️ 旅行日程」里；要落到某天看板，用卡片上的「规划」按钮选日期。</p>
+<p><strong>Q：拍照识别的行程在哪？</strong></p>
+<p>A：拍照识别（见「智能导入」）的结果确认后也会落进这里，与导入/新建的行程并存。</p>
+<p><strong>Q：重复导入同一文件会怎样？</strong></p>
+<p>A：id 相同会自动改名变成两条；想避免先删旧的。详见导入帮助文档。</p>
+<blockquote>想用示例快速体验：进入本模块 →「📥 导入行程」→ 选 <code>demos/travel-chengdu-demo.json</code>（7 条成都周边行程）。</blockquote></section>
+<section class="doc" id="trips-import"><h1>旅行日程 · 导入行程 使用帮助</h1>
+<blockquote>本文档详细介绍「全天候成长看板」里 <strong>✈️ 旅行日程 → 📥 导入行程</strong> 功能怎么用。<br>它和「数据 → 导入备份」是<strong>两套入口、两种行为</strong>，读完你就清楚什么时候用哪个。</blockquote>
+<p>---</p>
+<h2>一、这个功能解决什么</h2>
+<p>「旅行日程」是看板里一个<strong>和每日打卡、周期排程完全独立</strong>的模块，专门放你的出游行程（一日游、多日游都行）。</p>
+<p>添加行程原本只有「＋ 新建行程」一条路——得一条条手填日期和事项，行程多的时候很累。</p>
+<p>「📥 导入行程」就是给你一条<strong>批量捷径</strong>：手边有一份行程 <code>.json</code>（自己导出的、朋友分享的、或仓库里的示例），点一下就整批进看板，不用再手动敲。</p>
+<p>---</p>
+<h2>二、入口在哪里</h2>
+<ol><li>打开看板（双击 <code>index.html</code>）。</li><li>在底部视图栏切到 <strong>✈️ 旅行日程</strong>。</li><li>顶部工具栏有两个按钮：</li></ol>
+<ul><li><strong>＋ 新建行程</strong>：手动逐步填写。</li><li><strong>📥 导入行程</strong>：本文档主角，批量载入 <code>.json</code>。</li></ul>
+<blockquote>即使是第一次进、列表还是空的，空状态提示里也带着这两个按钮，入口一样。</blockquote>
+<p>---</p>
+<h2>三、三步用法</h2>
+<ol><li><strong>准备好文件</strong>：一份行程 <code>.json</code>（格式见第四节，仓库里的 <code>demos/travel-chengdu-demo.json</code> 可直接试）。</li><li><strong>点「📥 导入行程」</strong> → 在弹出的文件选择框里选中那个 <code>.json</code>。</li><li><strong>等提示</strong>：右下角弹出「已导入 N 条行程」，行程立刻出现在列表里，可展开查看每天的安排。</li></ol>
+<p>就这么简单。导入是<strong>增量追加</strong>，不会动你已有的打卡、排程和其他数据。</p>
+<p>---</p>
+<h2>四、支持的文件格式（自动识别，三种都行）</h2>
+<p><code>importTripFile</code> 会按下面顺序自动判断文件属于哪种，无需你选格式：</p>
+<h3>格式一：整份备份 JSON（含 <code>trips</code> 数组）</h3>
+<p>就是「数据 → 导出备份」生成的那种全量文件，或仓库示例那样的文件。</p>
+<p>导入时<strong>只取其中的 <code>trips</code> 部分</strong>，其余（打卡、排程等）忽略——所以你可以用一份完整备份来"只加行程"，不用担心覆盖当前看板。</p>
+<blockquote>例：<code>demos/travel-chengdu-demo.json</code>（一份完整备份，内含 7 条成都周边行程）。</blockquote>
+<h3>格式二：纯行程数组</h3>
+<p>文件本身就是一个数组，每个元素是一条行程：</p>
+<pre><code>[
+  {
+    "id": "trip-a",
+    "title": "周末周边游",
+    "days": [ { "label": "Day1", "items": [ { "s": "09:00", "e": "12:00", "t": "爬山", "place": "某山" } ] } ]
+  },
+  {
+    "id": "trip-b",
+    "title": "小长假三日游",
+    "days": [ { "label": "Day1", "items": [] }, { "label": "Day2", "items": [] }, { "label": "Day3", "items": [] } ]
+  }
+]</code></pre>
+<h3>格式三：单条行程对象</h3>
+<p>文件本身就是一个行程对象（带 <code>id</code> / <code>title</code> / <code>days</code>）：</p>
+<pre><code>{
+  "id": "trip-alone",
+  "title": "一个人的 city walk",
+  "days": [
+    {
+      "key": "2026-10-02",
+      "label": "Day1 · 老城区",
+      "items": [
+        { "s": "10:00", "e": "11:30", "t": "咖啡馆", "place": "XX 路", "note": "靠窗位", "type": "休闲" },
+        { "s": "14:00", "e": "17:00", "t": "博物馆", "place": "市博", "note": "提前预约", "type": "文化" }
+      ]
+    }
+  ]
+}</code></pre>
+<p>---</p>
+<h2>五、字段详解</h2>
+<p>一条行程（<code>normalizeTrip</code> 归一化后）的结构：</p>
+<table><thead><tr><th>字段</th><th>说明</th><th>是否必填</th></tr></thead><tbody><tr><td><code>id</code></td><td>行程唯一标识。导入时若与已有行程 <strong>id 重复，会自动改名</strong>（加时间戳/随机数）避免冲突。建议起有意义的短 id。</td><td>建议有</td></tr><tr><td><code>title</code></td><td>行程标题，显示在卡片头部。</td><td>建议有</td></tr><tr><td><code>source</code></td><td>来源标记，<code>photo</code>=拍照识别 / <code>json</code>=导入 / 留空=手动。仅影响卡片上的小徽章。</td><td>否</td></tr><tr><td><code>days</code></td><td><strong>按天的数组</strong>，每条行程至少 1 天。</td><td>是</td></tr></tbody></table>
+<p><code>days</code> 里每一天：</p>
+<table><thead><tr><th>字段</th><th>说明</th></tr></thead><tbody><tr><td><code>key</code></td><td>日期 <code>YYYY-MM-DD</code>。可留空，留空时按 <code>label</code> 显示、规划时不绑定具体日期。</td></tr><tr><td><code>label</code></td><td>当天显示名，如「Day1 · 都江堰」「10 月 2 日」。</td></tr><tr><td><code>items</code></td><td>当天事项数组，可空（当天无具体安排）。</td></tr></tbody></table>
+<p><code>items</code> 里每件事：</p>
+<table><thead><tr><th>字段</th><th>说明</th></tr></thead><tbody><tr><td><code>s</code> / <code>e</code></td><td>起 / 止时间 <code>HH:MM</code>，如 <code>"09:00"</code> / <code>"12:00"</code>。可只填 <code>s</code>。</td></tr><tr><td><code>t</code></td><td>事项标题，如「爬青城山」。</td></tr><tr><td><code>place</code></td><td>地点，渲染时带 📍 徽标。</td></tr><tr><td><code>note</code></td><td>备注。</td></tr><tr><td><code>type</code></td><td>类型标签，如「交通」「餐饮」「景点」「休闲」。</td></tr></tbody></table>
+<blockquote>即使文件字段不全（缺 <code>key</code>、缺 <code>place</code> 等），<code>normalizeTrip</code> 也会补全默认值，不会导入失败——放心用。</blockquote>
+<p>---</p>
+<h2>六、与「导入备份」的关键区别（重要）</h2>
+<table><thead><tr><th></th><th>📥 导入行程（旅行日程内）</th><th>导入备份（数据面板内）</th></tr></thead><tbody><tr><td>入口</td><td>✈️ 旅行日程 → 📥 导入行程</td><td>底部「数据」→ 导入备份</td></tr><tr><td>作用范围</td><td><strong>只追加行程</strong>到 <code>state.trips</code></td><td><strong>整份替换</strong>当前看板（打卡、排程、行程、设置全换）</td></tr><tr><td>对其他数据</td><td>不触碰你已有的打卡 / 排程 / 其他行程</td><td>全部被文件内容覆盖</td></tr><tr><td>适用</td><td>只想加几趟旅行，保留现有看板</td><td>想整体切换到某个示例场景（如专心考研）</td></tr><tr><td>冲突处理</td><td>id 重复自动改名，可多次导入</td><td>直接覆盖，无合并</td></tr></tbody></table>
+<blockquote>一句话：<strong>只想加行程 → 用「导入行程」；想整个看板换成别的状态 → 用「导入备份」。</strong></blockquote>
+<p>---</p>
+<h2>七、导入之后能干什么</h2>
+<p>行程进列表后，每条卡片上都能：</p>
+<ul><li><strong>展开 / 折叠</strong>：点标题或 ▸ 箭头。</li><li><strong>⏫ 置顶</strong>：把常用行程顶到最前。</li><li><strong>编辑</strong>：改标题、日期、事项（和「＋ 新建行程」同一个编辑器）。</li><li><strong>删除</strong>：删掉某条（只删这一条，不影响别的）。</li><li><strong>⏰ 规划 / 📅 整日规划 / 📅 整行程</strong>：把行程里的某件事、某一天、或整段行程，<strong>落进具体日期的看板</strong>当「生活」类自定义块（与常驻计划分离，只当天生效；冲突时自动顺延）。这是"旅行"和"日常打卡"真正打通的地方。</li></ul>
+<p>---</p>
+<h2>八、常见问题</h2>
+<p><strong>Q：导入后怎么在今日看板看不到？</strong></p>
+<p>A：行程在「✈️ 旅行日程」模块里，不在「📋 今日看板」。要落到某天看板，用卡片上的「规划」按钮选日期即可。</p>
+<p><strong>Q：导入同一个人发了两次的文件，会重复吗？</strong></p>
+<p>A：如果 <code>id</code> 相同会自动改名，变成两条（id 不同但内容相同）；若想避免，先删掉旧的那条再导入，或让对方改 id。</p>
+<p><strong>Q：导入错了 / 导入了不想留的？</strong></p>
+<p>A：逐条点「删除」即可，不影响其他数据和打卡。</p>
+<p><strong>Q：文件格式不对会怎样？</strong></p>
+<p>A：右下角提示「导入失败：…」，看板不变，不会留下半截数据。</p>
+<p><strong>Q：能用拍照识别代替吗？</strong></p>
+<p>A：能。「📋 今日看板 → AI 规划 → ✈️ 旅游行程」拍照/选图识别，结果会先确认再落库（需先在设置里配 AI 模型）。导入行程则是<strong>纯本地、无需联网、无需配模型</strong>的离线方式。</p>
+<p>---</p>
+<h2>九、用示例快速体验</h2>
+<p>仓库里的 <code>demos/travel-chengdu-demo.json</code> 是一份完整备份，内含 7 条成都周边行程（4 条一日游 + 3 条多日游）。</p>
+<p><strong>方式 A（只加行程，推荐）</strong></p>
+<p>进入「✈️ 旅行日程」→ 点「📥 导入行程」→ 选 <code>demos/travel-chengdu-demo.json</code> → 7 条行程即时出现，你原本的看板原封不动。</p>
+<p><strong>方式 B（整体切换成示例状态）</strong></p>
+<p>进入「数据」→「导入备份」→ 选同一文件 → 整个看板变成成都周边旅游示例（打卡/排程也一并替换，五个示例互相独立）。</p>
+<p>两种方式用的同一个文件，区别只在入口——这正是第六节那张表的含义。</p>
+<p>---</p>
+<p>_这份帮助配套主文档 <code>README.md</code> 使用。看板本身完全离线、数据存本地浏览器，导入行程不产生任何网络请求。_</p></section>
+<section class="doc" id="meditate"><h1>冥想舱 · 使用帮助</h1>
+<blockquote>一块完全离线的「安静角落」：实时合成的环境音场 + 4-2-6 呼吸节律引导，帮你从紧绷里抽离几分钟。无需联网、无音频文件下载。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>🧘 冥想舱</strong>。</p>
+<h2>二、它有什么</h2>
+<ul><li><strong>环境音场（实时合成）</strong>：雨声、海浪、白噪等氛围音由代码实时合成，<strong>不依赖任何外部音频资源</strong>，断网也能用。</li><li><strong>4-2-6 呼吸引导</strong>：吸气 4 秒、屏息 2 秒、呼气 6 秒的节律提示，跟着做即可放松。</li><li><strong>时长设定</strong>：自己定本次冥想几分钟，点开始。</li><li><strong>近 14 天记录</strong>：柱状图显示每天冥想分钟数。</li><li><strong>冥想明细</strong>：最近 40 条记录，含日期、所用音效图标、分钟数。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>选一种环境音（或默认），设本次时长（如 10 分钟）。</li><li>点开始，跟着 4-2-6 节律呼吸；结束自动记录。</li><li>常来——冥想分钟会进「数据分析」的冥想 KPI 与汇总，也计入徽章。</li><li>回看「冥想明细」观察自己的坚持节奏。</li></ol>
+<h2>四、要点</h2>
+<ul><li>冥想记录存在当天 <code>days[日期].meditation</code> 里，和打卡同库，随备份带走。</li><li>音场是合成的，不同浏览器音色略有差异，属正常。</li><li>几分钟也有效：哪怕 3 分钟，记录都会留下，关键是「每天有一点」。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：没声音？</strong></p>
+<p>A：首次需点「开始」解锁浏览器音频（和番茄钟同理）；之后正常。</p>
+<p><strong>Q：冥想和专注（番茄钟）重复吗？</strong></p>
+<p>A：不重复。冥想是放松/喘息，专注是干活；两者时长分别计入冥想/专注统计。</p>
+<p><strong>Q：想换音效？</strong></p>
+<p>A：在冥想舱里切换环境音类型即可，记录会记下你用的那一种。</p></section>
+<section class="doc" id="countdown"><h1>倒计时 · 使用帮助</h1>
+<blockquote>把「考研 / 考试 / 出发行程」等关键节点放在一眼能看到的地方，倒计时提醒你离目标还有多久。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>⏳ 倒计时</strong>。</p>
+<h2>二、它有什么</h2>
+<ul><li>一组<strong>倒计时卡片</strong>：每个卡片 = 一个关键日期（如「考研初试 2026-12-21」「成都出发 2026-10-02」）。</li><li>实时显示「距今 N 天」，临近时更醒目。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>新建倒计时</strong>：填名称 + 目标日期（可附备注/分类）。</li><li><strong>编辑 / 删除</strong>：随时调整或移除。</li><li>常来本视图看还差多少天，配合「旅行日程」的出发日、各考试的报名/考试日做整体时间感管理。</li></ol>
+<h2>四、要点</h2>
+<ul><li>倒计时和「旅行日程」的出行日期、各项目的里程碑日期是<strong>互补</strong>的：里程碑管「进度到哪」，倒计时管「离deadline 还有多久」。</li><li>数据存本地，随备份带走。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：能不能和考试/旅行自动联动？</strong></p>
+<p>A：目前是独立维护的；你可以把旅行出发日、考试日手动建一条倒计时，和对应模块对齐即可。</p>
+<p><strong>Q：过了目标日期还会显示吗？</strong></p>
+<p>A：通常显示「已过期 / 0 天」，可删掉或留作纪念。</p>
+<p><strong>Q：倒计时能提醒我吗？</strong></p>
+<p>A：看板本身不弹系统通知；它提供常驻的「还剩几天」视觉提醒，配合你自己的日程习惯使用。</p></section>
+<section class="doc" id="smart-import"><h1>智能导入（拍照识别） · 使用帮助</h1>
+<blockquote>把<strong>课表、排班表、考试大纲、旅行攻略</strong>的照片/截图，在<strong>端侧</strong>识别成可编辑的日程或结构化内容，一分钟变成看板——不用一条条手敲。</blockquote>
+<h2>一、入口</h2>
+<ul><li>今日看板顶部「📷 智能导入日程」或侧栏「✨ 智能添加」；</li><li>旅行模块里的「📋 去 AI 规划识别 → ✈️ 旅游行程」也走这套识别。</li></ul>
+<h2>二、它能识别什么</h2>
+<ul><li><strong>课表 / 排班表</strong>：识别成当天（或按星期）的时段区块。</li><li><strong>考试大纲 / 大纲</strong>：识别成结构化大纲（进「大纲编辑器」）。</li><li><strong>题目 / 题干</strong>：可进「错题本」的题干框。</li><li><strong>旅游攻略 / 行程单</strong>：识别成行程，落进「✈️ 旅行日程」。</li></ul>
+<h2>三、怎么用（通用流程）</h2>
+<ol><li>打开智能导入，<strong>拍照或选图</strong>（也支持粘贴文本）。</li><li>选识别类型（日程 / 大纲 / 题目 / 旅游行程）。</li><li>端侧先做 <strong>OCR</strong> 出文字，再「解析」成结构化行；可「🤖 用 AI 解析」提升准确率（需配模型）。</li><li>预览确认每行的时间/内容是否正确。</li><li><strong>冲突策略</strong>（加入常驻计划或当日排布时）：</li></ol>
+<ul><li><strong>顺延</strong>：后面的整体后移，保住不重叠；</li><li><strong>取消</strong>：冲突段直接移除；</li><li><strong>裁剪</strong>：只保留不重叠部分。</li></ul>
+<ol><li>点「应用到当日排布 / 加入常驻计划」生效。</li></ol>
+<h2>四、要点</h2>
+<ul><li>OCR 在<strong>端侧</strong>完成，原图一般不离开本机；「🤖 用 AI 解析」那一步会把文字发给你配置的模型（见「设置」）。</li><li>识别结果<strong>先确认再落库</strong>，不会悄悄覆盖你的排程。</li><li>与「旅行日程·导入行程」互补：拍照识别适合「手头有图」，导入 <code>.json</code> 适合「手头有文件」。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：识别错行了？</strong></p>
+<p>A：在预览里手动改时间/内容，或换「🤖 用 AI 解析」再试；确认无误再应用。</p>
+<p><strong>Q：没有 AI 模型能识别吗？</strong></p>
+<p>A：OCR 与基础解析可离线；「用 AI 解析」更准确但需先在「设置 → AI 模型设置」配好视觉模型。</p>
+<p><strong>Q：应用到当日后想反悔？</strong></p>
+<p>A：当天调整是增量的；可用「清除当日调整」或手动编辑区块还原，不影响常驻方案。</p></section>
+<section class="doc" id="ai"><h1>AI 增强 · 使用帮助</h1>
+<blockquote>看板内置多项 AI 能力，帮你在「规划 / 周报 / 撰写 / 总结 / 识别」上省力。这些能力<strong>默认关闭</strong>，配好模型才启用——且文本只在你配置后发往你指定的接口。</blockquote>
+<h2>一、入口</h2>
+<ul><li>通用入口：<strong>⚙ 设置 → AI 模型设置</strong>（先在这里填好，功能才亮）。</li><li>各处触发：今日看板区块 ✍「AI 写」、学习进度「✒ AI 写」、项目「AI 周报」、「✨ 智能添加 / AI 规划」面板、「📷 智能导入」的「🤖 用 AI 解析」。</li></ul>
+<h2>二、包含哪些能力</h2>
+<ul><li><strong>AI 规划排程</strong>：根据项目目标/附加提示，生成当日或阶段的时间排布建议，可采纳为待办或区块。</li><li><strong>AI 项目周报</strong>：按各项目近期执行情况，自动生成周报草稿。</li><li><strong>AI 辅助撰写</strong>：帮你起草总结、复盘、材料。</li><li><strong>AI 写总结（块级/科目）</strong>：基于今日完成情况 + 你写的 goal/extra，生成该项目学习总结。</li><li><strong>拍照/选图识别</strong>（智能导入）：OCR 后可选「用 AI 解析」提升结构化准确率（见「智能导入」帮助）。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li>去「⚙ 设置 → AI 模型设置」填：服务地址、模型名、（识别用）视觉模型、密钥。</li><li>回到对应模块，点 AI 按钮 → 等待返回 → 采纳/编辑。</li><li>AI 规划的结果先确认再落库，不会静默覆盖。</li></ol>
+<h2>四、要点（数据隐私）</h2>
+<ul><li><strong>基础打卡与统计完全本地运行，不联网。</strong></li><li>仅当你主动配置模型后，相关文本（如总结上下文、识别文字）才会发送到你填写的接口地址——你控制发往哪里。</li><li>没配模型时，所有 AI 按钮会提示「先去设置填好模型」。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：点了 AI 没反应？</strong></p>
+<p>A：九成是没配模型或地址/密钥填错；去设置核对，测试连通后再试。</p>
+<p><strong>Q：AI 写的不准？</strong></p>
+<p>A：把科目 goal/extra 写具体、给规划更明确的约束，输出会更贴。</p>
+<p><strong>Q：我的数据会被看板作者拿走吗？</strong></p>
+<p>A：不会。看板是单文件离线应用，AI 调用只走向你配置的地址，作者拿不到。</p></section>
+<section class="doc" id="settings"><h1>设置 · 使用帮助</h1>
+<blockquote>看板的基础偏好 + AI 模型开关都在这。改完即时生效，随备份带走。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>⚙ 设置</strong>（或顶部齿轮）。</p>
+<h2>二、基础设置</h2>
+<ul><li><strong>主题 / 显示偏好</strong>：明暗、密度等（按版本提供）。</li><li><strong>默认专注时长等习惯项</strong>：如番茄钟「运行到本时段结束」的记忆。</li><li><strong>数据相关</strong>：导出/导入备份入口也常挂在这里或「数据」面板。</li></ul>
+<h2>三、AI 模型设置（关键）</h2>
+<p>要让 AI 能力（规划/周报/撰写/写总结/拍照识别的 AI 解析）可用，需填：</p>
+<ul><li><strong>服务地址</strong>：你的模型 API 基址（如兼容 OpenAI 的 <code>/v1</code> 地址）。</li><li><strong>模型名</strong>：对话模型（如 <code>qwen</code> 系列等）。</li><li><strong>视觉模型</strong>（识别用）：做图片 OCR/结构化时用的多模态模型。</li><li><strong>密钥</strong>：对应服务的 API Key。</li></ul>
+<p>填好后 AI 按钮才生效；没填则提示「先去设置填好模型」。</p>
+<h2>四、要点（隐私）</h2>
+<ul><li><strong>不填模型 = 纯离线</strong>：打卡、统计、冥想、导入行程全部本地跑，不出本机。</li><li>填了模型后，相关文本只发往你写的地址——你掌控数据去向。</li><li>设置本身存在本地，随「导出备份」带走；换设备记得也导一份。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：AI 一直转圈/报错？</strong></p>
+<p>A：地址或模型名不对、密钥失效、或网络不通。先确认别家客户端能用同配置，再回来测。</p>
+<p><strong>Q：不想用 AI 了？</strong></p>
+<p>A：清空模型设置即可，看板退回完全离线模式，不影响任何已有数据。</p>
+<p><strong>Q：设置会丢吗？</strong></p>
+<p>A：存在本地；清浏览器缓存或换设备会丢，记得用「导出备份」一并保存。</p></section>
+<section class="doc" id="backup"><h1>数据备份与恢复 · 使用帮助</h1>
+<blockquote>看板数据存在浏览器本地。用「导出备份 / 导入备份」把整个状态打包成 JSON，换设备、防丢失、体验示例都靠它。</blockquote>
+<h2>一、入口</h2>
+<p>底部视图栏 <strong>数据</strong>（或「⚙ 设置」相关面板）→ <strong>导出备份</strong> / <strong>导入备份</strong>。</p>
+<h2>二、导出备份</h2>
+<ul><li>点「导出备份」→ 下载一份 <code>dailyboard-...json</code>，包含<strong>整个看板状态</strong>：打卡 <code>days</code>、周期排程 <code>schedules</code>、项目/科目、行程 <code>trips</code>、倒计时、设置等。</li><li>建议<strong>定期导出</strong>，当作存档；换电脑/清浏览器前务必导一份。</li></ul>
+<h2>三、导入备份（整份替换！）</h2>
+<ul><li>点「导入备份」→ 选一份 JSON → <strong>当前看板被文件整体替换</strong>（打卡、排程、行程、设置全换成文件里的）。</li><li>仓库里的 5 份演示（<code>demos/*.json</code>）就是这种整份备份，逐个导入即可体验不同场景。</li></ul>
+<blockquote>⚠️ 导入是<strong>整份替换</strong>，不是合并。导入前最好先导出当前状态留底；五个示例互相独立，逐个体验即可。</blockquote>
+<h2>四、和「导入行程」的区别（重要）</h2>
+<ul><li><strong>导入备份</strong>（数据面板）= 替换整个看板。</li><li><strong>📥 导入行程</strong>（旅行日程内，见「旅行日程导入帮助」）= <strong>只追加</strong>行程，不动其他数据。</li><li>只想加几趟旅行 → 用旅行模块的导入行程；想整体切换场景 → 用导入备份。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：导入后想要回原来的？</strong></p>
+<p>A：如果导入前导出了备份，再「导入备份」选那份即可恢复；没导出则无法回退。</p>
+<p><strong>Q：换浏览器/设备数据没了？</strong></p>
+<p>A：本地存储不跨设备；用导出备份带走，到新设备导入备份恢复。</p>
+<p><strong>Q：导入提示失败？</strong></p>
+<p>A：文件不是合法备份 JSON，或结构损坏；换一份确认正常的文件。</p></section>
+<section class="doc" id="mistake"><h1>错题本 · 使用帮助</h1>
+<blockquote>备考（考研政治、考公、资格考等）的错题收集站：把做错的题结构化存下，按科目/考点归档，配合拍照识别题干，省去手抄。</blockquote>
+<h2>一、入口</h2>
+<ul><li>相关模块里的「错题」入口（如学习进度/项目下的错题本）；</li><li>「智能导入」识别到「题目 / 题干」时，文字会直接进错题本的题干框。</li></ul>
+<h2>二、一条错题有什么</h2>
+<ul><li><strong>题目 / 题干</strong>：可粘贴，或用「智能导入」拍照识别填入（见「智能导入」帮助）。</li><li><strong>科目 / 考点</strong>：归类用，便于按考点复习。</li><li><strong>我的答案 / 正确答案</strong>：对照记录。</li><li><strong>错因 / 笔记</strong>：为什么错、怎么记。</li><li><strong>状态</strong>：已掌握 / 待巩固等。</li></ul>
+<h2>三、怎么用</h2>
+<ol><li><strong>录题</strong>：手动粘贴题干，或拍照识别自动填入题干框，再补答案与错因。</li><li><strong>归类</strong>：选科目与考点，方便日后筛选。</li><li><strong>复习</strong>：按科目/考点过滤，重做或回忆；标记「已掌握」移出待巩固。</li><li><strong>与进度联动</strong>：错题可关联对应项目，复盘时一起看薄弱点。</li></ol>
+<h2>四、要点</h2>
+<ul><li>错题本是<strong>备考向</strong>的辅助模块，和「学习进度·里程碑」互补：里程碑管「学到哪」，错题本管「哪里易错」。</li><li>题干识别依赖「智能导入」的 OCR（端侧），AI 解析可提升准确率但需配模型。</li></ul>
+<h2>五、常见问题</h2>
+<p><strong>Q：拍照识别的题没进错题本？</strong></p>
+<p>A：识别类型要选「题目/题干」；若选成「大纲/日程」会进别的模块。确认类型再识别。</p>
+<p><strong>Q：错题能导出吗？</strong></p>
+<p>A：随整个看板「导出备份」一起带走（错题存在本地状态里）。</p>
+<p><strong>Q：错因怎么记最有用？</strong></p>
+<p>A：写「知识点盲区 / 审题失误 / 计算错」这类可行动原因，而不是只抄正确答案。</p></section></div></div></div><script>(function(){var c=document.querySelector('.content'),sb=document.querySelector('.sidebar'),bk=document.querySelector('.backdrop'),hamb=document.querySelector('.hamb'),tb=document.querySelector('.btn.theme');function openM(){sb.classList.add('open');bk.classList.add('show');}function closeM(){sb.classList.remove('open');bk.classList.remove('show');}function setA(id){Array.prototype.forEach.call(document.querySelectorAll('.nav a'),function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+id);});}function go(id){var s=document.getElementById(id);if(!s)return;try{c.scrollTo({top:Math.max(0,s.offsetTop-14),behavior:'smooth'});}catch(e){c.scrollTop=Math.max(0,s.offsetTop-14);}try{history.replaceState(null,'','#'+id);}catch(e){}setA(id);}if(hamb)hamb.addEventListener('click',function(){sb.classList.contains('open')?closeM():openM();});if(bk)bk.addEventListener('click',closeM);function applyTheme(nx){if(nx==='light')document.documentElement.setAttribute('data-theme','light');else document.documentElement.removeAttribute('data-theme');if(tb)tb.textContent=(nx==='light')?'🌙 暗色':'☀ 亮色';}var init='dark';try{init=localStorage.getItem('hb-theme')||'dark';}catch(e){}applyTheme(init);if(tb)tb.addEventListener('click',function(){var nx=(document.documentElement.getAttribute('data-theme')==='light')?'dark':'light';applyTheme(nx);try{localStorage.setItem('hb-theme',nx);}catch(e){}});Array.prototype.forEach.call(document.querySelectorAll('.nav a'),function(a){a.addEventListener('click',function(e){e.preventDefault();go(a.getAttribute('href').slice(1));closeM();});});c.addEventListener('click',function(e){var t=e.target;if(t&&t.nodeType!==1)t=t.parentElement;var a=(t&&t.closest)?t.closest('a[href^="#"]'):null;if(!a)return;e.preventDefault();go(a.getAttribute('href').slice(1));});var tick=false;c.addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(function(){tick=false;var y=c.scrollTop+120,cur='';Array.prototype.forEach.call(document.querySelectorAll('.doc'),function(s){if(s.offsetTop<=y)cur=s.id;});if(cur)setA(cur);});});var h=location.hash.slice(1);if(h)setTimeout(function(){go(h);},80);})();</script></body></html>
