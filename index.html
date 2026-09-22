@@ -2564,6 +2564,7 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
 <input type="file" id="snapFile" accept="image/*" multiple class="file-off" title="课表 / 行程 / 日程图片">
 <input type="file" id="olOcrFile" accept="image/*" multiple class="file-off" title="教材目录 / 教学进度表图片">
 <input type="file" id="fileIn" accept="application/json" class="file-off" title="备份 JSON">
+<input type="file" id="tripFileIn" accept="application/json,.json" class="file-off" title="导入行程 JSON">
 <input type="file" id="packFileIn" accept="application/json,.json" class="file-off" title="项目包 JSON：单个项目包 / 整套合集 / 备份片段均可">
 <input type="file" id="planFile" accept="application/json" class="file-off" title="计划 JSON">
 <input type="file" id="msOcrFile" accept="image/*" multiple class="file-off" title="错题图片">
@@ -7570,6 +7571,32 @@ function normalizeTrip(tp){
   tp.days=Array.isArray(tp.days)?tp.days.map(d=>{ d=d||{}; d.items=Array.isArray(d.items)?d.items:[]; return d; }):[];
   return tp;
 }
+function importTripFile(file){
+  if(!file) return;
+  const rd=new FileReader();
+  rd.onload=function(){
+    try{
+      const o=JSON.parse(rd.result);
+      let arr=[];
+      if(Array.isArray(o)) arr=o;
+      else if(o && Array.isArray(o.trips)) arr=o.trips;
+      else if(o && o.id) arr=[o];
+      if(!arr.length) throw new Error('未找到行程数据');
+      const have=(state.trips||[]).map(function(t){ return t.id; });
+      let added=0;
+      arr.forEach(function(t){
+        const tp=normalizeTrip(t); if(!tp) return;
+        if(have.indexOf(tp.id)>=0){ tp.id='trip-'+Date.now()+'-'+added+'-'+Math.floor(Math.random()*1000); have.push(tp.id); }
+        if(!state.trips) state.trips=[];
+        state.trips.push(tp); added++;
+      });
+      if(!added) throw new Error('没有可导入的行程');
+      save(); renderTravel(); toast('已导入 '+added+' 条行程');
+    }catch(e){ toast('导入失败：'+((e&&e.message)||'文件格式不正确')); }
+  };
+  rd.onerror=function(){ toast('读取文件失败'); };
+  rd.readAsText(file);
+}
 let tripUI={collapsed:{}, q:''};
 function tripMatches(tp, q){
   q=(''+(q||'')).toLowerCase().trim();
@@ -7598,7 +7625,7 @@ function renderTravel(){
   const trips=state.trips||[];
   const sub=$('#travelSub'); if(sub) sub.textContent=trips.length?trips.length+' 个行程':'暂无';
   if(!trips.length){
-    root.innerHTML='<div class="help">还没有行程。去「📋 今日看板 → AI 规划」选「✈️ 旅游行程」拍照或选图识别，行程会自动落到这里，与你每天的打卡、周期排程互不干扰。</div>';
+    root.innerHTML='<div class="trip-toolbar"><button class="btn sm pri" data-act="trip-new">＋ 新建行程</button><button class="btn sm" data-act="trip-import">📥 导入行程</button></div><div class="help">还没有行程。可「导入行程」载入现成 .json（如成都周边示例），或去「📋 今日看板 → AI 规划」选「✈️ 旅游行程」拍照或选图识别，行程会自动落到这里，与你每天的打卡、周期排程互不干扰。</div>';
     return;
   }
   const filtered=trips.map(function(tp){ return {tp:tp, m:tripMatches(tp,q)}; }).filter(function(x){ return x.m.trip; });
@@ -7606,7 +7633,7 @@ function renderTravel(){
     root.innerHTML='<div class="empty"><span class="e-ic">🔍</span>没有匹配的行程 / 地点 / 事项。</div>';
     return;
   }
-  root.innerHTML='<div class="trip-toolbar"><button class="btn sm pri" data-act="trip-new">＋ 新建行程</button><span class="sub" style="color:var(--muted);font-size:12px">点「编辑」改标题/日期/事项；识别结果会先在这里确认再落库</span></div><div class="trip-list">'+filtered.map(function(x){
+  root.innerHTML='<div class="trip-toolbar"><button class="btn sm pri" data-act="trip-new">＋ 新建行程</button><button class="btn sm" data-act="trip-import">📥 导入行程</button><span class="sub" style="color:var(--muted);font-size:12px">点「编辑」改标题/日期/事项；「导入行程」可批量载入 .json；识别结果会先在这里确认再落库</span></div><div class="trip-list">'+filtered.map(function(x){
     const tp=x.tp, m=x.m;
     const days=tp.days||[];
     const collapsed=trips.length>1 ? (tripUI.collapsed[tp.id]!==false) : false;
@@ -9080,6 +9107,10 @@ document.addEventListener('click',function(e){
       openTripEditor({id:'trip-'+Date.now(),title:'',source:'manual',days:[]}, false, '✈️ 新建行程', '添加标题与每日事项');
       return;
     }
+    if(act==='trip-import'){
+      const f=$('#tripFileIn'); if(f && f.click) f.click(); else toast('导入入口不可用');
+      return;
+    }
     if(act==='trip-edit'){
       const id=el.dataset.id; const tp=(state.trips||[]).find(t=>t.id===id); if(!tp) return;
       openTripEditor(tp, true); return;
@@ -10189,6 +10220,7 @@ function bindStatic(){
     document.addEventListener('input',fld);
     document.addEventListener('change',fld);
     const _tplf=$('#tplImportFile'); if(_tplf) _tplf.addEventListener('change',function(e){ const f=e.target&&e.target.files?e.target.files[0]:null; if(f) tplImportFile(f); _tplf.value=''; });
+    const _tripf=$('#tripFileIn'); if(_tripf) _tripf.addEventListener('change',function(e){ const f=e.target&&e.target.files?e.target.files[0]:null; if(f) importTripFile(f); _tripf.value=''; });
   })();
 
   const presets=[5,10,15,20,30,45];
