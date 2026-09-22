@@ -1,0 +1,2609 @@
+{
+ "days": {
+  "2026-03-01": {
+   "blocks": {
+    "kgw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "kgw_2": {
+     "s": "done",
+     "credited": 55
+    },
+    "kgw_3": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 86
+    },
+    "kgw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 60
+    },
+    "kgw_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 60
+    },
+    "kgw_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 158
+    },
+    "kgw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 83
+    },
+    "kgw_8": {
+     "s": "done",
+     "credited": 56
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-01_kgw_9_f345991",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 77
+    },
+    "kgw_10": {
+     "s": "done",
+     "credited": 36
+    }
+   },
+   "wins": [
+    "时政卡攒了 30 条",
+    "判断图推规律越看越熟"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 12,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-02": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 18
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 252
+    },
+    "kg1_4": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 24
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 240
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 56
+    },
+    "kg1_7": {
+     "s": "skip",
+     "note": "今天没顾上：晚间整块：行测刷题，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-02_kg1_7_f576630",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kg1_8": {
+     "s": "skip",
+     "note": "今天没顾上：申论 / 公文，已排到明天补做"
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-02_kg1_9_f901794",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-02_kg1_9_f494640",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "kg1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "周末模考比上周快 10 分钟",
+    "工作没摸鱼，下班还有力气学",
+    "时政卡攒了 30 条"
+   ],
+   "review": "有点累，申论拖了，提醒自己在职备考拼的是持续不是强度。",
+   "reflection": "在职备考核心就一个字：挤。通勤、午休、睡前都是时间。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 5,
+    "sound": "waves"
+   }
+  },
+  "2026-03-03": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 16
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 36
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 210
+    },
+    "kg1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 53
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 261
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 50
+    },
+    "kg1_7": {
+     "s": "skip",
+     "note": "今天没顾上：晚间整块：行测刷题，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-03_kg1_7_c274606",
+       "text": "补做：晚间整块：行测刷题",
+       "done": false,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-03-03_kg1_7_f615291",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kg1_8": {
+     "s": "skip",
+     "note": "今天没顾上：申论 / 公文，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-03_kg1_8_c758230",
+       "text": "补做：申论 / 公文",
+       "done": false,
+       "from": "carry"
+      }
+     ]
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-03_kg1_9_f25261",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-03_kg1_9_f516832",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "资料分析正确率冲到 90%",
+    "时政卡攒了 30 条"
+   ],
+   "review": "今天加班，晚上只草草看了时政，行测没刷，明天通勤补 10 道。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-04": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 16
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 235
+    },
+    "kg1_4": {
+     "s": "done",
+     "credited": 59
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 261
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 55
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-04_kg1_7_c160911",
+       "text": "补做：晚间整块：行测刷题",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-03-04_kg1_7_f851561",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 106
+    },
+    "kg1_8": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-04_kg1_8_c652370",
+       "text": "补做：申论 / 公文",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 22
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-04_kg1_9_f925372",
+       "text": "看今日时政 5 条",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-04_kg1_9_f423726",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 25
+    }
+   },
+   "wins": [
+    "资料分析正确率冲到 90%",
+    "周末模考比上周快 10 分钟"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "在职备考核心就一个字：挤。通勤、午休、睡前都是时间。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 11,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-05": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 19
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 254
+    },
+    "kg1_4": {
+     "s": "done",
+     "credited": 57
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 292
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 49
+    },
+    "kg1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-05_kg1_7_f441566",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 104
+    },
+    "kg1_8": {
+     "s": "done",
+     "credited": 40
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-05_kg1_9_f840230",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-05_kg1_9_f915206",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "资料分析正确率冲到 90%",
+    "周末模考比上周快 10 分钟"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-06": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 17
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 38
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 214
+    },
+    "kg1_4": {
+     "s": "done",
+     "credited": 55
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 295
+    },
+    "kg1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 28
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-06_kg1_7_f303354",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 101
+    },
+    "kg1_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 18
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-06_kg1_9_f588812",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-06_kg1_9_f770274",
+       "text": "复盘当日错题",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "资料分析正确率冲到 90%",
+    "申论大作文结构终于顺了"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "行测资料分析是性价比最高的分，必须拿满。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "stream"
+   }
+  },
+  "2026-03-07": {
+   "blocks": {
+    "kgw_1": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 15
+    },
+    "kgw_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 51
+    },
+    "kgw_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 161
+    },
+    "kgw_4": {
+     "s": "done",
+     "credited": 53
+    },
+    "kgw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 55
+    },
+    "kgw_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 174
+    },
+    "kgw_7": {
+     "s": "skip",
+     "note": "今天没顾上：运动放松，已排到明天补做"
+    },
+    "kgw_8": {
+     "s": "done",
+     "credited": 56
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-07_kgw_9_f607637",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 82
+    },
+    "kgw_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 32
+    }
+   },
+   "wins": [
+    "申论大作文结构终于顺了"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "在职备考核心就一个字：挤。通勤、午休、睡前都是时间。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 14,
+    "sound": "pink"
+   }
+  },
+  "2026-03-08": {
+   "blocks": {
+    "kgw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "kgw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 50
+    },
+    "kgw_3": {
+     "s": "done",
+     "credited": 178
+    },
+    "kgw_4": {
+     "s": "done",
+     "credited": 55
+    },
+    "kgw_5": {
+     "s": "done",
+     "credited": 57
+    },
+    "kgw_6": {
+     "s": "skip",
+     "note": "今天没顾上：申论套卷 / 模考，已排到明天补做"
+    },
+    "kgw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-08_kgw_7_c357467",
+       "text": "补做：运动放松",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 86
+    },
+    "kgw_8": {
+     "s": "done",
+     "credited": 59
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-08_kgw_9_f457350",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 89
+    },
+    "kgw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 38
+    }
+   },
+   "wins": [
+    "资料分析正确率冲到 90%"
+   ],
+   "review": "行测任务完成了，但申论这周只写了 1 篇，下周得补。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 13,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-09": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 17
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 35
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 226
+    },
+    "kg1_4": {
+     "s": "done",
+     "credited": 50
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 266
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 52
+    },
+    "kg1_7": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-03-09_kg1_7_f920679",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 68
+    },
+    "kg1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 34
+    },
+    "kg1_9": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-03-09_kg1_9_f495141",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-09_kg1_9_f676449",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 11
+    },
+    "kg1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "周末模考比上周快 10 分钟"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "别和国际考生比时长，比的是单位时间产出。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 7,
+    "sound": "forest"
+   }
+  },
+  "2026-03-10": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 34
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 236
+    },
+    "kg1_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 29
+    },
+    "kg1_5": {
+     "s": "done",
+     "credited": 278
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 56
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-10_kg1_7_f66917",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 99
+    },
+    "kg1_8": {
+     "s": "skip",
+     "note": "今天没顾上：申论 / 公文，已排到明天补做"
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-10_kg1_9_f527774",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-10_kg1_9_f63324",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 25
+    }
+   },
+   "wins": [
+    "判断图推规律越看越熟",
+    "时政卡攒了 30 条"
+   ],
+   "review": "今天加班，晚上只草草看了时政，行测没刷，明天通勤补 10 道。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-11": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 19
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 213
+    },
+    "kg1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 49
+    },
+    "kg1_5": {
+     "s": "done",
+     "credited": 245
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 49
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-11_kg1_7_f253747",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 109
+    },
+    "kg1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-11_kg1_8_c402930",
+       "text": "补做：申论 / 公文",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 35
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-11_kg1_9_f983845",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-11_kg1_9_f29648",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "kg1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "工作没摸鱼，下班还有力气学",
+    "申论大作文结构终于顺了"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 4,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-12": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 17
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 35
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 225
+    },
+    "kg1_4": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 25
+    },
+    "kg1_5": {
+     "s": "done",
+     "credited": 266
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 56
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-12_kg1_7_f514865",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 109
+    },
+    "kg1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 33
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-12_kg1_9_f9212",
+       "text": "看今日时政 5 条",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-12_kg1_9_f19776",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "kg1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "申论大作文结构终于顺了"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "行测资料分析是性价比最高的分，必须拿满。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 15,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-13": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 223
+    },
+    "kg1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 48
+    },
+    "kg1_5": {
+     "s": "done",
+     "credited": 292
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 56
+    },
+    "kg1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-13_kg1_7_f405625",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 99
+    },
+    "kg1_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 36
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-13_kg1_9_f454560",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-13_kg1_9_f958933",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 28
+    },
+    "kg1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "周末模考比上周快 10 分钟",
+    "资料分析正确率冲到 90%"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-14": {
+   "blocks": {
+    "kgw_1": {
+     "s": "done",
+     "credited": 30
+    },
+    "kgw_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 59
+    },
+    "kgw_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 157
+    },
+    "kgw_4": {
+     "s": "done",
+     "credited": 55
+    },
+    "kgw_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 54
+    },
+    "kgw_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-14_kgw_6_c92767",
+       "text": "补做：申论套卷 / 模考",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 166
+    },
+    "kgw_7": {
+     "s": "done",
+     "credited": 75
+    },
+    "kgw_8": {
+     "s": "done",
+     "credited": 50
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-14_kgw_9_f129882",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 75
+    },
+    "kgw_10": {
+     "s": "done",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "时政卡攒了 30 条",
+    "工作没摸鱼，下班还有力气学"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "在职备考核心就一个字：挤。通勤、午休、睡前都是时间。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 7,
+    "sound": "forest"
+   }
+  },
+  "2026-03-15": {
+   "blocks": {
+    "kgw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "kgw_2": {
+     "s": "done",
+     "credited": 48
+    },
+    "kgw_3": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 105
+    },
+    "kgw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 55
+    },
+    "kgw_5": {
+     "s": "skip",
+     "note": "今天没顾上：午休，已排到明天补做"
+    },
+    "kgw_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 149
+    },
+    "kgw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 73
+    },
+    "kgw_8": {
+     "s": "done",
+     "credited": 55
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-15_kgw_9_f260675",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 88
+    },
+    "kgw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "时政卡攒了 30 条",
+    "工作没摸鱼，下班还有力气学",
+    "周末模考比上周快 10 分钟"
+   ],
+   "review": "今天加班，晚上只草草看了时政，行测没刷，明天通勤补 10 道。",
+   "reflection": "在职备考核心就一个字：挤。通勤、午休、睡前都是时间。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "rain"
+   }
+  },
+  "2026-03-16": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 241
+    },
+    "kg1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 60
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 259
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 53
+    },
+    "kg1_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-16_kg1_7_f574395",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 70
+    },
+    "kg1_8": {
+     "s": "skip",
+     "note": "今天没顾上：申论 / 公文，已排到明天补做"
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-16_kg1_9_f862802",
+       "text": "看今日时政 5 条",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-16_kg1_9_f394214",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 25
+    }
+   },
+   "wins": [
+    "工作没摸鱼，下班还有力气学",
+    "判断图推规律越看越熟",
+    "周末模考比上周快 10 分钟"
+   ],
+   "review": "有点累，申论拖了，提醒自己在职备考拼的是持续不是强度。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 13,
+    "sound": "forest"
+   }
+  },
+  "2026-03-17": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 19
+    },
+    "kg1_2": {
+     "s": "done",
+     "credited": 34
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 258
+    },
+    "kg1_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 31
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 262
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 51
+    },
+    "kg1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-17_kg1_7_f772799",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 116
+    },
+    "kg1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-17_kg1_8_c715891",
+       "text": "补做：申论 / 公文",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 37
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-17_kg1_9_f944711",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-17_kg1_9_f429123",
+       "text": "复盘当日错题",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "工作没摸鱼，下班还有力气学",
+    "时政卡攒了 30 条"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "别和国际考生比时长，比的是单位时间产出。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 6,
+    "sound": "rain"
+   }
+  },
+  "2026-03-18": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 18
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 40
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 223
+    },
+    "kg1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 54
+    },
+    "kg1_5": {
+     "s": "done",
+     "credited": 261
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 56
+    },
+    "kg1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-18_kg1_7_f411178",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 113
+    },
+    "kg1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 34
+    },
+    "kg1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-18_kg1_9_f708844",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-18_kg1_9_f868401",
+       "text": "复盘当日错题",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "时政卡攒了 30 条"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "行测资料分析是性价比最高的分，必须拿满。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 5,
+    "sound": "pink"
+   }
+  },
+  "2026-03-19": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 17
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 40
+    },
+    "kg1_3": {
+     "s": "done",
+     "credited": 240
+    },
+    "kg1_4": {
+     "s": "done",
+     "credited": 59
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 248
+    },
+    "kg1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "kg1_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-19_kg1_7_f78704",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 55
+    },
+    "kg1_8": {
+     "s": "done",
+     "credited": 40
+    },
+    "kg1_9": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-19_kg1_9_f628118",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-19_kg1_9_f958784",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 13
+    },
+    "kg1_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 17
+    }
+   },
+   "wins": [
+    "判断图推规律越看越熟",
+    "资料分析正确率冲到 90%"
+   ],
+   "review": "周末整套模考完成，时间分配比上次好。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 8,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-20": {
+   "blocks": {
+    "kg1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 17
+    },
+    "kg1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 39
+    },
+    "kg1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 222
+    },
+    "kg1_4": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 32
+    },
+    "kg1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 273
+    },
+    "kg1_6": {
+     "s": "done",
+     "credited": 50
+    },
+    "kg1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-20_kg1_7_f897502",
+       "text": "行测 30 道（资料+言语+判断）",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 117
+    },
+    "kg1_8": {
+     "s": "done",
+     "credited": 36
+    },
+    "kg1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-20_kg1_9_f997587",
+       "text": "看今日时政 5 条",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-20_kg1_9_f53408",
+       "text": "复盘当日错题",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 24
+    },
+    "kg1_10": {
+     "s": "done",
+     "credited": 25
+    }
+   },
+   "wins": [
+    "周末模考比上周快 10 分钟",
+    "申论大作文结构终于顺了"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "周末模考暴露的时间分配问题，平时就得练。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 14,
+    "sound": "pink"
+   }
+  },
+  "2026-03-21": {
+   "blocks": {
+    "kgw_1": {
+     "s": "done",
+     "credited": 25
+    },
+    "kgw_2": {
+     "s": "done",
+     "credited": 53
+    },
+    "kgw_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 174
+    },
+    "kgw_4": {
+     "s": "done",
+     "credited": 58
+    },
+    "kgw_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-21_kgw_5_c998670",
+       "text": "补做：午休",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 53
+    },
+    "kgw_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 171
+    },
+    "kgw_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 87
+    },
+    "kgw_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 52
+    },
+    "kgw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-21_kgw_9_f641547",
+       "text": "本周错题归类成卡",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 86
+    },
+    "kgw_10": {
+     "s": "done",
+     "credited": 40
+    }
+   },
+   "wins": [
+    "时政卡攒了 30 条",
+    "工作没摸鱼，下班还有力气学",
+    "资料分析正确率冲到 90%"
+   ],
+   "review": "今天工作没耽误，晚上整块时间行测刷得顺，错题也归了，在职备考就该这样挤时间。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  }
+ },
+ "schedules": [
+  {
+   "id": "sc_kg",
+   "name": "上班族·考公作息（通勤碎片 + 晚间整块 + 周末攻坚）",
+   "start": "2026-01-05",
+   "end": "2026-03-28",
+   "mode": "week",
+   "week": [
+    [
+     {
+      "id": "kgw_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_2",
+      "s": "08:00",
+      "e": "09:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_3",
+      "s": "09:00",
+      "e": "12:00",
+      "t": "行测模块攻坚",
+      "cat": "study",
+      "core": 1,
+      "tip": "弱项模块集中突破",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kgw_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_5",
+      "s": "13:00",
+      "e": "14:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "kgw_6",
+      "s": "14:00",
+      "e": "17:00",
+      "t": "申论套卷 / 模考",
+      "cat": "study",
+      "core": 1,
+      "tip": "周末做整套，练时间分配",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kgw_7",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "运动放松",
+      "cat": "health",
+      "core": 0,
+      "tip": "跑步出出汗"
+     },
+     {
+      "id": "kgw_8",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_9",
+      "s": "19:30",
+      "e": "21:00",
+      "t": "错题精讲 + 周总结",
+      "cat": "study",
+      "core": 0,
+      "tip": "本周错题归类",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kgw_10",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kg1_1",
+      "s": "06:40",
+      "e": "07:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_2",
+      "s": "07:00",
+      "e": "07:40",
+      "t": "早餐 + 通勤碎片（听时政）",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听人民日报/时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_3",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "工作别摸鱼，效率拉满"
+     },
+     {
+      "id": "kg1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "午休保命，下午才扛得住"
+     },
+     {
+      "id": "kg1_5",
+      "s": "13:00",
+      "e": "18:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_6",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "通勤 + 晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_7",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚间整块：行测刷题",
+      "cat": "study",
+      "core": 1,
+      "tip": "言语/资料分析轮着来",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kg1_8",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "申论 / 公文",
+      "cat": "study",
+      "core": 1,
+      "tip": "每周三、五写 1 篇小题",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kg1_9",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "当日错题 + 时政回顾",
+      "cat": "study",
+      "core": 0,
+      "tip": "错题归因 + 看今日时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_10",
+      "s": "22:40",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kg1_1",
+      "s": "06:40",
+      "e": "07:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_2",
+      "s": "07:00",
+      "e": "07:40",
+      "t": "早餐 + 通勤碎片（听时政）",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听人民日报/时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_3",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "工作别摸鱼，效率拉满"
+     },
+     {
+      "id": "kg1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "午休保命，下午才扛得住"
+     },
+     {
+      "id": "kg1_5",
+      "s": "13:00",
+      "e": "18:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_6",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "通勤 + 晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_7",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚间整块：行测刷题",
+      "cat": "study",
+      "core": 1,
+      "tip": "言语/资料分析轮着来",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kg1_8",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "申论 / 公文",
+      "cat": "study",
+      "core": 1,
+      "tip": "每周三、五写 1 篇小题",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kg1_9",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "当日错题 + 时政回顾",
+      "cat": "study",
+      "core": 0,
+      "tip": "错题归因 + 看今日时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_10",
+      "s": "22:40",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kg1_1",
+      "s": "06:40",
+      "e": "07:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_2",
+      "s": "07:00",
+      "e": "07:40",
+      "t": "早餐 + 通勤碎片（听时政）",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听人民日报/时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_3",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "工作别摸鱼，效率拉满"
+     },
+     {
+      "id": "kg1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "午休保命，下午才扛得住"
+     },
+     {
+      "id": "kg1_5",
+      "s": "13:00",
+      "e": "18:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_6",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "通勤 + 晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_7",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚间整块：行测刷题",
+      "cat": "study",
+      "core": 1,
+      "tip": "言语/资料分析轮着来",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kg1_8",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "申论 / 公文",
+      "cat": "study",
+      "core": 1,
+      "tip": "每周三、五写 1 篇小题",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kg1_9",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "当日错题 + 时政回顾",
+      "cat": "study",
+      "core": 0,
+      "tip": "错题归因 + 看今日时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_10",
+      "s": "22:40",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kg1_1",
+      "s": "06:40",
+      "e": "07:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_2",
+      "s": "07:00",
+      "e": "07:40",
+      "t": "早餐 + 通勤碎片（听时政）",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听人民日报/时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_3",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "工作别摸鱼，效率拉满"
+     },
+     {
+      "id": "kg1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "午休保命，下午才扛得住"
+     },
+     {
+      "id": "kg1_5",
+      "s": "13:00",
+      "e": "18:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_6",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "通勤 + 晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_7",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚间整块：行测刷题",
+      "cat": "study",
+      "core": 1,
+      "tip": "言语/资料分析轮着来",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kg1_8",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "申论 / 公文",
+      "cat": "study",
+      "core": 1,
+      "tip": "每周三、五写 1 篇小题",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kg1_9",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "当日错题 + 时政回顾",
+      "cat": "study",
+      "core": 0,
+      "tip": "错题归因 + 看今日时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_10",
+      "s": "22:40",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kg1_1",
+      "s": "06:40",
+      "e": "07:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_2",
+      "s": "07:00",
+      "e": "07:40",
+      "t": "早餐 + 通勤碎片（听时政）",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听人民日报/时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_3",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "工作别摸鱼，效率拉满"
+     },
+     {
+      "id": "kg1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "午休保命，下午才扛得住"
+     },
+     {
+      "id": "kg1_5",
+      "s": "13:00",
+      "e": "18:00",
+      "t": "上班（工作时段）",
+      "cat": "biz",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_6",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "通勤 + 晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kg1_7",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚间整块：行测刷题",
+      "cat": "study",
+      "core": 1,
+      "tip": "言语/资料分析轮着来",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kg1_8",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "申论 / 公文",
+      "cat": "study",
+      "core": 1,
+      "tip": "每周三、五写 1 篇小题",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kg1_9",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "当日错题 + 时政回顾",
+      "cat": "study",
+      "core": 0,
+      "tip": "错题归因 + 看今日时政",
+      "subj": "kg_shizheng"
+     },
+     {
+      "id": "kg1_10",
+      "s": "22:40",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kgw_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_2",
+      "s": "08:00",
+      "e": "09:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_3",
+      "s": "09:00",
+      "e": "12:00",
+      "t": "行测模块攻坚",
+      "cat": "study",
+      "core": 1,
+      "tip": "弱项模块集中突破",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kgw_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_5",
+      "s": "13:00",
+      "e": "14:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "kgw_6",
+      "s": "14:00",
+      "e": "17:00",
+      "t": "申论套卷 / 模考",
+      "cat": "study",
+      "core": 1,
+      "tip": "周末做整套，练时间分配",
+      "subj": "kg_shenlun"
+     },
+     {
+      "id": "kgw_7",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "运动放松",
+      "cat": "health",
+      "core": 0,
+      "tip": "跑步出出汗"
+     },
+     {
+      "id": "kgw_8",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kgw_9",
+      "s": "19:30",
+      "e": "21:00",
+      "t": "错题精讲 + 周总结",
+      "cat": "study",
+      "core": 0,
+      "tip": "本周错题归类",
+      "subj": "kg_xingce"
+     },
+     {
+      "id": "kgw_10",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ]
+   ]
+  }
+ ],
+ "targets": {
+  "kg_xingce": 720,
+  "kg_shenlun": 180,
+  "kg_shizheng": 140,
+  "kg_gongwen": 20
+ },
+ "countdowns": [
+  {
+   "id": "cd_kg1",
+   "title": "省考笔试",
+   "date": "2026-03-28",
+   "time": "09:00",
+   "color": "red",
+   "note": "一战成公",
+   "repeat": ""
+  },
+  {
+   "id": "cd_kg2",
+   "title": "国考笔试",
+   "date": "2026-11-29",
+   "time": "09:00",
+   "color": "orange",
+   "note": "冲击部委/省直",
+   "repeat": ""
+  }
+ ],
+ "fixedTodos": {
+  "kg1_7": [
+   "行测 30 道（资料+言语+判断）"
+  ],
+  "kg1_9": [
+   "看今日时政 5 条",
+   "复盘当日错题"
+  ],
+  "kgw_9": [
+   "本周错题归类成卡"
+  ]
+ },
+ "trips": [],
+ "archive": [],
+ "aiPlans": [],
+ "settings": null,
+ "migr": {
+  "reserveReset": true
+ },
+ "plan": {
+  "subjects": [
+   {
+    "ic": "🧮",
+    "name": "行测（言语/数量/判断/资料）",
+    "color": "#7c9cff",
+    "h": 120,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-03-28",
+    "goal": "行测目标 70+：资料分析保正确率、言语稳、判断提速、数量策略性放弃难题。",
+    "extra": "每天固定 30 道：资料分析 15 + 言语 10 + 判断 5；错题本按模块归类；每周日模考控时。",
+    "milestones": [
+     {
+      "name": "资料分析：速算技巧（截位/尾数）",
+      "done": true
+     },
+     {
+      "name": "言语：逻辑填空高频词",
+      "done": true
+     },
+     {
+      "name": "判断：图推规律库",
+      "done": false
+     },
+     {
+      "name": "数量：常考题型套路",
+      "done": false
+     },
+     {
+      "name": "整套模考 65 分钟完成",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "kg考公",
+    "loaded": false,
+    "id": "kg_xingce"
+   },
+   {
+    "ic": "📝",
+    "name": "申论",
+    "color": "#67c98f",
+    "h": 60,
+    "wk": 3,
+    "owner": "我",
+    "deadline": "2026-03-28",
+    "goal": "申论目标 65+：归纳概括、综合分析、大作文结构清晰、有素材。",
+    "extra": "每周写 2 篇小题 + 1 篇大作文；背规范表述；看人民日报评论学论证。",
+    "milestones": [
+     {
+      "name": "归纳概括题公式",
+      "done": true
+     },
+     {
+      "name": "综合分析题框架",
+      "done": false
+     },
+     {
+      "name": "大作文 3 类结构",
+      "done": false
+     },
+     {
+      "name": "素材库 50 条",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "kg考公",
+    "loaded": false,
+    "id": "kg_shenlun"
+   },
+   {
+    "ic": "📰",
+    "name": "时政热点",
+    "color": "#f7b955",
+    "h": 20,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "2026-03-28",
+    "goal": "每日时政不断线：会议、文件、数据、科技成就。",
+    "extra": "通勤听、睡前看；每周整理 1 张时政卡（会议+数字+新提法）。",
+    "milestones": [
+     {
+      "name": "二十大报告要点",
+      "done": true
+     },
+     {
+      "name": "2026 政府工作报告数字",
+      "done": false
+     },
+     {
+      "name": "近半年科技成就",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "kg考公",
+    "loaded": false,
+    "id": "kg_shizheng"
+   },
+   {
+    "ic": "📄",
+    "name": "公文写作",
+    "color": "#c4a7ff",
+    "h": 20,
+    "wk": 1,
+    "owner": "我",
+    "deadline": "2026-03-28",
+    "goal": "常考公文格式与范文背熟（通知、报告、倡议书等）。",
+    "extra": "每种公文记「格式+万能句」；考前一周集中过。",
+    "milestones": [
+     {
+      "name": "15 种公文格式",
+      "done": true
+     },
+     {
+      "name": "每种 1 篇范文",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "kg考公",
+    "loaded": false,
+    "id": "kg_gongwen"
+   }
+  ]
+ }
+}

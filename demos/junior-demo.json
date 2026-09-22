@@ -1,0 +1,2866 @@
+{
+ "days": {
+  "2026-03-01": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 27
+    },
+    "czw_3": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 58
+    },
+    "czw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 60
+    },
+    "czw_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 60
+    },
+    "czw_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 53
+    },
+    "czw_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-01_czw_7_f606129",
+       "text": "周末集中补强本周薄弱点",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 87
+    },
+    "czw_8": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 40
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 52
+    },
+    "czw_10": {
+     "s": "done",
+     "credited": 55
+    },
+    "czw_11": {
+     "s": "done",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "和爸妈一起看完一部纪录片",
+    "物理受力分析图画得越来越标准",
+    "数学单科小测进步 5 分"
+   ],
+   "review": "完成的不少，运动没落下，就是数学错题没清完，明天重点补。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 12,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-02": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 19
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 245
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 39
+    },
+    "cz1_6": {
+     "s": "done",
+     "credited": 45
+    },
+    "cz1_7": {
+     "s": "done",
+     "credited": 222
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 46
+    },
+    "cz1_9": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 47
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-02_cz1_10_f881023",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-02_cz1_10_f487924",
+       "text": "预习明日新课 1 节",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 28
+    },
+    "cz1_12": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 16
+    }
+   },
+   "wins": [
+    "周末把一周错题清零",
+    "英语晨读坚持满一周"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 10,
+    "sound": "stream"
+   }
+  },
+  "2026-03-03": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 19
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 18
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 30
+    },
+    "cz1_4": {
+     "s": "done",
+     "credited": 259
+    },
+    "cz1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 32
+    },
+    "cz1_6": {
+     "s": "done",
+     "credited": 47
+    },
+    "cz1_7": {
+     "s": "skip",
+     "note": "今天没顾上：校内课程（在校），已排到明天补做"
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 40
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 79
+    },
+    "cz1_10": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-03_cz1_10_f166246",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-03_cz1_10_f456835",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 17
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 25
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "数学单科小测进步 5 分",
+    "体育 1000m 又快了 8 秒"
+   ],
+   "review": "今天整体还行，但晚上有点拖沓，明天把作业前置、少刷手机。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 11,
+    "sound": "pink"
+   }
+  },
+  "2026-03-04": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 19
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 27
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 230
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 37
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 48
+    },
+    "cz1_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-04_cz1_7_c243877",
+       "text": "补做：校内课程（在校）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 203
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 46
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 75
+    },
+    "cz1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-04_cz1_10_f501948",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-04_cz1_10_f228613",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "cz1_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 29
+    },
+    "cz1_12": {
+     "s": "done",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "物理受力分析图画得越来越标准",
+    "数学单科小测进步 5 分",
+    "体育 1000m 又快了 8 秒"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "英语晨读坚持下来，课文真的能背出来了，语感是读出来的。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 6,
+    "sound": "forest"
+   }
+  },
+  "2026-03-05": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 20
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 29
+    },
+    "cz1_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 94
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 38
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 47
+    },
+    "cz1_7": {
+     "s": "done",
+     "credited": 222
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 50
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 77
+    },
+    "cz1_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-03-05_cz1_10_f725895",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-05_cz1_10_f216954",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 11
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 27
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "英语晨读坚持满一周",
+    "和爸妈一起看完一部纪录片",
+    "周末把一周错题清零"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 7,
+    "sound": "waves"
+   }
+  },
+  "2026-03-06": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 19
+    },
+    "cz1_2": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 9
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 30
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 218
+    },
+    "cz1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 34
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 50
+    },
+    "cz1_7": {
+     "s": "done",
+     "credited": 221
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 41
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 80
+    },
+    "cz1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-06_cz1_10_f408487",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-06_cz1_10_f366665",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "cz1_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    },
+    "cz1_12": {
+     "s": "skip",
+     "note": "今天没顾上：洗漱·准备睡觉，已排到明天补做"
+    }
+   },
+   "wins": [
+    "周末把一周错题清零",
+    "和爸妈一起看完一部纪录片",
+    "物理受力分析图画得越来越标准"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-07": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 26
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 29
+    },
+    "czw_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 106
+    },
+    "czw_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 54
+    },
+    "czw_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 50
+    },
+    "czw_6": {
+     "s": "done",
+     "credited": 59
+    },
+    "czw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-07_czw_7_f573738",
+       "text": "周末集中补强本周薄弱点",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 143
+    },
+    "czw_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 38
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 57
+    },
+    "czw_10": {
+     "s": "done",
+     "credited": 59
+    },
+    "czw_11": {
+     "s": "done",
+     "credited": 36
+    }
+   },
+   "wins": [
+    "英语晨读坚持满一周",
+    "周末把一周错题清零"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "stream"
+   }
+  },
+  "2026-03-08": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 26
+    },
+    "czw_3": {
+     "s": "done",
+     "credited": 100
+    },
+    "czw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 52
+    },
+    "czw_5": {
+     "s": "done",
+     "credited": 52
+    },
+    "czw_6": {
+     "s": "done",
+     "credited": 50
+    },
+    "czw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-08_czw_7_f86311",
+       "text": "周末集中补强本周薄弱点",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 136
+    },
+    "czw_8": {
+     "s": "done",
+     "credited": 75
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 54
+    },
+    "czw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "czw_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "英语晨读坚持满一周",
+    "体育 1000m 又快了 8 秒"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "英语晨读坚持下来，课文真的能背出来了，语感是读出来的。",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 11,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-09": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 16
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 18
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 25
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 236
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 36
+    },
+    "cz1_6": {
+     "s": "done",
+     "credited": 46
+    },
+    "cz1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 225
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 47
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 81
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-09_cz1_10_f68521",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-09_cz1_10_f747586",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "cz1_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 24
+    },
+    "cz1_12": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-09_cz1_12_c748821",
+       "text": "补做：洗漱·准备睡觉",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 17
+    }
+   },
+   "wins": [
+    "和爸妈一起看完一部纪录片",
+    "周末把一周错题清零"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "最大的体会：错题当天清比周末集中补效率高太多。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 14,
+    "sound": "stream"
+   }
+  },
+  "2026-03-10": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 16
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 16
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 24
+    },
+    "cz1_4": {
+     "s": "done",
+     "credited": 221
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 35
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 44
+    },
+    "cz1_7": {
+     "s": "done",
+     "credited": 239
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 42
+    },
+    "cz1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 80
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-10_cz1_10_f463466",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-10_cz1_10_f934180",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "cz1_11": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 18
+    },
+    "cz1_12": {
+     "s": "done",
+     "credited": 35
+    }
+   },
+   "wins": [
+    "数学单科小测进步 5 分",
+    "物理受力分析图画得越来越标准",
+    "周末把一周错题清零"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 15,
+    "sound": "waves"
+   }
+  },
+  "2026-03-11": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "skip",
+     "note": "今天没顾上：晨读英语/古诗文，已排到明天补做"
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 27
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 213
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 32
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 49
+    },
+    "cz1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 213
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 40
+    },
+    "cz1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 83
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-11_cz1_10_f952849",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-11_cz1_10_f457171",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 29
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 34
+    }
+   },
+   "wins": [
+    "英语晨读坚持满一周",
+    "物理受力分析图画得越来越标准",
+    "和爸妈一起看完一部纪录片"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "周末弹性安排很重要，全压学习反而效率低。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 10,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-12": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-12_cz1_2_c575696",
+       "text": "补做：晨读英语/古诗文",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 17
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 26
+    },
+    "cz1_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 133
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 32
+    },
+    "cz1_6": {
+     "s": "done",
+     "credited": 49
+    },
+    "cz1_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 109
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 49
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 90
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-12_cz1_10_f478540",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-12_cz1_10_f484033",
+       "text": "预习明日新课 1 节",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "cz1_11": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 15
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 36
+    }
+   },
+   "wins": [
+    "体育 1000m 又快了 8 秒",
+    "和爸妈一起看完一部纪录片"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-13": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 18
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 30
+    },
+    "cz1_4": {
+     "s": "done",
+     "credited": 218
+    },
+    "cz1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 39
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 43
+    },
+    "cz1_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 120
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 49
+    },
+    "cz1_9": {
+     "s": "skip",
+     "note": "今天没顾上：家庭作业 + 当日复习，已排到明天补做"
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-13_cz1_10_f635197",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-13_cz1_10_f911295",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 25
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "物理受力分析图画得越来越标准",
+    "英语晨读坚持满一周"
+   ],
+   "review": "完成的不少，运动没落下，就是数学错题没清完，明天重点补。",
+   "reflection": "最大的体会：错题当天清比周末集中补效率高太多。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 11,
+    "sound": "pink"
+   }
+  },
+  "2026-03-14": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 24
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 30
+    },
+    "czw_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 101
+    },
+    "czw_4": {
+     "s": "done",
+     "credited": 55
+    },
+    "czw_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "czw_6": {
+     "s": "done",
+     "credited": 56
+    },
+    "czw_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-14_czw_7_f457284",
+       "text": "周末集中补强本周薄弱点",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 133
+    },
+    "czw_8": {
+     "s": "done",
+     "credited": 78
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 53
+    },
+    "czw_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 57
+    },
+    "czw_11": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 20
+    }
+   },
+   "wins": [
+    "周末把一周错题清零",
+    "物理受力分析图画得越来越标准",
+    "数学单科小测进步 5 分"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 8,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-15": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 29
+    },
+    "czw_3": {
+     "s": "done",
+     "credited": 115
+    },
+    "czw_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 57
+    },
+    "czw_5": {
+     "s": "done",
+     "credited": 51
+    },
+    "czw_6": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 35
+    },
+    "czw_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-15_czw_7_f650093",
+       "text": "周末集中补强本周薄弱点",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 58
+    },
+    "czw_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 74
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 51
+    },
+    "czw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 58
+    },
+    "czw_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "物理受力分析图画得越来越标准",
+    "体育 1000m 又快了 8 秒",
+    "周末把一周错题清零"
+   ],
+   "review": "今天整体还行，但晚上有点拖沓，明天把作业前置、少刷手机。",
+   "reflection": "",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-16": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 16
+    },
+    "cz1_3": {
+     "s": "done",
+     "credited": 28
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 229
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 36
+    },
+    "cz1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 50
+    },
+    "cz1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 206
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 45
+    },
+    "cz1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-16_cz1_9_c351235",
+       "text": "补做：家庭作业 + 当日复习",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 83
+    },
+    "cz1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-16_cz1_10_f411178",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-16_cz1_10_f614315",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 27
+    },
+    "cz1_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "cz1_12": {
+     "s": "done",
+     "credited": 38
+    }
+   },
+   "wins": [
+    "和爸妈一起看完一部纪录片",
+    "物理受力分析图画得越来越标准"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "最大的体会：错题当天清比周末集中补效率高太多。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-17": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 17
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    },
+    "cz1_4": {
+     "s": "done",
+     "credited": 222
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 37
+    },
+    "cz1_6": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 21
+    },
+    "cz1_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 98
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 45
+    },
+    "cz1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 87
+    },
+    "cz1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-17_cz1_10_f399104",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-17_cz1_10_f21270",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "cz1_11": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 15
+    },
+    "cz1_12": {
+     "s": "done",
+     "credited": 40
+    }
+   },
+   "wins": [
+    "数学单科小测进步 5 分",
+    "和爸妈一起看完一部纪录片",
+    "周末把一周错题清零"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "物理不能只背公式，受力分析图画对才真懂。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-18": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 17
+    },
+    "cz1_2": {
+     "s": "skip",
+     "note": "今天没顾上：晨读英语/古诗文，已排到明天补做"
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 255
+    },
+    "cz1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 34
+    },
+    "cz1_6": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 27
+    },
+    "cz1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 218
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 42
+    },
+    "cz1_9": {
+     "s": "done",
+     "credited": 88
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-18_cz1_10_f871588",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-18_cz1_10_f537264",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 28
+    },
+    "cz1_11": {
+     "s": "skip",
+     "note": "今天没顾上：自由阅读 / 练字，已排到明天补做"
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "和爸妈一起看完一部纪录片"
+   ],
+   "review": "完成的不少，运动没落下，就是数学错题没清完，明天重点补。",
+   "reflection": "英语晨读坚持下来，课文真的能背出来了，语感是读出来的。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "waves"
+   }
+  },
+  "2026-03-19": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 19
+    },
+    "cz1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-19_cz1_2_c90163",
+       "text": "补做：晨读英语/古诗文",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 18
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    },
+    "cz1_4": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 143
+    },
+    "cz1_5": {
+     "s": "done",
+     "credited": 40
+    },
+    "cz1_6": {
+     "s": "done",
+     "credited": 44
+    },
+    "cz1_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 229
+    },
+    "cz1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 48
+    },
+    "cz1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 78
+    },
+    "cz1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-19_cz1_10_f641547",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-19_cz1_10_f798980",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "cz1_11": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-19_cz1_11_c305157",
+       "text": "补做：自由阅读 / 练字",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 29
+    },
+    "cz1_12": {
+     "s": "done",
+     "credited": 34
+    }
+   },
+   "wins": [
+    "周末把一周错题清零"
+   ],
+   "review": "全天按计划推进，薄弱科补强见效，给自己点个赞。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 13,
+    "sound": "waves"
+   }
+  },
+  "2026-03-20": {
+   "blocks": {
+    "cz1_1": {
+     "s": "done",
+     "credited": 20
+    },
+    "cz1_2": {
+     "s": "done",
+     "credited": 17
+    },
+    "cz1_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 30
+    },
+    "cz1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 241
+    },
+    "cz1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 36
+    },
+    "cz1_6": {
+     "s": "skip",
+     "note": "今天没顾上：午休，已排到明天补做"
+    },
+    "cz1_7": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 144
+    },
+    "cz1_8": {
+     "s": "done",
+     "credited": 42
+    },
+    "cz1_9": {
+     "s": "skip",
+     "note": "今天没顾上：家庭作业 + 当日复习，已排到明天补做"
+    },
+    "cz1_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-03-20_cz1_10_f394336",
+       "text": "整理当天错题 3 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-20_cz1_10_f680592",
+       "text": "预习明日新课 1 节",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 16
+    },
+    "cz1_11": {
+     "s": "done",
+     "credited": 25
+    },
+    "cz1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "周末把一周错题清零",
+    "数学单科小测进步 5 分",
+    "英语晨读坚持满一周"
+   ],
+   "review": "今天状态一般，在校听得云里雾里，晚上也没怎么补，明天务必把落下的新课预习补上。",
+   "reflection": "周末弹性安排很重要，全压学习反而效率低。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 8,
+   "meditation": {
+    "min": 13,
+    "sound": "waves"
+   }
+  },
+  "2026-03-21": {
+   "blocks": {
+    "czw_1": {
+     "s": "done",
+     "credited": 25
+    },
+    "czw_2": {
+     "s": "done",
+     "credited": 30
+    },
+    "czw_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 104
+    },
+    "czw_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 56
+    },
+    "czw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 56
+    },
+    "czw_6": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 30
+    },
+    "czw_7": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-21_czw_7_f505064",
+       "text": "周末集中补强本周薄弱点",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 127
+    },
+    "czw_8": {
+     "s": "done",
+     "credited": 86
+    },
+    "czw_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 49
+    },
+    "czw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 50
+    },
+    "czw_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "物理受力分析图画得越来越标准"
+   ],
+   "review": "今天节奏很稳，在校专心、晚上作业效率高，错题也清了，保持这个状态。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 15,
+    "sound": "rain"
+   }
+  }
+ },
+ "schedules": [
+  {
+   "id": "sc_cz",
+   "name": "初中·学期作息（平日上课 / 周末弹性）",
+   "start": "2026-02-16",
+   "end": "2026-07-03",
+   "mode": "week",
+   "week": [
+    [
+     {
+      "id": "czw_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "周末多睡会儿"
+     },
+     {
+      "id": "czw_2",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_3",
+      "s": "09:00",
+      "e": "11:00",
+      "t": "兴趣班 / 运动",
+      "cat": "health",
+      "core": 1,
+      "tip": "篮球或编程兴趣，微微出汗就好",
+      "subj": "cz_pe"
+     },
+     {
+      "id": "czw_4",
+      "s": "11:00",
+      "e": "12:00",
+      "t": "自由阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "看科普或文学"
+     },
+     {
+      "id": "czw_5",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_6",
+      "s": "13:00",
+      "e": "14:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "czw_7",
+      "s": "14:00",
+      "e": "16:30",
+      "t": "周末作业 + 薄弱科补强",
+      "cat": "study",
+      "core": 1,
+      "tip": "集中啃这周没懂的题",
+      "subj": "cz_math"
+     },
+     {
+      "id": "czw_8",
+      "s": "16:30",
+      "e": "18:00",
+      "t": "户外 / 家务",
+      "cat": "health",
+      "core": 0,
+      "tip": "骑车或帮家里做家务"
+     },
+     {
+      "id": "czw_9",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_10",
+      "s": "19:30",
+      "e": "20:30",
+      "t": "纪录片 / 家庭时间",
+      "cat": "rest",
+      "core": 0,
+      "tip": "一起看一部纪录片"
+     },
+     {
+      "id": "czw_11",
+      "s": "21:00",
+      "e": "21:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "cz1_1",
+      "s": "06:30",
+      "e": "06:50",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "温水唤醒，先别碰手机"
+     },
+     {
+      "id": "cz1_2",
+      "s": "06:50",
+      "e": "07:10",
+      "t": "晨读英语/古诗文",
+      "cat": "study",
+      "core": 1,
+      "tip": "大声朗读 15 分钟，培养语感",
+      "subj": "cz_eng"
+     },
+     {
+      "id": "cz1_3",
+      "s": "07:10",
+      "e": "07:40",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "吃饱吃好，饭后别立刻坐"
+     },
+     {
+      "id": "cz1_4",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "专注听讲、跟紧老师节奏"
+     },
+     {
+      "id": "cz1_5",
+      "s": "12:00",
+      "e": "12:40",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_6",
+      "s": "12:40",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "眼罩+25 分钟小睡，下午续航"
+     },
+     {
+      "id": "cz1_7",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "下午易困，站着听讲或勤做笔记"
+     },
+     {
+      "id": "cz1_8",
+      "s": "17:30",
+      "e": "18:20",
+      "t": "放学·晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_9",
+      "s": "19:00",
+      "e": "20:30",
+      "t": "家庭作业 + 当日复习",
+      "cat": "study",
+      "core": 1,
+      "tip": "先数学后文科，错题当天清",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "错题整理 + 预习",
+      "cat": "study",
+      "core": 1,
+      "tip": "错题归因：概念/计算/思路",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_11",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "自由阅读 / 练字",
+      "cat": "study",
+      "core": 0,
+      "tip": "读课外科普或练字 30 分钟"
+     },
+     {
+      "id": "cz1_12",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "洗漱·准备睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "cz1_1",
+      "s": "06:30",
+      "e": "06:50",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "温水唤醒，先别碰手机"
+     },
+     {
+      "id": "cz1_2",
+      "s": "06:50",
+      "e": "07:10",
+      "t": "晨读英语/古诗文",
+      "cat": "study",
+      "core": 1,
+      "tip": "大声朗读 15 分钟，培养语感",
+      "subj": "cz_eng"
+     },
+     {
+      "id": "cz1_3",
+      "s": "07:10",
+      "e": "07:40",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "吃饱吃好，饭后别立刻坐"
+     },
+     {
+      "id": "cz1_4",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "专注听讲、跟紧老师节奏"
+     },
+     {
+      "id": "cz1_5",
+      "s": "12:00",
+      "e": "12:40",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_6",
+      "s": "12:40",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "眼罩+25 分钟小睡，下午续航"
+     },
+     {
+      "id": "cz1_7",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "下午易困，站着听讲或勤做笔记"
+     },
+     {
+      "id": "cz1_8",
+      "s": "17:30",
+      "e": "18:20",
+      "t": "放学·晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_9",
+      "s": "19:00",
+      "e": "20:30",
+      "t": "家庭作业 + 当日复习",
+      "cat": "study",
+      "core": 1,
+      "tip": "先数学后文科，错题当天清",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "错题整理 + 预习",
+      "cat": "study",
+      "core": 1,
+      "tip": "错题归因：概念/计算/思路",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_11",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "自由阅读 / 练字",
+      "cat": "study",
+      "core": 0,
+      "tip": "读课外科普或练字 30 分钟"
+     },
+     {
+      "id": "cz1_12",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "洗漱·准备睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "cz1_1",
+      "s": "06:30",
+      "e": "06:50",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "温水唤醒，先别碰手机"
+     },
+     {
+      "id": "cz1_2",
+      "s": "06:50",
+      "e": "07:10",
+      "t": "晨读英语/古诗文",
+      "cat": "study",
+      "core": 1,
+      "tip": "大声朗读 15 分钟，培养语感",
+      "subj": "cz_eng"
+     },
+     {
+      "id": "cz1_3",
+      "s": "07:10",
+      "e": "07:40",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "吃饱吃好，饭后别立刻坐"
+     },
+     {
+      "id": "cz1_4",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "专注听讲、跟紧老师节奏"
+     },
+     {
+      "id": "cz1_5",
+      "s": "12:00",
+      "e": "12:40",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_6",
+      "s": "12:40",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "眼罩+25 分钟小睡，下午续航"
+     },
+     {
+      "id": "cz1_7",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "下午易困，站着听讲或勤做笔记"
+     },
+     {
+      "id": "cz1_8",
+      "s": "17:30",
+      "e": "18:20",
+      "t": "放学·晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_9",
+      "s": "19:00",
+      "e": "20:30",
+      "t": "家庭作业 + 当日复习",
+      "cat": "study",
+      "core": 1,
+      "tip": "先数学后文科，错题当天清",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "错题整理 + 预习",
+      "cat": "study",
+      "core": 1,
+      "tip": "错题归因：概念/计算/思路",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_11",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "自由阅读 / 练字",
+      "cat": "study",
+      "core": 0,
+      "tip": "读课外科普或练字 30 分钟"
+     },
+     {
+      "id": "cz1_12",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "洗漱·准备睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "cz1_1",
+      "s": "06:30",
+      "e": "06:50",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "温水唤醒，先别碰手机"
+     },
+     {
+      "id": "cz1_2",
+      "s": "06:50",
+      "e": "07:10",
+      "t": "晨读英语/古诗文",
+      "cat": "study",
+      "core": 1,
+      "tip": "大声朗读 15 分钟，培养语感",
+      "subj": "cz_eng"
+     },
+     {
+      "id": "cz1_3",
+      "s": "07:10",
+      "e": "07:40",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "吃饱吃好，饭后别立刻坐"
+     },
+     {
+      "id": "cz1_4",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "专注听讲、跟紧老师节奏"
+     },
+     {
+      "id": "cz1_5",
+      "s": "12:00",
+      "e": "12:40",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_6",
+      "s": "12:40",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "眼罩+25 分钟小睡，下午续航"
+     },
+     {
+      "id": "cz1_7",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "下午易困，站着听讲或勤做笔记"
+     },
+     {
+      "id": "cz1_8",
+      "s": "17:30",
+      "e": "18:20",
+      "t": "放学·晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_9",
+      "s": "19:00",
+      "e": "20:30",
+      "t": "家庭作业 + 当日复习",
+      "cat": "study",
+      "core": 1,
+      "tip": "先数学后文科，错题当天清",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "错题整理 + 预习",
+      "cat": "study",
+      "core": 1,
+      "tip": "错题归因：概念/计算/思路",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_11",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "自由阅读 / 练字",
+      "cat": "study",
+      "core": 0,
+      "tip": "读课外科普或练字 30 分钟"
+     },
+     {
+      "id": "cz1_12",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "洗漱·准备睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "cz1_1",
+      "s": "06:30",
+      "e": "06:50",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "温水唤醒，先别碰手机"
+     },
+     {
+      "id": "cz1_2",
+      "s": "06:50",
+      "e": "07:10",
+      "t": "晨读英语/古诗文",
+      "cat": "study",
+      "core": 1,
+      "tip": "大声朗读 15 分钟，培养语感",
+      "subj": "cz_eng"
+     },
+     {
+      "id": "cz1_3",
+      "s": "07:10",
+      "e": "07:40",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "吃饱吃好，饭后别立刻坐"
+     },
+     {
+      "id": "cz1_4",
+      "s": "07:40",
+      "e": "12:00",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "专注听讲、跟紧老师节奏"
+     },
+     {
+      "id": "cz1_5",
+      "s": "12:00",
+      "e": "12:40",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_6",
+      "s": "12:40",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "眼罩+25 分钟小睡，下午续航"
+     },
+     {
+      "id": "cz1_7",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "校内课程（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "下午易困，站着听讲或勤做笔记"
+     },
+     {
+      "id": "cz1_8",
+      "s": "17:30",
+      "e": "18:20",
+      "t": "放学·晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "cz1_9",
+      "s": "19:00",
+      "e": "20:30",
+      "t": "家庭作业 + 当日复习",
+      "cat": "study",
+      "core": 1,
+      "tip": "先数学后文科，错题当天清",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "错题整理 + 预习",
+      "cat": "study",
+      "core": 1,
+      "tip": "错题归因：概念/计算/思路",
+      "subj": "cz_math"
+     },
+     {
+      "id": "cz1_11",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "自由阅读 / 练字",
+      "cat": "study",
+      "core": 0,
+      "tip": "读课外科普或练字 30 分钟"
+     },
+     {
+      "id": "cz1_12",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "洗漱·准备睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "czw_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": "周末多睡会儿"
+     },
+     {
+      "id": "czw_2",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_3",
+      "s": "09:00",
+      "e": "11:00",
+      "t": "兴趣班 / 运动",
+      "cat": "health",
+      "core": 1,
+      "tip": "篮球或编程兴趣，微微出汗就好",
+      "subj": "cz_pe"
+     },
+     {
+      "id": "czw_4",
+      "s": "11:00",
+      "e": "12:00",
+      "t": "自由阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "看科普或文学"
+     },
+     {
+      "id": "czw_5",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_6",
+      "s": "13:00",
+      "e": "14:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "czw_7",
+      "s": "14:00",
+      "e": "16:30",
+      "t": "周末作业 + 薄弱科补强",
+      "cat": "study",
+      "core": 1,
+      "tip": "集中啃这周没懂的题",
+      "subj": "cz_math"
+     },
+     {
+      "id": "czw_8",
+      "s": "16:30",
+      "e": "18:00",
+      "t": "户外 / 家务",
+      "cat": "health",
+      "core": 0,
+      "tip": "骑车或帮家里做家务"
+     },
+     {
+      "id": "czw_9",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "czw_10",
+      "s": "19:30",
+      "e": "20:30",
+      "t": "纪录片 / 家庭时间",
+      "cat": "rest",
+      "core": 0,
+      "tip": "一起看一部纪录片"
+     },
+     {
+      "id": "czw_11",
+      "s": "21:00",
+      "e": "21:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ]
+   ]
+  }
+ ],
+ "targets": {
+  "cz_math": 540,
+  "cz_eng": 240,
+  "cz_chi": 200,
+  "cz_phys": 240,
+  "cz_chem": 135,
+  "cz_pe": 180,
+  "cz_code": 30
+ },
+ "countdowns": [
+  {
+   "id": "cd_cz1",
+   "title": "中考",
+   "date": "2026-06-15",
+   "time": "09:00",
+   "color": "red",
+   "note": "全力以赴，正常发挥就是胜利",
+   "repeat": ""
+  },
+  {
+   "id": "cd_cz2",
+   "title": "八年级期末考",
+   "date": "2026-07-03",
+   "time": "08:30",
+   "color": "orange",
+   "note": "本学期成果验收",
+   "repeat": ""
+  }
+ ],
+ "fixedTodos": {
+  "cz1_10": [
+   "整理当天错题 3 道",
+   "预习明日新课 1 节"
+  ],
+  "czw_7": [
+   "周末集中补强本周薄弱点"
+  ]
+ },
+ "trips": [],
+ "archive": [],
+ "aiPlans": [],
+ "settings": null,
+ "migr": {
+  "reserveReset": true
+ },
+ "plan": {
+  "subjects": [
+   {
+    "ic": "📐",
+    "name": "数学（人教版八下）",
+    "color": "#7c9cff",
+    "h": 90,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-07-03",
+    "goal": "按人教版八年级下册章节推进，当前在第17章 勾股定理；每天先用 15 分钟复盘错题与公式，再推进新内容。",
+    "extra": "重点：勾股定理及其逆定理、直角三角形、平行四边形与特殊四边形、一次函数图像与性质。每条待办写清「章节+题型+题量」，错题当天归因（概念/计算/思路），第二天优先复习错题再上新。",
+    "milestones": [
+     {
+      "name": "第16章 分式（乘除、加减、分式方程）",
+      "done": true
+     },
+     {
+      "name": "第17章 勾股定理（定理、逆定理、勾股数）",
+      "done": false
+     },
+     {
+      "name": "第18章 平行四边形（性质、判定、中点四边形）",
+      "done": false
+     },
+     {
+      "name": "第19章 一次函数（解析式、图像、应用）",
+      "done": false
+     },
+     {
+      "name": "第20章 数据分析（平均数、方差）",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_math"
+   },
+   {
+    "ic": "🔤",
+    "name": "英语（中考核心）",
+    "color": "#f7b955",
+    "h": 40,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-06-15",
+    "goal": "中考 1600 核心词汇一轮过半，听力与阅读每天保持手感；当前在「单词 List 11-20 + 八下课文朗读」。",
+    "extra": "方法：晨读朗读课文培养语感；晚上精读 1 篇真题阅读，逐句翻译。听力用碎片时间磨耳朵。写作背 5 类常考模板（观点/建议/记叙/书信/看图）。",
+    "milestones": [
+     {
+      "name": "核心词汇 List 1-10 熟记",
+      "done": true
+     },
+     {
+      "name": "课内八下课文熟读背诵",
+      "done": true
+     },
+     {
+      "name": "听力每日 15 分钟打卡",
+      "done": false
+     },
+     {
+      "name": "阅读真题精读 20 篇",
+      "done": false
+     },
+     {
+      "name": "写作 5 类模板默写",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_eng"
+   },
+   {
+    "ic": "📖",
+    "name": "语文（古诗文+阅读）",
+    "color": "#67c98f",
+    "h": 40,
+    "wk": 5,
+    "owner": "我",
+    "deadline": "2026-07-03",
+    "goal": "课内古诗文背诵过关，现代文阅读提炼答题公式；当前在「八下文言文实词 + 记叙文阅读」。",
+    "extra": "文言文：实词+虚词+句式逐篇过；现代文：概括、赏析、作用题背模板。每周写一篇随笔练笔感。",
+    "milestones": [
+     {
+      "name": "课内必背古诗文 24 首过关",
+      "done": true
+     },
+     {
+      "name": "文言文实词 120 个",
+      "done": false
+     },
+     {
+      "name": "现代文阅读答题公式",
+      "done": false
+     },
+     {
+      "name": "每周随笔 8 篇",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_chi"
+   },
+   {
+    "ic": "⚡",
+    "name": "物理（八下 力与运动）",
+    "color": "#ff8fab",
+    "h": 60,
+    "wk": 4,
+    "owner": "我",
+    "deadline": "2026-07-03",
+    "goal": "力、压强、浮力、功和机械能四章；重实验与受力分析图。",
+    "extra": "每章画 1 张知识树；浮力难点用「称重法+阿基米德」双解法对比。",
+    "milestones": [
+     {
+      "name": "第7章 力（重力、弹力、摩擦力）",
+      "done": true
+     },
+     {
+      "name": "第8章 运动和力（二力平衡、惯性）",
+      "done": false
+     },
+     {
+      "name": "第9章 压强（固体、液体、大气）",
+      "done": false
+     },
+     {
+      "name": "第10章 浮力（阿基米德原理）",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_phys"
+   },
+   {
+    "ic": "🧪",
+    "name": "化学（九年级入门）",
+    "color": "#c4a7ff",
+    "h": 45,
+    "wk": 3,
+    "owner": "我",
+    "deadline": "2026-07-03",
+    "goal": "走进化学之门：物质构成、空气与氧气、碳和碳的氧化物。",
+    "extra": "背元素符号与前 20 号元素；方程式每天默 3 个；实验现象用关键词记。",
+    "milestones": [
+     {
+      "name": "元素符号 + 前 20 号元素",
+      "done": true
+     },
+     {
+      "name": "第1单元 走进化学世界",
+      "done": true
+     },
+     {
+      "name": "第2单元 空气和氧气",
+      "done": false
+     },
+     {
+      "name": "第6单元 碳和碳的氧化物",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_chem"
+   },
+   {
+    "ic": "🏀",
+    "name": "体育（中考项目）",
+    "color": "#5ed0e6",
+    "h": 60,
+    "wk": 3,
+    "owner": "我",
+    "deadline": "2026-04-20",
+    "goal": "中考体育满分冲刺：1000m 跑、跳绳、球类选考。",
+    "extra": "每周三练：间歇跑提升耐力，跳绳练节奏，周末打球保持兴趣。",
+    "milestones": [
+     {
+      "name": "1000m 跑进 4 分",
+      "done": true
+     },
+     {
+      "name": "跳绳 1 分钟 170+",
+      "done": false
+     },
+     {
+      "name": "篮球运球绕杆稳定",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_pe"
+   },
+   {
+    "ic": "💻",
+    "name": "兴趣·编程启蒙",
+    "color": "#f59e0b",
+    "h": 30,
+    "wk": 1,
+    "owner": "我",
+    "deadline": "",
+    "goal": "Scratch 做 3 个小游戏，过渡到 Python 画图形；纯粹兴趣，不加压。",
+    "extra": "周末 1 小时自由探索，做完一个作品就分享给家人。",
+    "milestones": [
+     {
+      "name": "Scratch 接水果小游戏",
+      "done": true
+     },
+     {
+      "name": "Scratch 贪吃蛇",
+      "done": false
+     },
+     {
+      "name": "Python turtle 画分形树",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "jh初中",
+    "loaded": false,
+    "id": "cz_code"
+   }
+  ]
+ }
+}

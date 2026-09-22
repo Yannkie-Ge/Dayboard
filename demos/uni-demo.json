@@ -1,0 +1,2693 @@
+{
+ "days": {
+  "2026-03-08": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 30
+    },
+    "unw_2": {
+     "s": "done",
+     "credited": 51
+    },
+    "unw_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 135
+    },
+    "unw_4": {
+     "s": "done",
+     "credited": 48
+    },
+    "unw_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 72
+    },
+    "unw_6": {
+     "s": "skip",
+     "note": "今天没顾上：项目 / 论文 / 实习，已排到明天补做"
+    },
+    "unw_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 86
+    },
+    "unw_8": {
+     "s": "done",
+     "credited": 58
+    },
+    "unw_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-08_unw_9_f987100",
+       "text": "写本周进度周报",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-08_unw_9_f645364",
+       "text": "排下周 ToDo",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 84
+    },
+    "unw_10": {
+     "s": "done",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "社团活动策划通过",
+    "实验一次跑通 baseline",
+    "六级听力又对了几道"
+   ],
+   "review": "完成了主要任务，就是社团那边有点拖，下周例会前得把策划补了。",
+   "reflection": "",
+   "mood": 4,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 11,
+    "sound": "forest"
+   }
+  },
+  "2026-03-09": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 35
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 199
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 52
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 229
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 80
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 57
+    },
+    "un1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-09_un1_8_f656971",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-09_un1_8_f68382",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 100
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 55
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 32
+    }
+   },
+   "wins": [
+    "周复盘把下周排得明明白白",
+    "六级听力又对了几道",
+    "导师夸进度周报写得好"
+   ],
+   "review": "今天专业课听得透，晚上自习把作业和英语都清了，健身也没缺席，大学就该这样过。",
+   "reflection": "健身之后学习状态明显更好，身体和脑子是正相关的。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 8,
+   "meditation": {
+    "min": 10,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-10": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 19
+    },
+    "un1_2": {
+     "s": "done",
+     "credited": 34
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 215
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 50
+    },
+    "un1_5": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 106
+    },
+    "un1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 53
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 52
+    },
+    "un1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-10_un1_8_f444477",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-10_un1_8_f148050",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 112
+    },
+    "un1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 49
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 32
+    }
+   },
+   "wins": [
+    "六级听力又对了几道",
+    "健身深蹲突破"
+   ],
+   "review": "学习还行，健身去了，但论文还没动，得提上日程了。",
+   "reflection": "健身之后学习状态明显更好，身体和脑子是正相关的。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-11": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 16
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 92
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 54
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 234
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 73
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 53
+    },
+    "un1_8": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-11_un1_8_f898474",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-11_un1_8_f398074",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 65
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 58
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 36
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好"
+   ],
+   "review": "学习还行，健身去了，但论文还没动，得提上日程了。",
+   "reflection": "周复盘太重要，不复盘永远在救火。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-12": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 17
+    },
+    "un1_2": {
+     "s": "skip",
+     "note": "今天没顾上：早餐 + 通勤，已排到明天补做"
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 225
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 55
+    },
+    "un1_5": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 114
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 72
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 55
+    },
+    "un1_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-12_un1_8_f732764",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-12_un1_8_f720370",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 104
+    },
+    "un1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 54
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 34
+    }
+   },
+   "wins": [
+    "健身深蹲突破",
+    "导师夸进度周报写得好"
+   ],
+   "review": "整块时间利用得好，硬课啃下一块，爽。",
+   "reflection": "大块时间（周末/无课时）才是真效率，碎片时间只配背单词。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 14,
+    "sound": "pink"
+   }
+  },
+  "2026-03-13": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 19
+    },
+    "un1_2": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-13_un1_2_c741604",
+       "text": "补做：早餐 + 通勤",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 40
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 225
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 60
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 234
+    },
+    "un1_6": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 43
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 48
+    },
+    "un1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-13_un1_8_f690658",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-13_un1_8_f945526",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 103
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 57
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 34
+    }
+   },
+   "wins": [
+    "健身深蹲突破"
+   ],
+   "review": "整块时间利用得好，硬课啃下一块，爽。",
+   "reflection": "大块时间（周末/无课时）才是真效率，碎片时间只配背单词。",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-14": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "credited": 30
+    },
+    "unw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 54
+    },
+    "unw_3": {
+     "s": "skip",
+     "note": "今天没顾上：集中自习（大块时间），已排到明天补做"
+    },
+    "unw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 53
+    },
+    "unw_5": {
+     "s": "skip",
+     "note": "今天没顾上：午休，已排到明天补做"
+    },
+    "unw_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-14_unw_6_c791245",
+       "text": "补做：项目 / 论文 / 实习",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 122
+    },
+    "unw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 75
+    },
+    "unw_8": {
+     "s": "done",
+     "credited": 57
+    },
+    "unw_9": {
+     "s": "skip",
+     "note": "今天没顾上：周复盘 + 下周规划，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-14_unw_9_f311861",
+       "text": "写本周进度周报",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-14_unw_9_f357946",
+       "text": "排下周 ToDo",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "unw_10": {
+     "s": "done",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "六级听力又对了几道",
+    "导师夸进度周报写得好",
+    "健身深蹲突破"
+   ],
+   "review": "今天有点飘，图书馆坐不住，晚上光刷手机了，明天手机限时。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 6,
+    "sound": "pink"
+   }
+  },
+  "2026-03-15": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 28
+    },
+    "unw_2": {
+     "s": "done",
+     "credited": 55
+    },
+    "unw_3": {
+     "s": "skip",
+     "note": "今天没顾上：集中自习（大块时间），已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-15_unw_3_c945472",
+       "text": "补做：集中自习（大块时间）",
+       "done": false,
+       "from": "carry"
+      }
+     ]
+    },
+    "unw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 53
+    },
+    "unw_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-15_unw_5_c80280",
+       "text": "补做：午休",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 79
+    },
+    "unw_6": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 81
+    },
+    "unw_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 89
+    },
+    "unw_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 59
+    },
+    "unw_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-15_unw_9_c625750",
+       "text": "补做：周复盘 + 下周规划",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-03-15_unw_9_f288463",
+       "text": "写本周进度周报",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-15_unw_9_f165115",
+       "text": "排下周 ToDo",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 84
+    },
+    "unw_10": {
+     "s": "done",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "周复盘把下周排得明明白白",
+    "社团活动策划通过"
+   ],
+   "review": "实验卡 bug 一晚上没进展，明天找师兄问问。",
+   "reflection": "大块时间（周末/无课时）才是真效率，碎片时间只配背单词。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-16": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 20
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 38
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 194
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 59
+    },
+    "un1_5": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 123
+    },
+    "un1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 50
+    },
+    "un1_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 36
+    },
+    "un1_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-16_un1_8_f8835",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-16_un1_8_f919535",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 118
+    },
+    "un1_9": {
+     "s": "skip",
+     "note": "今天没顾上：社团 / 项目 / 复盘，已排到明天补做"
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 39
+    }
+   },
+   "wins": [
+    "健身深蹲突破",
+    "周复盘把下周排得明明白白",
+    "实验一次跑通 baseline"
+   ],
+   "review": "完成了主要任务，就是社团那边有点拖，下周例会前得把策划补了。",
+   "reflection": "健身之后学习状态明显更好，身体和脑子是正相关的。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "rain"
+   }
+  },
+  "2026-03-17": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 20
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 32
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 218
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 54
+    },
+    "un1_5": {
+     "s": "done",
+     "credited": 216
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 82
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 49
+    },
+    "un1_8": {
+     "s": "skip",
+     "note": "今天没顾上：晚自习：作业 + 四六级，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-17_un1_8_f394572",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-17_un1_8_f15546",
+       "text": "精读 1 篇",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "un1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-17_un1_9_c437942",
+       "text": "补做：社团 / 项目 / 复盘",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 58
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 32
+    }
+   },
+   "wins": [
+    "周复盘把下周排得明明白白"
+   ],
+   "review": "学习还行，健身去了，但论文还没动，得提上日程了。",
+   "reflection": "论文越早动笔越轻松，拖到最后全是哭。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 13,
+    "sound": "stream"
+   }
+  },
+  "2026-03-18": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 19
+    },
+    "un1_2": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 20
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 237
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 59
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 234
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 82
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 49
+    },
+    "un1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-18_un1_8_c62781",
+       "text": "补做：晚自习：作业 + 四六级",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-03-18_un1_8_f21135",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-18_un1_8_f652117",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 115
+    },
+    "un1_9": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 31
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 38
+    }
+   },
+   "wins": [
+    "实验一次跑通 baseline",
+    "导师夸进度周报写得好"
+   ],
+   "review": "整块时间利用得好，硬课啃下一块，爽。",
+   "reflection": "论文越早动笔越轻松，拖到最后全是哭。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 10,
+    "sound": "stream"
+   }
+  },
+  "2026-03-19": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 19
+    },
+    "un1_2": {
+     "s": "done",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "done",
+     "credited": 222
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 51
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 224
+    },
+    "un1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 54
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 56
+    },
+    "un1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-19_un1_8_f94156",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-19_un1_8_f554484",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 100
+    },
+    "un1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 52
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 35
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好",
+    "健身深蹲突破"
+   ],
+   "review": "今天专业课听得透，晚上自习把作业和英语都清了，健身也没缺席，大学就该这样过。",
+   "reflection": "健身之后学习状态明显更好，身体和脑子是正相关的。",
+   "mood": 3,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-20": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 18
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 195
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 49
+    },
+    "un1_5": {
+     "s": "skip",
+     "note": "今天没顾上：实验 / 选修 / 图书馆，已排到明天补做"
+    },
+    "un1_6": {
+     "s": "skip",
+     "note": "今天没顾上：健身 / 跑步，已排到明天补做"
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 51
+    },
+    "un1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-20_un1_8_f270644",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-20_un1_8_f329741",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 96
+    },
+    "un1_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 58
+    },
+    "un1_10": {
+     "s": "skip",
+     "note": "今天没顾上：洗漱·睡觉，已排到明天补做"
+    }
+   },
+   "wins": [
+    "六级听力又对了几道",
+    "健身深蹲突破"
+   ],
+   "review": "实验卡 bug 一晚上没进展，明天找师兄问问。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 6,
+   "meditation": {
+    "min": 12,
+    "sound": "pink"
+   }
+  },
+  "2026-03-21": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "unw_2": {
+     "s": "done",
+     "credited": 51
+    },
+    "unw_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-03-21_unw_3_c958529",
+       "text": "补做：集中自习（大块时间）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 131
+    },
+    "unw_4": {
+     "s": "done",
+     "credited": 54
+    },
+    "unw_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 87
+    },
+    "unw_6": {
+     "s": "skip",
+     "note": "今天没顾上：项目 / 论文 / 实习，已排到明天补做"
+    },
+    "unw_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 80
+    },
+    "unw_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 58
+    },
+    "unw_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-03-21_unw_9_f26003",
+       "text": "写本周进度周报",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-21_unw_9_f823753",
+       "text": "排下周 ToDo",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 89
+    },
+    "unw_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 16
+    }
+   },
+   "wins": [
+    "健身深蹲突破",
+    "六级听力又对了几道"
+   ],
+   "review": "学习还行，健身去了，但论文还没动，得提上日程了。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 13,
+    "sound": "forest"
+   }
+  },
+  "2026-03-22": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "unw_2": {
+     "s": "done",
+     "credited": 52
+    },
+    "unw_3": {
+     "s": "skip",
+     "note": "今天没顾上：集中自习（大块时间），已排到明天补做"
+    },
+    "unw_4": {
+     "s": "done",
+     "credited": 55
+    },
+    "unw_5": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 40
+    },
+    "unw_6": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-03-22_unw_6_c26256",
+       "text": "补做：项目 / 论文 / 实习",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 68
+    },
+    "unw_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 45
+    },
+    "unw_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 56
+    },
+    "unw_9": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-03-22_unw_9_f630029",
+       "text": "写本周进度周报",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-22_unw_9_f584485",
+       "text": "排下周 ToDo",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 51
+    },
+    "unw_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 38
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好"
+   ],
+   "review": "今天有点飘，图书馆坐不住，晚上光刷手机了，明天手机限时。",
+   "reflection": "论文越早动笔越轻松，拖到最后全是哭。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 14,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-23": {
+   "blocks": {
+    "un1_1": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 11
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 34
+    },
+    "un1_3": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 142
+    },
+    "un1_4": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 26
+    },
+    "un1_5": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-23_un1_5_c688742",
+       "text": "补做：实验 / 选修 / 图书馆",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 200
+    },
+    "un1_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-23_un1_6_c924578",
+       "text": "补做：健身 / 跑步",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 85
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 51
+    },
+    "un1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-23_un1_8_f483994",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-23_un1_8_f52482",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 105
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 55
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-23_un1_10_c662493",
+       "text": "补做：洗漱·睡觉",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 38
+    }
+   },
+   "wins": [
+    "六级听力又对了几道",
+    "健身深蹲突破"
+   ],
+   "review": "整块时间利用得好，硬课啃下一块，爽。",
+   "reflection": "大块时间（周末/无课时）才是真效率，碎片时间只配背单词。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-03-24": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 20
+    },
+    "un1_2": {
+     "s": "done",
+     "credited": 33
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 206
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 52
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 209
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 87
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 54
+    },
+    "un1_8": {
+     "s": "skip",
+     "note": "今天没顾上：晚自习：作业 + 四六级，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-24_un1_8_f386081",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-24_un1_8_f874231",
+       "text": "精读 1 篇",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "un1_9": {
+     "s": "skip",
+     "note": "今天没顾上：社团 / 项目 / 复盘，已排到明天补做"
+    },
+    "un1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "社团活动策划通过",
+    "周复盘把下周排得明明白白"
+   ],
+   "review": "完成了主要任务，就是社团那边有点拖，下周例会前得把策划补了。",
+   "reflection": "周复盘太重要，不复盘永远在救火。",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 6,
+    "sound": "waves"
+   }
+  },
+  "2026-03-25": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 19
+    },
+    "un1_2": {
+     "s": "done",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 224
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 48
+    },
+    "un1_5": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 117
+    },
+    "un1_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 76
+    },
+    "un1_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 51
+    },
+    "un1_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-25_un1_8_c978097",
+       "text": "补做：晚自习：作业 + 四六级",
+       "done": false,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-03-25_un1_8_f196843",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-25_un1_8_f175386",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 58
+    },
+    "un1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-25_un1_9_c439987",
+       "text": "补做：社团 / 项目 / 复盘",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 53
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 38
+    }
+   },
+   "wins": [
+    "实验一次跑通 baseline",
+    "六级听力又对了几道"
+   ],
+   "review": "完成了主要任务，就是社团那边有点拖，下周例会前得把策划补了。",
+   "reflection": "健身之后学习状态明显更好，身体和脑子是正相关的。",
+   "mood": 4,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 12,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-26": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "credited": 18
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "skip",
+     "note": "今天没顾上：专业课 / 必修（在校），已排到明天补做"
+    },
+    "un1_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 49
+    },
+    "un1_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 238
+    },
+    "un1_6": {
+     "s": "done",
+     "credited": 87
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 50
+    },
+    "un1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-03-26_un1_8_f773759",
+       "text": "六级单词 30 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-26_un1_8_f45493",
+       "text": "精读 1 篇",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 118
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 51
+    },
+    "un1_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好",
+    "六级听力又对了几道"
+   ],
+   "review": "完成了主要任务，就是社团那边有点拖，下周例会前得把策划补了。",
+   "reflection": "周复盘太重要，不复盘永远在救火。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 9,
+    "sound": "bowl"
+   }
+  },
+  "2026-03-27": {
+   "blocks": {
+    "un1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 16
+    },
+    "un1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 37
+    },
+    "un1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-03-27_un1_3_c281463",
+       "text": "补做：专业课 / 必修（在校）",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 238
+    },
+    "un1_4": {
+     "s": "done",
+     "credited": 60
+    },
+    "un1_5": {
+     "s": "skip",
+     "note": "今天没顾上：实验 / 选修 / 图书馆，已排到明天补做"
+    },
+    "un1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 34
+    },
+    "un1_7": {
+     "s": "done",
+     "credited": 56
+    },
+    "un1_8": {
+     "s": "skip",
+     "note": "今天没顾上：晚自习：作业 + 四六级，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-27_un1_8_f301028",
+       "text": "六级单词 30 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-27_un1_8_f740368",
+       "text": "精读 1 篇",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "un1_9": {
+     "s": "done",
+     "credited": 48
+    },
+    "un1_10": {
+     "s": "done",
+     "credited": 35
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好",
+    "实验一次跑通 baseline"
+   ],
+   "review": "今天有点飘，图书馆坐不住，晚上光刷手机了，明天手机限时。",
+   "reflection": "大块时间（周末/无课时）才是真效率，碎片时间只配背单词。",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 9,
+    "sound": "stream"
+   }
+  },
+  "2026-03-28": {
+   "blocks": {
+    "unw_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 28
+    },
+    "unw_2": {
+     "s": "done",
+     "credited": 48
+    },
+    "unw_3": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-03-28_unw_3_c776483",
+       "text": "补做：集中自习（大块时间）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 86
+    },
+    "unw_4": {
+     "s": "done",
+     "credited": 52
+    },
+    "unw_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 86
+    },
+    "unw_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 141
+    },
+    "unw_7": {
+     "s": "done",
+     "credited": 78
+    },
+    "unw_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 53
+    },
+    "unw_9": {
+     "s": "skip",
+     "note": "今天没顾上：周复盘 + 下周规划，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-03-28_unw_9_f601231",
+       "text": "写本周进度周报",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-03-28_unw_9_f906854",
+       "text": "排下周 ToDo",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "unw_10": {
+     "s": "done",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "导师夸进度周报写得好",
+    "六级听力又对了几道"
+   ],
+   "review": "整块时间利用得好，硬课啃下一块，爽。",
+   "reflection": "论文越早动笔越轻松，拖到最后全是哭。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  }
+ },
+ "schedules": [
+  {
+   "id": "sc_uni",
+   "name": "大学·学期作息（上课/自习/健身/社团）",
+   "start": "2026-02-23",
+   "end": "2026-06-28",
+   "mode": "week",
+   "week": [
+    [
+     {
+      "id": "unw_1",
+      "s": "08:30",
+      "e": "09:00",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": "周末睡到自然醒"
+     },
+     {
+      "id": "unw_2",
+      "s": "09:00",
+      "e": "10:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_3",
+      "s": "10:00",
+      "e": "12:30",
+      "t": "集中自习（大块时间）",
+      "cat": "study",
+      "core": 1,
+      "tip": "周末整块时间啃硬课",
+      "subj": "uni_major"
+     },
+     {
+      "id": "unw_4",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_5",
+      "s": "13:30",
+      "e": "15:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "unw_6",
+      "s": "15:00",
+      "e": "17:30",
+      "t": "项目 / 论文 / 实习",
+      "cat": "biz",
+      "core": 1,
+      "tip": "科研助手或实习任务",
+      "subj": "uni_intern"
+     },
+     {
+      "id": "unw_7",
+      "s": "17:30",
+      "e": "19:00",
+      "t": "运动 / 社交",
+      "cat": "health",
+      "core": 0,
+      "tip": "约朋友打球"
+     },
+     {
+      "id": "unw_8",
+      "s": "19:00",
+      "e": "20:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_9",
+      "s": "20:00",
+      "e": "21:30",
+      "t": "周复盘 + 下周规划",
+      "cat": "study",
+      "core": 0,
+      "tip": "回顾本周进度，排下周",
+      "subj": "uni_paper"
+     },
+     {
+      "id": "unw_10",
+      "s": "22:00",
+      "e": "22:40",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "un1_1",
+      "s": "07:00",
+      "e": "07:20",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_2",
+      "s": "07:20",
+      "e": "08:00",
+      "t": "早餐 + 通勤",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听英语播客"
+     },
+     {
+      "id": "un1_3",
+      "s": "08:00",
+      "e": "12:00",
+      "t": "专业课 / 必修（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "前排坐，课中抓重点",
+      "subj": "uni_major"
+     },
+     {
+      "id": "un1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 小憩",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_5",
+      "s": "13:00",
+      "e": "17:00",
+      "t": "实验 / 选修 / 图书馆",
+      "cat": "study",
+      "core": 1,
+      "tip": "没课时去图书馆刷题",
+      "subj": "uni_math"
+     },
+     {
+      "id": "un1_6",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "健身 / 跑步",
+      "cat": "health",
+      "core": 1,
+      "tip": "练腿或有氧，学习期身体是本钱",
+      "subj": "uni_pe"
+     },
+     {
+      "id": "un1_7",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_8",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚自习：作业 + 四六级",
+      "cat": "study",
+      "core": 1,
+      "tip": "先写作业再刷英语",
+      "subj": "uni_eng"
+     },
+     {
+      "id": "un1_9",
+      "s": "21:30",
+      "e": "22:30",
+      "t": "社团 / 项目 / 复盘",
+      "cat": "biz",
+      "core": 0,
+      "tip": "社团或科研助手任务",
+      "subj": "uni_club"
+     },
+     {
+      "id": "un1_10",
+      "s": "22:30",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "un1_1",
+      "s": "07:00",
+      "e": "07:20",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_2",
+      "s": "07:20",
+      "e": "08:00",
+      "t": "早餐 + 通勤",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听英语播客"
+     },
+     {
+      "id": "un1_3",
+      "s": "08:00",
+      "e": "12:00",
+      "t": "专业课 / 必修（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "前排坐，课中抓重点",
+      "subj": "uni_major"
+     },
+     {
+      "id": "un1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 小憩",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_5",
+      "s": "13:00",
+      "e": "17:00",
+      "t": "实验 / 选修 / 图书馆",
+      "cat": "study",
+      "core": 1,
+      "tip": "没课时去图书馆刷题",
+      "subj": "uni_math"
+     },
+     {
+      "id": "un1_6",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "健身 / 跑步",
+      "cat": "health",
+      "core": 1,
+      "tip": "练腿或有氧，学习期身体是本钱",
+      "subj": "uni_pe"
+     },
+     {
+      "id": "un1_7",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_8",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚自习：作业 + 四六级",
+      "cat": "study",
+      "core": 1,
+      "tip": "先写作业再刷英语",
+      "subj": "uni_eng"
+     },
+     {
+      "id": "un1_9",
+      "s": "21:30",
+      "e": "22:30",
+      "t": "社团 / 项目 / 复盘",
+      "cat": "biz",
+      "core": 0,
+      "tip": "社团或科研助手任务",
+      "subj": "uni_club"
+     },
+     {
+      "id": "un1_10",
+      "s": "22:30",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "un1_1",
+      "s": "07:00",
+      "e": "07:20",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_2",
+      "s": "07:20",
+      "e": "08:00",
+      "t": "早餐 + 通勤",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听英语播客"
+     },
+     {
+      "id": "un1_3",
+      "s": "08:00",
+      "e": "12:00",
+      "t": "专业课 / 必修（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "前排坐，课中抓重点",
+      "subj": "uni_major"
+     },
+     {
+      "id": "un1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 小憩",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_5",
+      "s": "13:00",
+      "e": "17:00",
+      "t": "实验 / 选修 / 图书馆",
+      "cat": "study",
+      "core": 1,
+      "tip": "没课时去图书馆刷题",
+      "subj": "uni_math"
+     },
+     {
+      "id": "un1_6",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "健身 / 跑步",
+      "cat": "health",
+      "core": 1,
+      "tip": "练腿或有氧，学习期身体是本钱",
+      "subj": "uni_pe"
+     },
+     {
+      "id": "un1_7",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_8",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚自习：作业 + 四六级",
+      "cat": "study",
+      "core": 1,
+      "tip": "先写作业再刷英语",
+      "subj": "uni_eng"
+     },
+     {
+      "id": "un1_9",
+      "s": "21:30",
+      "e": "22:30",
+      "t": "社团 / 项目 / 复盘",
+      "cat": "biz",
+      "core": 0,
+      "tip": "社团或科研助手任务",
+      "subj": "uni_club"
+     },
+     {
+      "id": "un1_10",
+      "s": "22:30",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "un1_1",
+      "s": "07:00",
+      "e": "07:20",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_2",
+      "s": "07:20",
+      "e": "08:00",
+      "t": "早餐 + 通勤",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听英语播客"
+     },
+     {
+      "id": "un1_3",
+      "s": "08:00",
+      "e": "12:00",
+      "t": "专业课 / 必修（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "前排坐，课中抓重点",
+      "subj": "uni_major"
+     },
+     {
+      "id": "un1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 小憩",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_5",
+      "s": "13:00",
+      "e": "17:00",
+      "t": "实验 / 选修 / 图书馆",
+      "cat": "study",
+      "core": 1,
+      "tip": "没课时去图书馆刷题",
+      "subj": "uni_math"
+     },
+     {
+      "id": "un1_6",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "健身 / 跑步",
+      "cat": "health",
+      "core": 1,
+      "tip": "练腿或有氧，学习期身体是本钱",
+      "subj": "uni_pe"
+     },
+     {
+      "id": "un1_7",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_8",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚自习：作业 + 四六级",
+      "cat": "study",
+      "core": 1,
+      "tip": "先写作业再刷英语",
+      "subj": "uni_eng"
+     },
+     {
+      "id": "un1_9",
+      "s": "21:30",
+      "e": "22:30",
+      "t": "社团 / 项目 / 复盘",
+      "cat": "biz",
+      "core": 0,
+      "tip": "社团或科研助手任务",
+      "subj": "uni_club"
+     },
+     {
+      "id": "un1_10",
+      "s": "22:30",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "un1_1",
+      "s": "07:00",
+      "e": "07:20",
+      "t": "起床洗漱",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_2",
+      "s": "07:20",
+      "e": "08:00",
+      "t": "早餐 + 通勤",
+      "cat": "life",
+      "core": 0,
+      "tip": "路上听英语播客"
+     },
+     {
+      "id": "un1_3",
+      "s": "08:00",
+      "e": "12:00",
+      "t": "专业课 / 必修（在校）",
+      "cat": "study",
+      "core": 1,
+      "tip": "前排坐，课中抓重点",
+      "subj": "uni_major"
+     },
+     {
+      "id": "un1_4",
+      "s": "12:00",
+      "e": "13:00",
+      "t": "午餐 + 小憩",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_5",
+      "s": "13:00",
+      "e": "17:00",
+      "t": "实验 / 选修 / 图书馆",
+      "cat": "study",
+      "core": 1,
+      "tip": "没课时去图书馆刷题",
+      "subj": "uni_math"
+     },
+     {
+      "id": "un1_6",
+      "s": "17:00",
+      "e": "18:30",
+      "t": "健身 / 跑步",
+      "cat": "health",
+      "core": 1,
+      "tip": "练腿或有氧，学习期身体是本钱",
+      "subj": "uni_pe"
+     },
+     {
+      "id": "un1_7",
+      "s": "18:30",
+      "e": "19:30",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "un1_8",
+      "s": "19:30",
+      "e": "21:30",
+      "t": "晚自习：作业 + 四六级",
+      "cat": "study",
+      "core": 1,
+      "tip": "先写作业再刷英语",
+      "subj": "uni_eng"
+     },
+     {
+      "id": "un1_9",
+      "s": "21:30",
+      "e": "22:30",
+      "t": "社团 / 项目 / 复盘",
+      "cat": "biz",
+      "core": 0,
+      "tip": "社团或科研助手任务",
+      "subj": "uni_club"
+     },
+     {
+      "id": "un1_10",
+      "s": "22:30",
+      "e": "23:10",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "unw_1",
+      "s": "08:30",
+      "e": "09:00",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": "周末睡到自然醒"
+     },
+     {
+      "id": "unw_2",
+      "s": "09:00",
+      "e": "10:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_3",
+      "s": "10:00",
+      "e": "12:30",
+      "t": "集中自习（大块时间）",
+      "cat": "study",
+      "core": 1,
+      "tip": "周末整块时间啃硬课",
+      "subj": "uni_major"
+     },
+     {
+      "id": "unw_4",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_5",
+      "s": "13:30",
+      "e": "15:00",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     },
+     {
+      "id": "unw_6",
+      "s": "15:00",
+      "e": "17:30",
+      "t": "项目 / 论文 / 实习",
+      "cat": "biz",
+      "core": 1,
+      "tip": "科研助手或实习任务",
+      "subj": "uni_intern"
+     },
+     {
+      "id": "unw_7",
+      "s": "17:30",
+      "e": "19:00",
+      "t": "运动 / 社交",
+      "cat": "health",
+      "core": 0,
+      "tip": "约朋友打球"
+     },
+     {
+      "id": "unw_8",
+      "s": "19:00",
+      "e": "20:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "unw_9",
+      "s": "20:00",
+      "e": "21:30",
+      "t": "周复盘 + 下周规划",
+      "cat": "study",
+      "core": 0,
+      "tip": "回顾本周进度，排下周",
+      "subj": "uni_paper"
+     },
+     {
+      "id": "unw_10",
+      "s": "22:00",
+      "e": "22:40",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ]
+   ]
+  }
+ ],
+ "targets": {
+  "uni_major": 720,
+  "uni_math": 240,
+  "uni_eng": 300,
+  "uni_pe": 280,
+  "uni_club": 80,
+  "uni_intern": 180,
+  "uni_paper": 30
+ },
+ "countdowns": [
+  {
+   "id": "cd_u1",
+   "title": "英语六级",
+   "date": "2026-06-13",
+   "time": "09:00",
+   "color": "orange",
+   "note": "刷分冲 550+",
+   "repeat": ""
+  },
+  {
+   "id": "cd_u2",
+   "title": "期末考试周",
+   "date": "2026-06-28",
+   "time": "08:30",
+   "color": "red",
+   "note": "不挂科是底线",
+   "repeat": ""
+  }
+ ],
+ "fixedTodos": {
+  "un1_8": [
+   "六级单词 30 个",
+   "精读 1 篇"
+  ],
+  "unw_9": [
+   "写本周进度周报",
+   "排下周 ToDo"
+  ]
+ },
+ "trips": [],
+ "archive": [],
+ "aiPlans": [],
+ "settings": null,
+ "migr": {
+  "reserveReset": true
+ },
+ "plan": {
+  "subjects": [
+   {
+    "ic": "🎓",
+    "name": "专业核心课",
+    "color": "#7c9cff",
+    "h": 120,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-06-28",
+    "goal": "本学期 3 门核心课（数据结构、计算机网络、操作系统）按教学进度推进，作业与实验不拖欠。",
+    "extra": "每门课建「笔记+代码+错题」三件套；实验提前一天动手，避免最后熬夜。期末用思维导图串全章。",
+    "milestones": [
+     {
+      "name": "数据结构：树与图（作业+实验）",
+      "done": true
+     },
+     {
+      "name": "计网：传输层与网络层",
+      "done": true
+     },
+     {
+      "name": "操作系统：进程调度与内存管理",
+      "done": false
+     },
+     {
+      "name": "三门课期中复习完成",
+      "done": false
+     },
+     {
+      "name": "期末大作业原型",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_major"
+   },
+   {
+    "ic": "📐",
+    "name": "高等数学 / 线代",
+    "color": "#f7b955",
+    "h": 60,
+    "wk": 4,
+    "owner": "我",
+    "deadline": "2026-06-28",
+    "goal": "线代矩阵运算与特征值、高数多元微积分；考研打基础。",
+    "extra": "每题先想思路再动笔；每周整理 1 张公式卡。",
+    "milestones": [
+     {
+      "name": "线代：特征值与特征向量",
+      "done": true
+     },
+     {
+      "name": "高数：二重积分",
+      "done": false
+     },
+     {
+      "name": "高数：级数收敛判别",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_math"
+   },
+   {
+    "ic": "🔤",
+    "name": "英语（四六级 / 考研）",
+    "color": "#67c98f",
+    "h": 50,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-06-13",
+    "goal": "六级刷分 + 顺带考研词汇；每天词汇+听力+阅读。",
+    "extra": "用 APP 背词碎片时间搞定；晚上精读 1 篇。听力磨耳朵不停。",
+    "milestones": [
+     {
+      "name": "六级核心词一轮",
+      "done": true
+     },
+     {
+      "name": "真题听力 10 套",
+      "done": false
+     },
+     {
+      "name": "阅读精读 15 篇",
+      "done": false
+     },
+     {
+      "name": "写作模板 3 类",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_eng"
+   },
+   {
+    "ic": "🏋️",
+    "name": "健身",
+    "color": "#ff8fab",
+    "h": 70,
+    "wk": 4,
+    "owner": "我",
+    "deadline": "",
+    "goal": "增肌减脂并行，每周 3-4 练，体态与精力双提升。",
+    "extra": "练腿日最累也最重要；蛋白摄入跟上；睡够 7 小时才长。",
+    "milestones": [
+     {
+      "name": "深蹲达到自重 1.2 倍",
+      "done": true
+     },
+     {
+      "name": "硬拉标准动作定型",
+      "done": false
+     },
+     {
+      "name": "体脂率降到 15%",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_pe"
+   },
+   {
+    "ic": "🤝",
+    "name": "社团 / 学生工作",
+    "color": "#5ed0e6",
+    "h": 40,
+    "wk": 2,
+    "owner": "我",
+    "deadline": "",
+    "goal": "社团换届筹备 + 一场校级活动落地，锻炼组织力。",
+    "extra": "每周固定例会；活动用甘特图排期，别临时抱佛脚。",
+    "milestones": [
+     {
+      "name": "活动策划案定稿",
+      "done": true
+     },
+     {
+      "name": "拉到 1 个赞助",
+      "done": false
+     },
+     {
+      "name": "活动顺利举办",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_club"
+   },
+   {
+    "ic": "💼",
+    "name": "科研助手 / 实习",
+    "color": "#c4a7ff",
+    "h": 60,
+    "wk": 3,
+    "owner": "我",
+    "deadline": "",
+    "goal": "跟导师做项目，产出 1 份可写进简历的成果。",
+    "extra": "每周给导师发进度周报；踩坑记进实验日志。",
+    "milestones": [
+     {
+      "name": "环境搭好 + 跑通 baseline",
+      "done": true
+     },
+     {
+      "name": "复现论文实验",
+      "done": false
+     },
+     {
+      "name": "产出 1 个改进点",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_intern"
+   },
+   {
+    "ic": "📝",
+    "name": "论文 / 课程报告",
+    "color": "#f59e0b",
+    "h": 30,
+    "wk": 1,
+    "owner": "我",
+    "deadline": "2026-05-30",
+    "goal": "学期论文与课程报告不拖延，提前两周动笔。",
+    "extra": "先搭骨架再填肉；引用用文献管理软件。",
+    "milestones": [
+     {
+      "name": "选题 + 文献综述",
+      "done": true
+     },
+     {
+      "name": "初稿完成",
+      "done": false
+     },
+     {
+      "name": "查重润色定稿",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "uni大学",
+    "loaded": false,
+    "id": "uni_paper"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2904 @@
+{
+ "days": {
+  "2026-07-05": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "kyfw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 27
+    },
+    "kyfw_3": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 69
+    },
+    "kyfw_4": {
+     "s": "done",
+     "credited": 84
+    },
+    "kyfw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 156
+    },
+    "kyfw_6": {
+     "s": "done",
+     "credited": 89
+    },
+    "kyfw_7": {
+     "s": "done",
+     "credited": 55
+    },
+    "kyfw_8": {
+     "s": "done",
+     "credited": 84
+    },
+    "kyfw_9": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 19
+    }
+   },
+   "wins": [
+    "政治马原不再怕",
+    "日结复盘坚持满三周",
+    "全天零弃训，运动全勤"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-06": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "kyf1_2": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-06_kyf1_2_f915270",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-06_kyf1_2_f628763",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 58
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 151
+    },
+    "kyf1_5": {
+     "s": "skip",
+     "note": "今天没顾上：午饭 + 散步，已排到明天补做"
+    },
+    "kyf1_6": {
+     "s": "skip",
+     "note": "今天没顾上：午休，已排到明天补做"
+    },
+    "kyf1_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 149
+    },
+    "kyf1_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 56
+    },
+    "kyf1_9": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 29
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-06_kyf1_10_f798579",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-06_kyf1_10_f992142",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 168
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 35
+    },
+    "kyf1_12": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 15
+    }
+   },
+   "wins": [
+    "专业课框架终于画顺了",
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "数学计算正确率是命，每天错题精讲不能省。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 6,
+    "sound": "pink"
+   }
+  },
+  "2026-07-07": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "credited": 29
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-07-07_kyf1_2_f935101",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-07_kyf1_2_f359893",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 55
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "kyf1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 147
+    },
+    "kyf1_5": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-07_kyf1_5_c493282",
+       "text": "补做：午饭 + 散步",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 53
+    },
+    "kyf1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-07-07_kyf1_6_c383676",
+       "text": "补做：午休",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 29
+    },
+    "kyf1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 171
+    },
+    "kyf1_8": {
+     "s": "skip",
+     "note": "今天没顾上：政治（马原/史纲），已排到明天补做"
+    },
+    "kyf1_9": {
+     "s": "done",
+     "credited": 53
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-07_kyf1_10_f639920",
+       "text": "当天错题精讲 5 道",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-07_kyf1_10_f638693",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 179
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 38
+    },
+    "kyf1_12": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 15
+    }
+   },
+   "wins": [
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 11,
+    "sound": "rain"
+   }
+  },
+  "2026-07-08": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "skip",
+     "note": "今天没顾上：起床洗漱 + 温水，已排到明天补做"
+    },
+    "kyf1_2": {
+     "s": "skip",
+     "note": "今天没顾上：英语单词 + 长难句，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-08_kyf1_2_f244052",
+       "text": "单词 100 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-08_kyf1_2_f149473",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 26
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 179
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 56
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 50
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 180
+    },
+    "kyf1_8": {
+     "s": "skip",
+     "note": "今天没顾上：政治（马原/史纲），已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-08_kyf1_8_c833940",
+       "text": "补做：政治（马原/史纲）",
+       "done": false,
+       "from": "carry"
+      }
+     ]
+    },
+    "kyf1_9": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 34
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-08_kyf1_10_f976572",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-08_kyf1_10_f151323",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 150
+    },
+    "kyf1_11": {
+     "s": "done",
+     "credited": 33
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "专业课框架终于画顺了",
+    "政治马原不再怕",
+    "英语阅读错到 4 个以内"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "强化期的主旋律从「学新知」切到「刷题+真题」，节奏要更紧。",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 5,
+    "sound": "forest"
+   }
+  },
+  "2026-07-09": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-07-09_kyf1_1_c221792",
+       "text": "补做：起床洗漱 + 温水",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 28
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-07-09_kyf1_2_c254777",
+       "text": "补做：英语单词 + 长难句",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-07-09_kyf1_2_f136142",
+       "text": "单词 100 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-09_kyf1_2_f319496",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 57
+    },
+    "kyf1_3": {
+     "s": "done",
+     "credited": 30
+    },
+    "kyf1_4": {
+     "s": "skip",
+     "note": "今天没顾上：数学强化（刷题+错题），已排到明天补做"
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "kyf1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 23
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 177
+    },
+    "kyf1_8": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-09_kyf1_8_c719558",
+       "text": "补做：政治（马原/史纲）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 57
+    },
+    "kyf1_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 55
+    },
+    "kyf1_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-07-09_kyf1_10_f288886",
+       "text": "当天错题精讲 5 道",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-09_kyf1_10_f661807",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 160
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 33
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "全天零弃训，运动全勤",
+    "日结复盘坚持满三周",
+    "专业课框架终于画顺了"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 5,
+    "sound": "bowl"
+   }
+  },
+  "2026-07-10": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 29
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-07-10_kyf1_2_f976115",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-10_kyf1_2_f375529",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 59
+    },
+    "kyf1_3": {
+     "s": "done",
+     "credited": 28
+    },
+    "kyf1_4": {
+     "s": "skip",
+     "note": "今天没顾上：数学强化（刷题+错题），已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-10_kyf1_4_c979462",
+       "text": "补做：数学强化（刷题+错题）",
+       "done": false,
+       "from": "carry"
+      }
+     ]
+    },
+    "kyf1_5": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 24
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 60
+    },
+    "kyf1_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 79
+    },
+    "kyf1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 50
+    },
+    "kyf1_9": {
+     "s": "done",
+     "credited": 58
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-10_kyf1_10_f116538",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-10_kyf1_10_f59298",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 168
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 36
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "数学模考比上周多对 8 分",
+    "专业课框架终于画顺了",
+    "政治马原不再怕"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "强化期的主旋律从「学新知」切到「刷题+真题」，节奏要更紧。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 8,
+   "meditation": {
+    "min": 6,
+    "sound": "waves"
+   }
+  },
+  "2026-07-11": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "kyfw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 26
+    },
+    "kyfw_3": {
+     "s": "done",
+     "credited": 150
+    },
+    "kyfw_4": {
+     "s": "done",
+     "credited": 77
+    },
+    "kyfw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 147
+    },
+    "kyfw_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 83
+    },
+    "kyfw_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 56
+    },
+    "kyfw_8": {
+     "s": "done",
+     "credited": 77
+    },
+    "kyfw_9": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 17
+    }
+   },
+   "wins": [
+    "政治马原不再怕",
+    "英语阅读错到 4 个以内"
+   ],
+   "review": "今天四科都推进了，数学刷题手感热，晚上错题精讲也清了，强化期就要这股劲。",
+   "reflection": "",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 5,
+    "sound": "bowl"
+   }
+  },
+  "2026-07-12": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 27
+    },
+    "kyfw_2": {
+     "s": "done",
+     "credited": 27
+    },
+    "kyfw_3": {
+     "s": "done",
+     "credited": 144
+    },
+    "kyfw_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 84
+    },
+    "kyfw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 173
+    },
+    "kyfw_6": {
+     "s": "done",
+     "credited": 77
+    },
+    "kyfw_7": {
+     "s": "done",
+     "credited": 49
+    },
+    "kyfw_8": {
+     "s": "done",
+     "credited": 77
+    },
+    "kyfw_9": {
+     "s": "done",
+     "credited": 37
+    }
+   },
+   "wins": [
+    "政治马原不再怕",
+    "专业课框架终于画顺了",
+    "英语阅读错到 4 个以内"
+   ],
+   "review": "今天四科都推进了，数学刷题手感热，晚上错题精讲也清了，强化期就要这股劲。",
+   "reflection": "强化期的主旋律从「学新知」切到「刷题+真题」，节奏要更紧。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 8,
+   "meditation": {
+    "min": 7,
+    "sound": "waves"
+   }
+  },
+  "2026-07-13": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 29
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-07-13_kyf1_2_f168176",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-13_kyf1_2_f233509",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 49
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 28
+    },
+    "kyf1_4": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-13_kyf1_4_c325261",
+       "text": "补做：数学强化（刷题+错题）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 162
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 54
+    },
+    "kyf1_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 50
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 154
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 51
+    },
+    "kyf1_9": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 23
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-13_kyf1_10_f599349",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-13_kyf1_10_f631904",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 177
+    },
+    "kyf1_11": {
+     "s": "done",
+     "credited": 39
+    },
+    "kyf1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "英语阅读错到 4 个以内",
+    "数学模考比上周多对 8 分",
+    "全天零弃训，运动全勤"
+   ],
+   "review": "今天四科都推进了，数学刷题手感热，晚上错题精讲也清了，强化期就要这股劲。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-14": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 26
+    },
+    "kyf1_2": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-14_kyf1_2_f265500",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-14_kyf1_2_f142781",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 53
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 30
+    },
+    "kyf1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 162
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 53
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 54
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 177
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 55
+    },
+    "kyf1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 51
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-14_kyf1_10_f542970",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-14_kyf1_10_f887769",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 175
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 32
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "专业课框架终于画顺了"
+   ],
+   "review": "模考日发挥稳，时间分配比上次好。",
+   "reflection": "考研拼的是持续输出，单日高强度不如天天稳定。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-15": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "kyf1_2": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-07-15_kyf1_2_f723195",
+       "text": "单词 100 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-15_kyf1_2_f98249",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 33
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 28
+    },
+    "kyf1_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 154
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 57
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 59
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 154
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 59
+    },
+    "kyf1_9": {
+     "s": "done",
+     "credited": 53
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-15_kyf1_10_f940972",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-15_kyf1_10_f562401",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 166
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 40
+    },
+    "kyf1_12": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 13
+    }
+   },
+   "wins": [
+    "专业课框架终于画顺了",
+    "全天零弃训，运动全勤"
+   ],
+   "review": "模考日发挥稳，时间分配比上次好。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-16": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-07-16_kyf1_2_f681262",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-16_kyf1_2_f558250",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 56
+    },
+    "kyf1_3": {
+     "s": "done",
+     "credited": 28
+    },
+    "kyf1_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 96
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 52
+    },
+    "kyf1_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 53
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 168
+    },
+    "kyf1_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 49
+    },
+    "kyf1_9": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 21
+    },
+    "kyf1_10": {
+     "s": "skip",
+     "note": "今天没顾上：当日习题 + 错题精讲，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-16_kyf1_10_f96112",
+       "text": "当天错题精讲 5 道",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-16_kyf1_10_f81895",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 35
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "政治马原不再怕",
+    "日结复盘坚持满三周",
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "考研拼的是持续输出，单日高强度不如天天稳定。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 13,
+    "sound": "forest"
+   }
+  },
+  "2026-07-17": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "kyf1_2": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-17_kyf1_2_f781313",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-17_kyf1_2_f602127",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 52
+    },
+    "kyf1_3": {
+     "s": "done",
+     "credited": 29
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 176
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 54
+    },
+    "kyf1_6": {
+     "s": "skip",
+     "note": "今天没顾上：午休，已排到明天补做"
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 164
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 55
+    },
+    "kyf1_9": {
+     "s": "skip",
+     "note": "今天没顾上：晚餐 + 快走，已排到明天补做"
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-17_kyf1_10_c971814",
+       "text": "补做：当日习题 + 错题精讲",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-07-17_kyf1_10_f670472",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-17_kyf1_10_f499060",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 145
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 38
+    },
+    "kyf1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "政治马原不再怕"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "考研拼的是持续输出，单日高强度不如天天稳定。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-18": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    },
+    "kyfw_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 28
+    },
+    "kyfw_3": {
+     "s": "done",
+     "credited": 164
+    },
+    "kyfw_4": {
+     "s": "done",
+     "credited": 83
+    },
+    "kyfw_5": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 94
+    },
+    "kyfw_6": {
+     "s": "done",
+     "credited": 75
+    },
+    "kyfw_7": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 35
+    },
+    "kyfw_8": {
+     "s": "skip",
+     "note": "今天没顾上：周总结 + 下周规划，已排到明天补做"
+    },
+    "kyfw_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "主要任务完成，政治今天有点赶，明天把史纲时间轴补完。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-19": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "credited": 25
+    },
+    "kyfw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 29
+    },
+    "kyfw_3": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 79
+    },
+    "kyfw_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 88
+    },
+    "kyfw_5": {
+     "s": "done",
+     "credited": 160
+    },
+    "kyfw_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 76
+    },
+    "kyfw_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 29
+    },
+    "kyfw_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-07-19_kyfw_8_c897880",
+       "text": "补做：周总结 + 下周规划",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 34
+    },
+    "kyfw_9": {
+     "s": "done",
+     "credited": 36
+    }
+   },
+   "wins": [
+    "专业课框架终于画顺了",
+    "全天零弃训，运动全勤",
+    "政治马原不再怕"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "数学计算正确率是命，每天错题精讲不能省。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 9,
+    "sound": "waves"
+   }
+  },
+  "2026-07-20": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 16
+    },
+    "kyf1_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-07-20_kyf1_2_f730960",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-20_kyf1_2_f719893",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 54
+    },
+    "kyf1_3": {
+     "s": "done",
+     "credited": 26
+    },
+    "kyf1_4": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 72
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 60
+    },
+    "kyf1_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-07-20_kyf1_6_c276146",
+       "text": "补做：午休",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 34
+    },
+    "kyf1_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 87
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 56
+    },
+    "kyf1_9": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-20_kyf1_9_c496285",
+       "text": "补做：晚餐 + 快走",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 51
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-20_kyf1_10_f801826",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-20_kyf1_10_f467654",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 171
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 38
+    },
+    "kyf1_12": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "英语阅读错到 4 个以内",
+    "全天零弃训，运动全勤",
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 6,
+   "meditation": {
+    "min": 15,
+    "sound": "stream"
+   }
+  },
+  "2026-07-21": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 11
+    },
+    "kyf1_2": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-07-21_kyf1_2_f939281",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-21_kyf1_2_f992529",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 151
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 56
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 49
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 150
+    },
+    "kyf1_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 48
+    },
+    "kyf1_9": {
+     "s": "done",
+     "credited": 51
+    },
+    "kyf1_10": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-07-21_kyf1_10_f658769",
+       "text": "当天错题精讲 5 道",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-21_kyf1_10_f697009",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 80
+    },
+    "kyf1_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 39
+    },
+    "kyf1_12": {
+     "s": "done",
+     "credited": 25
+    }
+   },
+   "wins": [
+    "日结复盘坚持满三周"
+   ],
+   "review": "今天四科都推进了，数学刷题手感热，晚上错题精讲也清了，强化期就要这股劲。",
+   "reflection": "强化期的主旋律从「学新知」切到「刷题+真题」，节奏要更紧。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 15,
+    "sound": "rain"
+   }
+  },
+  "2026-07-22": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "kyf1_2": {
+     "s": "skip",
+     "note": "今天没顾上：英语单词 + 长难句，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-22_kyf1_2_f204387",
+       "text": "单词 100 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-22_kyf1_2_f209226",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 170
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 58
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 57
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 172
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 56
+    },
+    "kyf1_9": {
+     "s": "done",
+     "credited": 53
+    },
+    "kyf1_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-07-22_kyf1_10_f328879",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-22_kyf1_10_f314222",
+       "text": "归因：概念/计算/思路",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 172
+    },
+    "kyf1_11": {
+     "s": "done",
+     "credited": 35
+    },
+    "kyf1_12": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 17
+    }
+   },
+   "wins": [
+    "英语阅读错到 4 个以内",
+    "数学模考比上周多对 8 分"
+   ],
+   "review": "今天四科都推进了，数学刷题手感热，晚上错题精讲也清了，强化期就要这股劲。",
+   "reflection": "强化期的主旋律从「学新知」切到「刷题+真题」，节奏要更紧。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-23": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "kyf1_2": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-07-23_kyf1_2_c723141",
+       "text": "补做：英语单词 + 长难句",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-07-23_kyf1_2_f832672",
+       "text": "单词 100 个",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-23_kyf1_2_f699863",
+       "text": "长难句 2 句",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "kyf1_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 30
+    },
+    "kyf1_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 152
+    },
+    "kyf1_5": {
+     "s": "done",
+     "credited": 59
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 49
+    },
+    "kyf1_7": {
+     "s": "done",
+     "credited": 170
+    },
+    "kyf1_8": {
+     "s": "done",
+     "credited": 57
+    },
+    "kyf1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 58
+    },
+    "kyf1_10": {
+     "s": "skip",
+     "note": "今天没顾上：当日习题 + 错题精讲，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-23_kyf1_10_f614123",
+       "text": "当天错题精讲 5 道",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-23_kyf1_10_f936069",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kyf1_11": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 20
+    },
+    "kyf1_12": {
+     "s": "skip",
+     "note": "今天没顾上：洗漱·睡觉，已排到明天补做"
+    }
+   },
+   "wins": [
+    "全天零弃训，运动全勤"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-07-24": {
+   "blocks": {
+    "kyf1_1": {
+     "s": "done",
+     "credited": 26
+    },
+    "kyf1_2": {
+     "s": "skip",
+     "note": "今天没顾上：英语单词 + 长难句，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-07-24_kyf1_2_f607084",
+       "text": "单词 100 个",
+       "done": false,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-24_kyf1_2_f817613",
+       "text": "长难句 2 句",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "kyf1_3": {
+     "s": "skip",
+     "note": "今天没顾上：早餐，已排到明天补做"
+    },
+    "kyf1_4": {
+     "s": "done",
+     "credited": 149
+    },
+    "kyf1_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 52
+    },
+    "kyf1_6": {
+     "s": "done",
+     "credited": 50
+    },
+    "kyf1_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 169
+    },
+    "kyf1_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 25
+    },
+    "kyf1_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 52
+    },
+    "kyf1_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-07-24_kyf1_10_c542994",
+       "text": "补做：当日习题 + 错题精讲",
+       "done": true,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-07-24_kyf1_10_f118349",
+       "text": "当天错题精讲 5 道",
+       "done": true,
+       "from": "fixed"
+      },
+      {
+       "id": "td_2026-07-24_kyf1_10_f390616",
+       "text": "归因：概念/计算/思路",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 174
+    },
+    "kyf1_11": {
+     "s": "done",
+     "credited": 37
+    },
+    "kyf1_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-07-24_kyf1_12_c337362",
+       "text": "补做：洗漱·睡觉",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 26
+    }
+   },
+   "wins": [
+    "日结复盘坚持满三周"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 13,
+    "sound": "bowl"
+   }
+  },
+  "2026-07-25": {
+   "blocks": {
+    "kyfw_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 28
+    },
+    "kyfw_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 30
+    },
+    "kyfw_3": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 98
+    },
+    "kyfw_4": {
+     "s": "done",
+     "credited": 73
+    },
+    "kyfw_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 148
+    },
+    "kyfw_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 84
+    },
+    "kyfw_7": {
+     "s": "done",
+     "credited": 58
+    },
+    "kyfw_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 81
+    },
+    "kyfw_9": {
+     "s": "done",
+     "credited": 33
+    }
+   },
+   "wins": [
+    "数学模考比上周多对 8 分",
+    "英语阅读错到 4 个以内",
+    "全天零弃训，运动全勤"
+   ],
+   "review": "数学练得猛，但专业课只推进一点，明天加半小时。",
+   "reflection": "专业课框架画出来才算真懂，光看书是假懂。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 8,
+   "meditation": {
+    "min": 8,
+    "sound": "stream"
+   }
+  }
+ },
+ "schedules": [
+  {
+   "id": "sc_kyf",
+   "name": "考研·强化阶段全天深耕作息",
+   "start": "2026-07-01",
+   "end": "2026-10-31",
+   "mode": "week",
+   "week": [
+    [
+     {
+      "id": "kyfw_1",
+      "s": "07:00",
+      "e": "07:30",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_2",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_3",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学模考（整套）",
+      "cat": "study",
+      "core": 1,
+      "tip": "严格计时 3 小时",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyfw_4",
+      "s": "11:30",
+      "e": "13:00",
+      "t": "午餐 + 休息",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_5",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "英语/政治模考 + 订正",
+      "cat": "study",
+      "core": 1,
+      "tip": "",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyfw_6",
+      "s": "16:30",
+      "e": "18:00",
+      "t": "运动 + 洗澡",
+      "cat": "health",
+      "core": 0,
+      "tip": "周日出出汗"
+     },
+     {
+      "id": "kyfw_7",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_8",
+      "s": "19:30",
+      "e": "21:00",
+      "t": "周总结 + 下周规划",
+      "cat": "study",
+      "core": 0,
+      "tip": "复盘本周薄弱",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyfw_9",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyf1_1",
+      "s": "06:30",
+      "e": "07:00",
+      "t": "起床洗漱 + 温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "不碰手机"
+     },
+     {
+      "id": "kyf1_2",
+      "s": "07:00",
+      "e": "08:00",
+      "t": "英语单词 + 长难句",
+      "cat": "study",
+      "core": 1,
+      "tip": "单词 100 + 长难句 2",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_3",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyf1_4",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学强化（刷题+错题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "高数/线代轮替，重计算",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_5",
+      "s": "11:30",
+      "e": "12:30",
+      "t": "午饭 + 散步",
+      "cat": "life",
+      "core": 0,
+      "tip": "晒太阳能提神"
+     },
+     {
+      "id": "kyf1_6",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "25 分钟小睡"
+     },
+     {
+      "id": "kyf1_7",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "专业课（教材+真题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "按章推进画框架",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyf1_8",
+      "s": "16:30",
+      "e": "17:30",
+      "t": "政治（马原/史纲）",
+      "cat": "study",
+      "core": 1,
+      "tip": "听课+刷 1000 题",
+      "subj": "kyf_pol"
+     },
+     {
+      "id": "kyf1_9",
+      "s": "17:30",
+      "e": "18:30",
+      "t": "晚餐 + 快走",
+      "cat": "health",
+      "core": 1,
+      "tip": "微微出汗"
+     },
+     {
+      "id": "kyf1_10",
+      "s": "18:30",
+      "e": "21:30",
+      "t": "当日习题 + 错题精讲",
+      "cat": "study",
+      "core": 1,
+      "tip": "白天学啥晚上练啥",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_11",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "日结复盘 + 英语阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "写两行复盘 + 精读 1 篇",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_12",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyf1_1",
+      "s": "06:30",
+      "e": "07:00",
+      "t": "起床洗漱 + 温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "不碰手机"
+     },
+     {
+      "id": "kyf1_2",
+      "s": "07:00",
+      "e": "08:00",
+      "t": "英语单词 + 长难句",
+      "cat": "study",
+      "core": 1,
+      "tip": "单词 100 + 长难句 2",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_3",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyf1_4",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学强化（刷题+错题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "高数/线代轮替，重计算",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_5",
+      "s": "11:30",
+      "e": "12:30",
+      "t": "午饭 + 散步",
+      "cat": "life",
+      "core": 0,
+      "tip": "晒太阳能提神"
+     },
+     {
+      "id": "kyf1_6",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "25 分钟小睡"
+     },
+     {
+      "id": "kyf1_7",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "专业课（教材+真题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "按章推进画框架",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyf1_8",
+      "s": "16:30",
+      "e": "17:30",
+      "t": "政治（马原/史纲）",
+      "cat": "study",
+      "core": 1,
+      "tip": "听课+刷 1000 题",
+      "subj": "kyf_pol"
+     },
+     {
+      "id": "kyf1_9",
+      "s": "17:30",
+      "e": "18:30",
+      "t": "晚餐 + 快走",
+      "cat": "health",
+      "core": 1,
+      "tip": "微微出汗"
+     },
+     {
+      "id": "kyf1_10",
+      "s": "18:30",
+      "e": "21:30",
+      "t": "当日习题 + 错题精讲",
+      "cat": "study",
+      "core": 1,
+      "tip": "白天学啥晚上练啥",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_11",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "日结复盘 + 英语阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "写两行复盘 + 精读 1 篇",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_12",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyf1_1",
+      "s": "06:30",
+      "e": "07:00",
+      "t": "起床洗漱 + 温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "不碰手机"
+     },
+     {
+      "id": "kyf1_2",
+      "s": "07:00",
+      "e": "08:00",
+      "t": "英语单词 + 长难句",
+      "cat": "study",
+      "core": 1,
+      "tip": "单词 100 + 长难句 2",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_3",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyf1_4",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学强化（刷题+错题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "高数/线代轮替，重计算",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_5",
+      "s": "11:30",
+      "e": "12:30",
+      "t": "午饭 + 散步",
+      "cat": "life",
+      "core": 0,
+      "tip": "晒太阳能提神"
+     },
+     {
+      "id": "kyf1_6",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "25 分钟小睡"
+     },
+     {
+      "id": "kyf1_7",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "专业课（教材+真题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "按章推进画框架",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyf1_8",
+      "s": "16:30",
+      "e": "17:30",
+      "t": "政治（马原/史纲）",
+      "cat": "study",
+      "core": 1,
+      "tip": "听课+刷 1000 题",
+      "subj": "kyf_pol"
+     },
+     {
+      "id": "kyf1_9",
+      "s": "17:30",
+      "e": "18:30",
+      "t": "晚餐 + 快走",
+      "cat": "health",
+      "core": 1,
+      "tip": "微微出汗"
+     },
+     {
+      "id": "kyf1_10",
+      "s": "18:30",
+      "e": "21:30",
+      "t": "当日习题 + 错题精讲",
+      "cat": "study",
+      "core": 1,
+      "tip": "白天学啥晚上练啥",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_11",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "日结复盘 + 英语阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "写两行复盘 + 精读 1 篇",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_12",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyf1_1",
+      "s": "06:30",
+      "e": "07:00",
+      "t": "起床洗漱 + 温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "不碰手机"
+     },
+     {
+      "id": "kyf1_2",
+      "s": "07:00",
+      "e": "08:00",
+      "t": "英语单词 + 长难句",
+      "cat": "study",
+      "core": 1,
+      "tip": "单词 100 + 长难句 2",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_3",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyf1_4",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学强化（刷题+错题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "高数/线代轮替，重计算",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_5",
+      "s": "11:30",
+      "e": "12:30",
+      "t": "午饭 + 散步",
+      "cat": "life",
+      "core": 0,
+      "tip": "晒太阳能提神"
+     },
+     {
+      "id": "kyf1_6",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "25 分钟小睡"
+     },
+     {
+      "id": "kyf1_7",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "专业课（教材+真题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "按章推进画框架",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyf1_8",
+      "s": "16:30",
+      "e": "17:30",
+      "t": "政治（马原/史纲）",
+      "cat": "study",
+      "core": 1,
+      "tip": "听课+刷 1000 题",
+      "subj": "kyf_pol"
+     },
+     {
+      "id": "kyf1_9",
+      "s": "17:30",
+      "e": "18:30",
+      "t": "晚餐 + 快走",
+      "cat": "health",
+      "core": 1,
+      "tip": "微微出汗"
+     },
+     {
+      "id": "kyf1_10",
+      "s": "18:30",
+      "e": "21:30",
+      "t": "当日习题 + 错题精讲",
+      "cat": "study",
+      "core": 1,
+      "tip": "白天学啥晚上练啥",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_11",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "日结复盘 + 英语阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "写两行复盘 + 精读 1 篇",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_12",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyf1_1",
+      "s": "06:30",
+      "e": "07:00",
+      "t": "起床洗漱 + 温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "不碰手机"
+     },
+     {
+      "id": "kyf1_2",
+      "s": "07:00",
+      "e": "08:00",
+      "t": "英语单词 + 长难句",
+      "cat": "study",
+      "core": 1,
+      "tip": "单词 100 + 长难句 2",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_3",
+      "s": "08:00",
+      "e": "08:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyf1_4",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学强化（刷题+错题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "高数/线代轮替，重计算",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_5",
+      "s": "11:30",
+      "e": "12:30",
+      "t": "午饭 + 散步",
+      "cat": "life",
+      "core": 0,
+      "tip": "晒太阳能提神"
+     },
+     {
+      "id": "kyf1_6",
+      "s": "12:30",
+      "e": "13:30",
+      "t": "午休",
+      "cat": "rest",
+      "core": 1,
+      "tip": "25 分钟小睡"
+     },
+     {
+      "id": "kyf1_7",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "专业课（教材+真题）",
+      "cat": "study",
+      "core": 1,
+      "tip": "按章推进画框架",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyf1_8",
+      "s": "16:30",
+      "e": "17:30",
+      "t": "政治（马原/史纲）",
+      "cat": "study",
+      "core": 1,
+      "tip": "听课+刷 1000 题",
+      "subj": "kyf_pol"
+     },
+     {
+      "id": "kyf1_9",
+      "s": "17:30",
+      "e": "18:30",
+      "t": "晚餐 + 快走",
+      "cat": "health",
+      "core": 1,
+      "tip": "微微出汗"
+     },
+     {
+      "id": "kyf1_10",
+      "s": "18:30",
+      "e": "21:30",
+      "t": "当日习题 + 错题精讲",
+      "cat": "study",
+      "core": 1,
+      "tip": "白天学啥晚上练啥",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyf1_11",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "日结复盘 + 英语阅读",
+      "cat": "study",
+      "core": 0,
+      "tip": "写两行复盘 + 精读 1 篇",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyf1_12",
+      "s": "22:10",
+      "e": "22:40",
+      "t": "洗漱·睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ],
+    [
+     {
+      "id": "kyfw_1",
+      "s": "07:00",
+      "e": "07:30",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_2",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_3",
+      "s": "08:30",
+      "e": "11:30",
+      "t": "数学模考（整套）",
+      "cat": "study",
+      "core": 1,
+      "tip": "严格计时 3 小时",
+      "subj": "kyf_math"
+     },
+     {
+      "id": "kyfw_4",
+      "s": "11:30",
+      "e": "13:00",
+      "t": "午餐 + 休息",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_5",
+      "s": "13:30",
+      "e": "16:30",
+      "t": "英语/政治模考 + 订正",
+      "cat": "study",
+      "core": 1,
+      "tip": "",
+      "subj": "kyf_eng"
+     },
+     {
+      "id": "kyfw_6",
+      "s": "16:30",
+      "e": "18:00",
+      "t": "运动 + 洗澡",
+      "cat": "health",
+      "core": 0,
+      "tip": "周日出出汗"
+     },
+     {
+      "id": "kyfw_7",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "kyfw_8",
+      "s": "19:30",
+      "e": "21:00",
+      "t": "周总结 + 下周规划",
+      "cat": "study",
+      "core": 0,
+      "tip": "复盘本周薄弱",
+      "subj": "kyf_major"
+     },
+     {
+      "id": "kyfw_9",
+      "s": "21:30",
+      "e": "22:10",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     }
+    ]
+   ]
+  }
+ ],
+ "targets": {
+  "kyf_math": 1260,
+  "kyf_eng": 630,
+  "kyf_pol": 420,
+  "kyf_major": 1260
+ },
+ "countdowns": [
+  {
+   "id": "cd_kyf1",
+   "title": "考研初试",
+   "date": "2026-12-19",
+   "time": "08:30",
+   "color": "red",
+   "note": "一战上岸",
+   "repeat": ""
+  },
+  {
+   "id": "cd_kyf2",
+   "title": "考研报名",
+   "date": "2026-10-15",
+   "time": "00:00",
+   "color": "orange",
+   "note": "别错过网报",
+   "repeat": ""
+  }
+ ],
+ "fixedTodos": {
+  "kyf1_10": [
+   "当天错题精讲 5 道",
+   "归因：概念/计算/思路"
+  ],
+  "kyf1_2": [
+   "单词 100 个",
+   "长难句 2 句"
+  ]
+ },
+ "trips": [],
+ "archive": [],
+ "aiPlans": [],
+ "settings": null,
+ "migr": {
+  "reserveReset": true
+ },
+ "plan": {
+  "subjects": [
+   {
+    "ic": "📐",
+    "name": "数学（高数/线代/概率）",
+    "color": "#7c9cff",
+    "h": 180,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "2026-12-19",
+    "goal": "强化阶段：刷题为主，高数（积分/级数为重）、线代（特征/二次型）、概率（多维随机）全覆盖，计算正确率冲 95%。",
+    "extra": "每天 3 小时刷题 + 晚上错题精讲；每周日整套模考；错题本按「概念/计算/思路」归因，第二天优先复习。",
+    "milestones": [
+     {
+      "name": "高数：定积分与反常积分（刷题）",
+      "done": true
+     },
+     {
+      "name": "高数：重积分（计算提速）",
+      "done": true
+     },
+     {
+      "name": "线代：特征值与二次型",
+      "done": false
+     },
+     {
+      "name": "概率：多维随机变量",
+      "done": false
+     },
+     {
+      "name": "级数审敛与幂级数",
+      "done": false
+     },
+     {
+      "name": "真题套卷 10 套",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "ky考研",
+    "loaded": false,
+    "id": "kyf_math"
+   },
+   {
+    "ic": "🔤",
+    "name": "英语（词汇/阅读/写作）",
+    "color": "#67c98f",
+    "h": 90,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "2026-12-19",
+    "goal": "阅读正确率 80%+，写作背熟模板，词汇一轮收尾转真题。",
+    "extra": "晨间单词 100 + 长难句；晚上精读 1 篇；写作每周 2 篇。",
+    "milestones": [
+     {
+      "name": "核心词一轮收尾",
+      "done": true
+     },
+     {
+      "name": "阅读真题精读 40 篇",
+      "done": false
+     },
+     {
+      "name": "写作 3 类模板默写",
+      "done": false
+     },
+     {
+      "name": "翻译与新题型",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "ky考研",
+    "loaded": false,
+    "id": "kyf_eng"
+   },
+   {
+    "ic": "📕",
+    "name": "政治（马原/史纲/思修/毛中特）",
+    "color": "#f7b955",
+    "h": 60,
+    "wk": 6,
+    "owner": "我",
+    "deadline": "2026-12-19",
+    "goal": "强化阶段听课后刷 1000 题，马原理解、史纲时间线、思修记忆、毛中特跟热点。",
+    "extra": "每天 1 小时；马原重在理解原理，史纲画时间轴；冲刺前不背大题，先理解。",
+    "milestones": [
+     {
+      "name": "马原：唯物辩证法（理解）",
+      "done": true
+     },
+     {
+      "name": "史纲：时间轴串完",
+      "done": false
+     },
+     {
+      "name": "思修法基",
+      "done": false
+     },
+     {
+      "name": "1000 题一刷完成",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "ky考研",
+    "loaded": false,
+    "id": "kyf_pol"
+   },
+   {
+    "ic": "🎓",
+    "name": "专业课（两门核心）",
+    "color": "#c4a7ff",
+    "h": 180,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "2026-12-19",
+    "goal": "教材二刷 + 真题研究，按章画框架，高频考点做成卡片。",
+    "extra": "每天 3 小时；先目录后精读，读完合书默框架；真题按题型归类，总结答题模板。",
+    "milestones": [
+     {
+      "name": "教材一轮框架完成",
+      "done": true
+     },
+     {
+      "name": "教材二轮精读（重点章）",
+      "done": false
+     },
+     {
+      "name": "近 10 年真题分类",
+      "done": false
+     },
+     {
+      "name": "高频考点卡片 50 张",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "ky考研",
+    "loaded": false,
+    "id": "kyf_major"
+   }
+  ]
+ }
+}
