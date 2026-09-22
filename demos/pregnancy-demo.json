@@ -1,0 +1,2686 @@
+{
+ "days": {
+  "2026-08-31": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 28
+    },
+    "pyd_2": {
+     "s": "done",
+     "credited": 38
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 193
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 40
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 42
+    },
+    "pyd_6": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 221
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 27
+    },
+    "pyd_8": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 30
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 44
+    },
+    "pyd_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-08-31_pyd_10_f510180",
+       "text": "记录 1 次胎动时间与规律",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 24
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 30
+    },
+    "pyd_12": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "血糖稳，饭后没头晕",
+    "孕妇课的呼吸操学会了",
+    "待产包又勾掉两项，越来越齐"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "胎教的时候宝宝回应，很有意思。",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 7,
+   "meditation": {
+    "min": 6,
+    "sound": "stream"
+   }
+  },
+  "2026-09-01": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "pyd_2": {
+     "s": "done",
+     "credited": 38
+    },
+    "pyd_3": {
+     "s": "done",
+     "credited": 194
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 37
+    },
+    "pyd_5": {
+     "s": "done",
+     "credited": 40
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 205
+    },
+    "pyd_7": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 15
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 56
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 42
+    },
+    "pyd_10": {
+     "s": "skip",
+     "note": "今天没顾上：胎动观察，已排到明天补做",
+     "todos": [
+      {
+       "id": "td_2026-09-01_pyd_10_f574094",
+       "text": "记录 1 次胎动时间与规律",
+       "done": false,
+       "from": "fixed"
+      }
+     ]
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 27
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "今天胎动特别活跃，像在挥小手",
+    "孕妇课的呼吸操学会了"
+   ],
+   "review": "孕动做了点赶，但日常胎动数得挺好，轻松就好。",
+   "reflection": "胎动好像晚上最活跃，记录下来备查。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 6,
+   "meditation": {
+    "min": 5,
+    "sound": "forest"
+   }
+  },
+  "2026-09-02": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 26
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 35
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 191
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 39
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 40
+    },
+    "pyd_6": {
+     "s": "skip",
+     "note": "今天没顾上：工作（轻任务），已排到明天补做"
+    },
+    "pyd_7": {
+     "s": "done",
+     "credited": 28
+    },
+    "pyd_8": {
+     "s": "done",
+     "credited": 51
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 38
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-02_pyd_10_c852457",
+       "text": "补做：胎动观察",
+       "done": false,
+       "from": "carry"
+      },
+      {
+       "id": "td_2026-09-02_pyd_10_f547934",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 28
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 28
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "胎动规律越来越稳定",
+    "待产包又勾掉两项，越来越齐",
+    "周日体重打卡完成，在范围内"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "胎教的时候宝宝回应，很有意思。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 7,
+    "sound": "rain"
+   }
+  },
+  "2026-09-03": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 25
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 40
+    },
+    "pyd_3": {
+     "s": "done",
+     "credited": 162
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 44
+    },
+    "pyd_5": {
+     "s": "done",
+     "credited": 41
+    },
+    "pyd_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-03_pyd_6_c864358",
+       "text": "补做：工作（轻任务）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 232
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 27
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 59
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 37
+    },
+    "pyd_10": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "todos": [
+      {
+       "id": "td_2026-09-03_pyd_10_f983154",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 13
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 27
+    },
+    "pyd_12": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 18
+    }
+   },
+   "wins": [
+    "待产包又勾掉两项，越来越齐"
+   ],
+   "review": "整体达标，就是午后小睡短了点。核心胎动观察没落下，身体状态可控。",
+   "reflection": "胎动好像晚上最活跃，记录下来备查。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-09-04": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 29
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 38
+    },
+    "pyd_3": {
+     "s": "done",
+     "credited": 200
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 41
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 37
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 197
+    },
+    "pyd_7": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 18
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 53
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 40
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-04_pyd_10_f492432",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 24
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 24
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 30
+    }
+   },
+   "wins": [
+    "散步 20min，腿脚轻松不少",
+    "血糖稳，饭后没头晕",
+    "孕动瑜伽做顺畅了，腰没那么酸"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "胎教的时候宝宝回应，很有意思。",
+   "mood": 5,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 11,
+    "sound": "stream"
+   }
+  },
+  "2026-09-05": {
+   "blocks": {
+    "pys_1": {
+     "s": "done",
+     "credited": 24
+    },
+    "pys_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 42
+    },
+    "pys_3": {
+     "s": "done",
+     "note": "稳稳完成",
+     "todos": [
+      {
+       "id": "td_2026-09-05_pys_3_f819433",
+       "text": "写一条胎教笔记",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 75
+    },
+    "pys_4": {
+     "s": "done",
+     "credited": 42
+    },
+    "pys_5": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 46
+    },
+    "pys_6": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 43
+    },
+    "pys_7": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 55
+    },
+    "pys_8": {
+     "s": "done",
+     "credited": 50
+    },
+    "pys_9": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "pys_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "今天胎动特别活跃，像在挥小手"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "左侧卧不太舒服，要不要买个孕妇枕。",
+   "mood": 3,
+   "energy": 4,
+   "sleep": 6,
+   "meditation": {
+    "min": 7,
+    "sound": "bowl"
+   }
+  },
+  "2026-09-06": {
+   "blocks": {
+    "py0_1": {
+     "s": "done",
+     "credited": 25
+    },
+    "py0_2": {
+     "s": "done",
+     "credited": 43
+    },
+    "py0_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 65
+    },
+    "py0_4": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 16
+    },
+    "py0_5": {
+     "s": "done",
+     "credited": 82
+    },
+    "py0_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-06_py0_6_f481935",
+       "text": "待产包勾一项",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 56
+    },
+    "py0_7": {
+     "s": "done",
+     "credited": 37
+    },
+    "py0_8": {
+     "s": "done",
+     "credited": 48
+    },
+    "py0_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 25
+    },
+    "py0_10": {
+     "s": "done",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "周日体重打卡完成，在范围内"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "左侧卧不太舒服，要不要买个孕妇枕。",
+   "mood": 3,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 9,
+    "sound": "stream"
+   }
+  },
+  "2026-09-07": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "credited": 27
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 38
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 174
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 45
+    },
+    "pyd_5": {
+     "s": "done",
+     "credited": 39
+    },
+    "pyd_6": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 200
+    },
+    "pyd_7": {
+     "s": "done",
+     "credited": 25
+    },
+    "pyd_8": {
+     "s": "done",
+     "credited": 57
+    },
+    "pyd_9": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 19
+    },
+    "pyd_10": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-09-07_pyd_10_f744026",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 12
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 27
+    },
+    "pyd_12": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    }
+   },
+   "wins": [
+    "周日体重打卡完成，在范围内",
+    "胎动规律越来越稳定",
+    "孕动瑜伽做顺畅了，腰没那么酸"
+   ],
+   "review": "孕动做了点赶，但日常胎动数得挺好，轻松就好。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 5,
+   "energy": 5,
+   "sleep": 6,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-09-08": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "credited": 28
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 36
+    },
+    "pyd_3": {
+     "s": "done",
+     "credited": 167
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 37
+    },
+    "pyd_5": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 26
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 231
+    },
+    "pyd_7": {
+     "s": "done",
+     "credited": 25
+    },
+    "pyd_8": {
+     "s": "done",
+     "credited": 51
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 42
+    },
+    "pyd_10": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-09-08_pyd_10_f654737",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 26
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 27
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "今天胎动特别活跃，像在挥小手",
+    "孕妇课的呼吸操学会了",
+    "散步 20min，腿脚轻松不少"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "保险卡已经放进待产包，产检别忘带。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 8,
+    "sound": "stream"
+   }
+  },
+  "2026-09-09": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 24
+    },
+    "pyd_2": {
+     "s": "done",
+     "credited": 36
+    },
+    "pyd_3": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 106
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 36
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 43
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 192
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 26
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 43
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-09_pyd_10_f737151",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 25
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 24
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "孕妇课的呼吸操学会了"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 7,
+   "meditation": {
+    "min": 12,
+    "sound": "bowl"
+   }
+  },
+  "2026-09-10": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 28
+    },
+    "pyd_2": {
+     "s": "done",
+     "credited": 34
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 196
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 37
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 38
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 236
+    },
+    "pyd_7": {
+     "s": "done",
+     "credited": 25
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 51
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 38
+    },
+    "pyd_10": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-09-10_pyd_10_f336134",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 15
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 29
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "今天胎动特别活跃，像在挥小手"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "保险卡已经放进待产包，产检别忘带。",
+   "mood": 4,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-09-11": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 29
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 35
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 187
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 45
+    },
+    "pyd_5": {
+     "s": "done",
+     "credited": 43
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 197
+    },
+    "pyd_7": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 13
+    },
+    "pyd_8": {
+     "s": "done",
+     "credited": 52
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 43
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-11_pyd_10_f822394",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 25
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 24
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 26
+    }
+   },
+   "wins": [
+    "血糖稳，饭后没头晕",
+    "胎动规律越来越稳定"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "左侧卧不太舒服，要不要买个孕妇枕。",
+   "mood": 4,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-09-12": {
+   "blocks": {
+    "pys_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 25
+    },
+    "pys_2": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 39
+    },
+    "pys_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "todos": [
+      {
+       "id": "td_2026-09-12_pys_3_f414412",
+       "text": "写一条胎教笔记",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 78
+    },
+    "pys_4": {
+     "s": "done",
+     "credited": 38
+    },
+    "pys_5": {
+     "s": "done",
+     "credited": 78
+    },
+    "pys_6": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 32
+    },
+    "pys_7": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 55
+    },
+    "pys_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "pys_9": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 27
+    },
+    "pys_10": {
+     "s": "done",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "周日体重打卡完成，在范围内",
+    "待产包又勾掉两项，越来越齐"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 5,
+   "energy": 3,
+   "sleep": 6,
+   "meditation": {
+    "min": 12,
+    "sound": "rain"
+   }
+  },
+  "2026-09-13": {
+   "blocks": {
+    "py0_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 28
+    },
+    "py0_2": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 45
+    },
+    "py0_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 67
+    },
+    "py0_4": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 40
+    },
+    "py0_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 82
+    },
+    "py0_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-13_py0_6_f307964",
+       "text": "待产包勾一项",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 52
+    },
+    "py0_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 41
+    },
+    "py0_8": {
+     "s": "skip",
+     "note": "今天没顾上：阅读·孕育知识，已排到明天补做"
+    },
+    "py0_9": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 28
+    },
+    "py0_10": {
+     "s": "done",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "散步 20min，腿脚轻松不少",
+    "待产包又勾掉两项，越来越齐",
+    "孕妇课的呼吸操学会了"
+   ],
+   "review": "今天节奏很好：孕动、胎动观察、轻任务都按序完成，身体状态轻盈。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 4,
+   "energy": 2,
+   "sleep": 8,
+   "meditation": {
+    "min": 10,
+    "sound": "pink"
+   }
+  },
+  "2026-09-14": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 34
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 164
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 39
+    },
+    "pyd_5": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 20
+    },
+    "pyd_6": {
+     "s": "done",
+     "credited": 214
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 48
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 39
+    },
+    "pyd_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-09-14_pyd_10_f939173",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "pyd_11": {
+     "s": "done",
+     "credited": 24
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 28
+    }
+   },
+   "wins": [
+    "散步 20min，腿脚轻松不少",
+    "今天胎动特别活跃，像在挥小手",
+    "待产包又勾掉两项，越来越齐"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "保险卡已经放进待产包，产检别忘带。",
+   "mood": 3,
+   "energy": 2,
+   "sleep": 7,
+   "meditation": {
+    "min": 15,
+    "sound": "waves"
+   }
+  },
+  "2026-09-15": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 28
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 36
+    },
+    "pyd_3": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 101
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 37
+    },
+    "pyd_5": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 18
+    },
+    "pyd_6": {
+     "s": "skip",
+     "note": "今天没顾上：工作（轻任务），已排到明天补做"
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 29
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 59
+    },
+    "pyd_9": {
+     "s": "done",
+     "credited": 42
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-15_pyd_10_f349333",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "pyd_11": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "credited": 13
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "周日体重打卡完成，在范围内"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "",
+   "mood": 3,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 5,
+    "sound": "waves"
+   }
+  },
+  "2026-09-16": {
+   "blocks": {
+    "pyd_1": {
+     "s": "skip",
+     "note": "今天没顾上：起床·温水，已排到明天补做"
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 35
+    },
+    "pyd_3": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 183
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 42
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 39
+    },
+    "pyd_6": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-09-16_pyd_6_c952285",
+       "text": "补做：工作（轻任务）",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 197
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 26
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 57
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 41
+    },
+    "pyd_10": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-09-16_pyd_10_f231054",
+       "text": "记录 1 次胎动时间与规律",
+       "done": false,
+       "from": "fixed"
+      }
+     ],
+     "credited": 29
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 25
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 24
+    }
+   },
+   "wins": [
+    "待产包又勾掉两项，越来越齐",
+    "今天胎动特别活跃，像在挥小手"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 3,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 15,
+    "sound": "bowl"
+   }
+  },
+  "2026-09-17": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "todos": [
+      {
+       "id": "td_2026-09-17_pyd_1_c796488",
+       "text": "补做：起床·温水",
+       "done": true,
+       "from": "carry"
+      }
+     ],
+     "credited": 26
+    },
+    "pyd_2": {
+     "s": "done",
+     "credited": 32
+    },
+    "pyd_3": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 88
+    },
+    "pyd_4": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 42
+    },
+    "pyd_5": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "credited": 23
+    },
+    "pyd_6": {
+     "s": "part",
+     "note": "做了一半，剩的明天收",
+     "credited": 144
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 24
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 53
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 36
+    },
+    "pyd_10": {
+     "s": "part",
+     "note": "今天有点分心，只完成部分",
+     "todos": [
+      {
+       "id": "td_2026-09-17_pyd_10_f97567",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 18
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 26
+    },
+    "pyd_12": {
+     "s": "done",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "待产包又勾掉两项，越来越齐"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "胎教的时候宝宝回应，很有意思。",
+   "mood": 4,
+   "energy": 3,
+   "sleep": 7,
+   "meditation": {
+    "min": 9,
+    "sound": "forest"
+   }
+  },
+  "2026-09-18": {
+   "blocks": {
+    "pyd_1": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 30
+    },
+    "pyd_2": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 33
+    },
+    "pyd_3": {
+     "s": "skip",
+     "note": "今天没顾上：工作（轻任务），已排到明天补做"
+    },
+    "pyd_4": {
+     "s": "done",
+     "credited": 41
+    },
+    "pyd_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 38
+    },
+    "pyd_6": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 197
+    },
+    "pyd_7": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 30
+    },
+    "pyd_8": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 58
+    },
+    "pyd_9": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 42
+    },
+    "pyd_10": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-18_pyd_10_f326580",
+       "text": "记录 1 次胎动时间与规律",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 30
+    },
+    "pyd_11": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 25
+    },
+    "pyd_12": {
+     "s": "skip",
+     "note": "今天没顾上：睡觉，已排到明天补做"
+    }
+   },
+   "wins": [
+    "周日体重打卡完成，在范围内",
+    "孕动瑜伽做顺畅了，腰没那么酸"
+   ],
+   "review": "整体达标，就是午后小睡短了点。核心胎动观察没落下，身体状态可控。",
+   "reflection": "散步 10 分钟，饭后晕就缓过来了。",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 14,
+    "sound": "bowl"
+   }
+  },
+  "2026-09-19": {
+   "blocks": {
+    "pys_1": {
+     "s": "done",
+     "note": "搞定，状态在线",
+     "credited": 27
+    },
+    "pys_2": {
+     "s": "done",
+     "credited": 42
+    },
+    "pys_3": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "todos": [
+      {
+       "id": "td_2026-09-19_pys_3_f427969",
+       "text": "写一条胎教笔记",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 75
+    },
+    "pys_4": {
+     "s": "done",
+     "note": "今天这块效率高",
+     "credited": 42
+    },
+    "pys_5": {
+     "s": "done",
+     "credited": 84
+    },
+    "pys_6": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 75
+    },
+    "pys_7": {
+     "s": "done",
+     "credited": 58
+    },
+    "pys_8": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 59
+    },
+    "pys_9": {
+     "s": "skip",
+     "note": "今天没顾上：温水泡脚，已排到明天补做"
+    },
+    "pys_10": {
+     "s": "skip",
+     "note": "今天没顾上：睡觉，已排到明天补做"
+    }
+   },
+   "wins": [
+    "孕动瑜伽做顺畅了，腰没那么酸"
+   ],
+   "review": "整体达标，就是午后小睡短了点。核心胎动观察没落下，身体状态可控。",
+   "reflection": "",
+   "mood": 5,
+   "energy": 4,
+   "sleep": 8,
+   "meditation": {
+    "min": 0,
+    "sound": ""
+   }
+  },
+  "2026-09-20": {
+   "blocks": {
+    "py0_1": {
+     "s": "done",
+     "note": "稳稳完成",
+     "credited": 26
+    },
+    "py0_2": {
+     "s": "done",
+     "credited": 37
+    },
+    "py0_3": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 72
+    },
+    "py0_4": {
+     "s": "done",
+     "credited": 41
+    },
+    "py0_5": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 74
+    },
+    "py0_6": {
+     "s": "done",
+     "todos": [
+      {
+       "id": "td_2026-09-20_py0_6_f850871",
+       "text": "待产包勾一项",
+       "done": true,
+       "from": "fixed"
+      }
+     ],
+     "credited": 50
+    },
+    "py0_7": {
+     "s": "done",
+     "credited": 39
+    },
+    "py0_8": {
+     "s": "part",
+     "note": "中途被打断，继续推进",
+     "todos": [
+      {
+       "id": "td_2026-09-20_py0_8_c154931",
+       "text": "补做：阅读·孕育知识",
+       "done": false,
+       "from": "carry"
+      }
+     ],
+     "credited": 32
+    },
+    "py0_9": {
+     "s": "done",
+     "credited": 25
+    },
+    "py0_10": {
+     "s": "done",
+     "note": "按计划完成",
+     "credited": 29
+    }
+   },
+   "wins": [
+    "孕动瑜伽做顺畅了，腰没那么酸"
+   ],
+   "review": "三餐和午休都顾到了，不头晕也不乏力——孕期也要过得很讲究。",
+   "reflection": "保险卡已经放进待产包，产检别忘带。",
+   "mood": 3,
+   "energy": 5,
+   "sleep": 8,
+   "meditation": {
+    "min": 9,
+    "sound": "stream"
+   }
+  }
+ },
+ "schedules": [
+  {
+   "id": "sc_py",
+   "name": "孕期管理 · 孕中期节奏（轻工作 + 孕动 + 胎动 + 产检）",
+   "start": "2026-07-01",
+   "end": "2026-12-27",
+   "mode": "week",
+   "week": [
+    [
+     {
+      "id": "py0_1",
+      "s": "09:00",
+      "e": "09:30",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": "睡饱一点也没关系"
+     },
+     {
+      "id": "py0_2",
+      "s": "09:45",
+      "e": "10:30",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "py0_3",
+      "s": "10:45",
+      "e": "12:00",
+      "t": "胎动观察+记录",
+      "cat": "health",
+      "core": 1,
+      "tip": "数 1 次，记下时间与力度",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "py0_4",
+      "s": "12:30",
+      "e": "13:15",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "py0_5",
+      "s": "13:30",
+      "e": "15:00",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "py0_6",
+      "s": "16:00",
+      "e": "17:00",
+      "t": "待产包·产检记录整理",
+      "cat": "life",
+      "core": 0,
+      "tip": "证件/病历/待产包，每周核对一次",
+      "subj": "py_yingdai"
+     },
+     {
+      "id": "py0_7",
+      "s": "18:00",
+      "e": "18:45",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "py0_8",
+      "s": "19:30",
+      "e": "20:30",
+      "t": "阅读·孕育知识",
+      "cat": "study",
+      "core": 0,
+      "tip": "分娩准备/新生儿护理，每次一篇",
+      "subj": "py_chanji"
+     },
+     {
+      "id": "py0_9",
+      "s": "21:00",
+      "e": "21:30",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "py0_10",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "胎宝也睡觉觉"
+     }
+    ],
+    [
+     {
+      "id": "pyd_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床·温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "晨起一杯温水，慢慢起身"
+     },
+     {
+      "id": "pyd_2",
+      "s": "08:00",
+      "e": "08:40",
+      "t": "早餐·补剂",
+      "cat": "life",
+      "core": 0,
+      "tip": "铁/钙/维D 定时补，低GI早餐稳血糖"
+     },
+     {
+      "id": "pyd_3",
+      "s": "08:40",
+      "e": "12:00",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "每小时起身活动 5 分钟"
+     },
+     {
+      "id": "pyd_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "先菜再肉后主食，七分饱"
+     },
+     {
+      "id": "pyd_5",
+      "s": "12:45",
+      "e": "13:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "20~30 分钟，左侧卧"
+     },
+     {
+      "id": "pyd_6",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "多喝水，起身走动"
+     },
+     {
+      "id": "pyd_7",
+      "s": "17:30",
+      "e": "18:00",
+      "t": "傍晚散步",
+      "cat": "health",
+      "core": 1,
+      "tip": "能边走边说话的 pace，累了就慢",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_8",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "控制份量，七八分饱"
+     },
+     {
+      "id": "pyd_9",
+      "s": "19:30",
+      "e": "20:15",
+      "t": "孕妇瑜伽·拉伸",
+      "cat": "health",
+      "core": 1,
+      "tip": "猫式/蝴蝶式/坐姿深蹲，不勉强",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "胎动观察",
+      "cat": "health",
+      "core": 1,
+      "tip": "饭后安静环境计数，记录规律",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pyd_11",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": "水温低于 40°C，10~15 分钟"
+     },
+     {
+      "id": "pyd_12",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "左侧卧或半卧位，枕腹支撑"
+     }
+    ],
+    [
+     {
+      "id": "pyd_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床·温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "晨起一杯温水，慢慢起身"
+     },
+     {
+      "id": "pyd_2",
+      "s": "08:00",
+      "e": "08:40",
+      "t": "早餐·补剂",
+      "cat": "life",
+      "core": 0,
+      "tip": "铁/钙/维D 定时补，低GI早餐稳血糖"
+     },
+     {
+      "id": "pyd_3",
+      "s": "08:40",
+      "e": "12:00",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "每小时起身活动 5 分钟"
+     },
+     {
+      "id": "pyd_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "先菜再肉后主食，七分饱"
+     },
+     {
+      "id": "pyd_5",
+      "s": "12:45",
+      "e": "13:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "20~30 分钟，左侧卧"
+     },
+     {
+      "id": "pyd_6",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "多喝水，起身走动"
+     },
+     {
+      "id": "pyd_7",
+      "s": "17:30",
+      "e": "18:00",
+      "t": "傍晚散步",
+      "cat": "health",
+      "core": 1,
+      "tip": "能边走边说话的 pace，累了就慢",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_8",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "控制份量，七八分饱"
+     },
+     {
+      "id": "pyd_9",
+      "s": "19:30",
+      "e": "20:15",
+      "t": "孕妇瑜伽·拉伸",
+      "cat": "health",
+      "core": 1,
+      "tip": "猫式/蝴蝶式/坐姿深蹲，不勉强",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "胎动观察",
+      "cat": "health",
+      "core": 1,
+      "tip": "饭后安静环境计数，记录规律",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pyd_11",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": "水温低于 40°C，10~15 分钟"
+     },
+     {
+      "id": "pyd_12",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "左侧卧或半卧位，枕腹支撑"
+     }
+    ],
+    [
+     {
+      "id": "pyd_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床·温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "晨起一杯温水，慢慢起身"
+     },
+     {
+      "id": "pyd_2",
+      "s": "08:00",
+      "e": "08:40",
+      "t": "早餐·补剂",
+      "cat": "life",
+      "core": 0,
+      "tip": "铁/钙/维D 定时补，低GI早餐稳血糖"
+     },
+     {
+      "id": "pyd_3",
+      "s": "08:40",
+      "e": "12:00",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "每小时起身活动 5 分钟"
+     },
+     {
+      "id": "pyd_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "先菜再肉后主食，七分饱"
+     },
+     {
+      "id": "pyd_5",
+      "s": "12:45",
+      "e": "13:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "20~30 分钟，左侧卧"
+     },
+     {
+      "id": "pyd_6",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "多喝水，起身走动"
+     },
+     {
+      "id": "pyd_7",
+      "s": "17:30",
+      "e": "18:00",
+      "t": "傍晚散步",
+      "cat": "health",
+      "core": 1,
+      "tip": "能边走边说话的 pace，累了就慢",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_8",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "控制份量，七八分饱"
+     },
+     {
+      "id": "pyd_9",
+      "s": "19:30",
+      "e": "20:15",
+      "t": "孕妇瑜伽·拉伸",
+      "cat": "health",
+      "core": 1,
+      "tip": "猫式/蝴蝶式/坐姿深蹲，不勉强",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "胎动观察",
+      "cat": "health",
+      "core": 1,
+      "tip": "饭后安静环境计数，记录规律",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pyd_11",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": "水温低于 40°C，10~15 分钟"
+     },
+     {
+      "id": "pyd_12",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "左侧卧或半卧位，枕腹支撑"
+     }
+    ],
+    [
+     {
+      "id": "pyd_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床·温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "晨起一杯温水，慢慢起身"
+     },
+     {
+      "id": "pyd_2",
+      "s": "08:00",
+      "e": "08:40",
+      "t": "早餐·补剂",
+      "cat": "life",
+      "core": 0,
+      "tip": "铁/钙/维D 定时补，低GI早餐稳血糖"
+     },
+     {
+      "id": "pyd_3",
+      "s": "08:40",
+      "e": "12:00",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "每小时起身活动 5 分钟"
+     },
+     {
+      "id": "pyd_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "先菜再肉后主食，七分饱"
+     },
+     {
+      "id": "pyd_5",
+      "s": "12:45",
+      "e": "13:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "20~30 分钟，左侧卧"
+     },
+     {
+      "id": "pyd_6",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "多喝水，起身走动"
+     },
+     {
+      "id": "pyd_7",
+      "s": "17:30",
+      "e": "18:00",
+      "t": "傍晚散步",
+      "cat": "health",
+      "core": 1,
+      "tip": "能边走边说话的 pace，累了就慢",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_8",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "控制份量，七八分饱"
+     },
+     {
+      "id": "pyd_9",
+      "s": "19:30",
+      "e": "20:15",
+      "t": "孕妇瑜伽·拉伸",
+      "cat": "health",
+      "core": 1,
+      "tip": "猫式/蝴蝶式/坐姿深蹲，不勉强",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "胎动观察",
+      "cat": "health",
+      "core": 1,
+      "tip": "饭后安静环境计数，记录规律",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pyd_11",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": "水温低于 40°C，10~15 分钟"
+     },
+     {
+      "id": "pyd_12",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "左侧卧或半卧位，枕腹支撑"
+     }
+    ],
+    [
+     {
+      "id": "pyd_1",
+      "s": "07:30",
+      "e": "08:00",
+      "t": "起床·温水",
+      "cat": "life",
+      "core": 0,
+      "tip": "晨起一杯温水，慢慢起身"
+     },
+     {
+      "id": "pyd_2",
+      "s": "08:00",
+      "e": "08:40",
+      "t": "早餐·补剂",
+      "cat": "life",
+      "core": 0,
+      "tip": "铁/钙/维D 定时补，低GI早餐稳血糖"
+     },
+     {
+      "id": "pyd_3",
+      "s": "08:40",
+      "e": "12:00",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "每小时起身活动 5 分钟"
+     },
+     {
+      "id": "pyd_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "先菜再肉后主食，七分饱"
+     },
+     {
+      "id": "pyd_5",
+      "s": "12:45",
+      "e": "13:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "20~30 分钟，左侧卧"
+     },
+     {
+      "id": "pyd_6",
+      "s": "13:30",
+      "e": "17:30",
+      "t": "工作（轻任务）",
+      "cat": "biz",
+      "core": 0,
+      "tip": "多喝水，起身走动"
+     },
+     {
+      "id": "pyd_7",
+      "s": "17:30",
+      "e": "18:00",
+      "t": "傍晚散步",
+      "cat": "health",
+      "core": 1,
+      "tip": "能边走边说话的 pace，累了就慢",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_8",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "控制份量，七八分饱"
+     },
+     {
+      "id": "pyd_9",
+      "s": "19:30",
+      "e": "20:15",
+      "t": "孕妇瑜伽·拉伸",
+      "cat": "health",
+      "core": 1,
+      "tip": "猫式/蝴蝶式/坐姿深蹲，不勉强",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pyd_10",
+      "s": "20:30",
+      "e": "21:00",
+      "t": "胎动观察",
+      "cat": "health",
+      "core": 1,
+      "tip": "饭后安静环境计数，记录规律",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pyd_11",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": "水温低于 40°C，10~15 分钟"
+     },
+     {
+      "id": "pyd_12",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": "左侧卧或半卧位，枕腹支撑"
+     }
+    ],
+    [
+     {
+      "id": "pys_1",
+      "s": "08:30",
+      "e": "09:00",
+      "t": "起床",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "pys_2",
+      "s": "09:00",
+      "e": "09:45",
+      "t": "早餐",
+      "cat": "life",
+      "core": 0,
+      "tip": "清淡营养，慢一点吃"
+     },
+     {
+      "id": "pys_3",
+      "s": "10:00",
+      "e": "11:30",
+      "t": "孕妇课·胎教",
+      "cat": "study",
+      "core": 1,
+      "tip": "和宝宝说话、轻柔抚触、轻音乐",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pys_4",
+      "s": "12:00",
+      "e": "12:45",
+      "t": "午餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "pys_5",
+      "s": "13:00",
+      "e": "14:30",
+      "t": "小睡",
+      "cat": "rest",
+      "core": 0,
+      "tip": "午觉 30~60 分钟"
+     },
+     {
+      "id": "pys_6",
+      "s": "15:00",
+      "e": "16:30",
+      "t": "公园长走 30~60min",
+      "cat": "health",
+      "core": 1,
+      "tip": "家人陪伴，中途累了就停",
+      "subj": "py_yundong"
+     },
+     {
+      "id": "pys_7",
+      "s": "18:00",
+      "e": "19:00",
+      "t": "晚餐",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "pys_8",
+      "s": "20:00",
+      "e": "21:00",
+      "t": "孕记·周小结",
+      "cat": "study",
+      "core": 1,
+      "tip": "本周体重/胎动/情绪，三句话就够",
+      "subj": "py_taidong"
+     },
+     {
+      "id": "pys_9",
+      "s": "21:30",
+      "e": "22:00",
+      "t": "温水泡脚",
+      "cat": "life",
+      "core": 0,
+      "tip": ""
+     },
+     {
+      "id": "pys_10",
+      "s": "22:00",
+      "e": "22:30",
+      "t": "睡觉",
+      "cat": "rest",
+      "core": 1,
+      "tip": ""
+     }
+    ]
+   ]
+  }
+ ],
+ "targets": {
+  "py_yingyang": 630,
+  "py_yundong": 450,
+  "py_taidong": 210,
+  "py_chanji": 120,
+  "py_yingdai": 60
+ },
+ "countdowns": [
+  {
+   "id": "cd_py1",
+   "title": "产检 · 26 周小排畸",
+   "date": "2026-09-29",
+   "time": "08:30",
+   "color": "pink",
+   "note": "宫高 + 胎心，带保险卡/母子手册",
+   "repeat": ""
+  },
+  {
+   "id": "cd_py2",
+   "title": "产检 · 28 周（转周检）",
+   "date": "2026-10-13",
+   "time": "08:30",
+   "color": "amber",
+   "note": "之后每周一检",
+   "repeat": ""
+  },
+  {
+   "id": "cd_py3",
+   "title": "预产期（40 周）",
+   "date": "2026-12-28",
+   "time": "09:00",
+   "color": "green",
+   "note": "待产包放门口，提前跑一次去医院",
+   "repeat": ""
+  }
+ ],
+ "fixedTodos": {
+  "pyd_10": [
+   "记录 1 次胎动时间与规律"
+  ],
+  "pys_3": [
+   "写一条胎教笔记"
+  ],
+  "py0_6": [
+   "待产包勾一项"
+  ]
+ },
+ "trips": [],
+ "archive": [],
+ "aiPlans": [],
+ "settings": null,
+ "migr": {
+  "reserveReset": true
+ },
+ "plan": {
+  "subjects": [
+   {
+    "ic": "🥦",
+    "name": "营养与体重",
+    "color": "#67c98f",
+    "h": 90,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "2026-12-28",
+    "goal": "孕中期稳步增重（约 0.4~0.5kg/周），血糖平稳，铁/钙/叶酸不缺口。",
+    "extra": "三餐 + 2 加餐；主食低GI（燕麦/荞麦/糙米）；补剂定时吃；每周日晨空腹称重；每周 2~3 次鱼保证 DHA。",
+    "milestones": [
+     {
+      "name": "叶酸/铁/钙 补剂固定时间",
+      "done": true
+     },
+     {
+      "name": "低GI主食替换实践",
+      "done": true
+     },
+     {
+      "name": "每周日晨体重打卡",
+      "done": true
+     },
+     {
+      "name": "DHA 来源计划（鱼+藻油）",
+      "done": false
+     },
+     {
+      "name": "餐后血糖平稳不头晕",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "py孕期",
+    "loaded": false,
+    "id": "py_yingyang"
+   },
+   {
+    "ic": "🧘",
+    "name": "孕运动",
+    "color": "#5ed0e6",
+    "h": 90,
+    "wk": 5,
+    "owner": "我",
+    "deadline": "",
+    "goal": "每周 150 分钟低强度运动，缓解腰酸水肿，为分娩储备体力。",
+    "extra": "傍晚散步 20min + 每周 2 次公园 45min；孕妇瑜伽 15min×3；凯格尔每日；头晕/喘/痛立即停。",
+    "milestones": [
+     {
+      "name": "每日 30min 散步",
+      "done": true
+     },
+     {
+      "name": "孕妇瑜伽基础式（猫式/蝴蝶式/坐姿深蹲）",
+      "done": true
+     },
+     {
+      "name": "凯格尔训练每日",
+      "done": true
+     },
+     {
+      "name": "公园 45~60min 长走",
+      "done": true
+     },
+     {
+      "name": "分娩呼吸练习（拉玛泽）",
+      "done": false
+     },
+     {
+      "name": "产前体能满勤",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "py孕期",
+    "loaded": false,
+    "id": "py_yundong"
+   },
+   {
+    "ic": "🤰",
+    "name": "胎动观察",
+    "color": "#ff8fab",
+    "h": 30,
+    "wk": 7,
+    "owner": "我",
+    "deadline": "",
+    "goal": "对胎动节奏敏感，会数胎动 1h，识别异常动静并及时就医。",
+    "extra": "饭后/睡前安静时数；记录时间、力度、持续；2 小时 <6 次或规律突变更频繁 → 就医。",
+    "milestones": [
+     {
+      "name": "首次胎动感知（18 周前后）",
+      "done": true
+     },
+     {
+      "name": "每日胎动计数习惯",
+      "done": true
+     },
+     {
+      "name": "区分胎动 vs 肠气/心跳",
+      "done": true
+     },
+     {
+      "name": "记录一周胎动规律",
+      "done": false
+     },
+     {
+      "name": "掌握一日 3 次数胎动法",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "py孕期",
+    "loaded": false,
+    "id": "py_taidong"
+   },
+   {
+    "ic": "🩺",
+    "name": "产检清单",
+    "color": "#7c9cff",
+    "h": 60,
+    "wk": 2,
+    "owner": "我",
+    "deadline": "2026-12-28",
+    "goal": "按时做完每阶段产检，记录与超声图留档，提前安排第三次检查。",
+    "extra": "孕中晚期 2 周一检、28 周后 1 周一检；带保险卡+母子手册+病历；医生叮嘱当场写下来。",
+    "milestones": [
+     {
+      "name": "NT 超声（11~13 周）",
+      "done": true
+     },
+     {
+      "name": "早期大排畸（15~20 周）",
+      "done": true
+     },
+     {
+      "name": "糖耐量 OGTT（24~28 周）",
+      "done": true
+     },
+     {
+      "name": "26 周小排畸 · 胎心+宫高",
+      "done": false
+     },
+     {
+      "name": "28 周产检 · 转周检",
+      "done": false
+     },
+     {
+      "name": "30 周产检 · 胎位",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "py孕期",
+    "loaded": false,
+    "id": "py_chanji"
+   },
+   {
+    "ic": "👶",
+    "name": "待产包",
+    "color": "#f7b955",
+    "h": 60,
+    "wk": 1,
+    "owner": "我",
+    "deadline": "2026-12-01",
+    "goal": "36 周前完成待产包与日常物品，随时能拎包去医院。",
+    "extra": "证件/妈妈物品/宝宝物品 三分包；提前确认医院路线与病房；病历本放玄关随手可拿。",
+    "milestones": [
+     {
+      "name": "待产包清单定稿",
+      "done": true
+     },
+     {
+      "name": "妈妈物品：日用/洗漱/产褥垫",
+      "done": true
+     },
+     {
+      "name": "证件：身份证/医保/母子手册/病历",
+      "done": true
+     },
+     {
+      "name": "宝宝物品：尿不湿/小衣服/包被",
+      "done": false
+     },
+     {
+      "name": "分娩用品：产褥垫/一次性内裤",
+      "done": false
+     }
+    ],
+    "mistakes": [],
+    "status": "",
+    "pcat": "py孕期",
+    "loaded": false,
+    "id": "py_yingdai"
+   }
+  ]
+ }
+}

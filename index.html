@@ -3,7 +3,7 @@
 <head data-page-node-id="uNDqSUjpXtLPSdTbQrQfUX">
 <meta charset="UTF-8" data-page-node-id="cH6yAa5l44CaayxcYHtSaq">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" data-page-node-id="JMrAU0EJnVLTWQyPXDRDZj">
-<title>全天候成长看板 · Daily Board</title>
+<title>Dayboard · 全天候成长看板</title>
 <style>
 
 :root{
@@ -1205,7 +1205,7 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
     <div class="brand" data-page-node-id="drh0ANZoG41jAGqVXfxH4w">
       <div class="logo" data-page-node-id="vDubO14LzhIE493n1fzjkw">🌅</div>
       <div data-page-node-id="PGwAiQLYhMC7uHAFCU6b8y">
-        <h1 data-page-node-id="sK8wxSysxlbgMaGWUWg7D7">全天候成长看板</h1>
+        <h1 data-page-node-id="sK8wxSysxlbgMaGWUWg7D7">Dayboard</h1>
         <p data-page-node-id="naGQVGpBeG5lL03Ec3BRrb">恒循筹策终成事，久践良图必克功</p>
       </div>
     </div>
@@ -1712,7 +1712,7 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
   </section>
 
   <div class="foot" data-page-node-id="4Vhh4fA5v7Ww8L2HL9aN99">
-    全天候成长看板 · 本地离线运行<br data-page-node-id="wLwqVhXLMmiLWb40EFTGW6">
+    Dayboard · 全天候成长看板 · 本地离线运行<br data-page-node-id="wLwqVhXLMmiLWb40EFTGW6">
     早上靠脑子 · 中午靠休息 · 下午靠动手 · 晚上靠放松
   </div>
 </div>
@@ -2659,9 +2659,9 @@ globalThis.__DBDATA.PROJ_PROMPTS= {
 
 
 /* ============================================================
-   全天候成长看板 · Daily Board
-   纯本地离线 · localStorage 持久化
-   ============================================================ */
+Dayboard · 全天候成长看板
+纯本地离线 · localStorage 持久化
+============================================================ */
 (function(){
 'use strict';
 
@@ -7497,7 +7497,7 @@ function renderCalendar(){
     const r=dayRate(d), out=dt.getMonth()!==M-1;
     const sel=k===curDate, today=k===ymd();
     const bg = r>=90?'#4ade80' : r>=60?'#1fbe8a' : r>=30?'#158a63' : r>0?'#123f33' : '';
-    const dots=BLOCKS.filter(b=>is(d,b.id)).slice(0,14).map(b=>'<i style="background:'+CATS[b.cat].c+'"></i>').join('');
+    const dots=BLOCKS.filter(b=>is(d,b.id)).slice(0,14).map(b=>CATS[b.cat]?'<i style="background:'+CATS[b.cat].c+'"></i>':'').join('');
     const tripHits=(state.trips||[]).filter(tp=>(tp.days||[]).some(dy=>{ const pd=parseTripDate(dy.label); if(pd.key===k) return true; if(pd.key.indexOf('wd')===0){ const wn=+pd.key.slice(2); return wn===dt.getDay(); } return false; }));
     const tripBadge=tripHits.length?('<div class="cal-trip" data-act="cal-trip" title="'+esc(tripHits.map(t=>t.title).join('、'))+'">✈️ '+tripHits.length+'</div>'):'';
     html+='<div class="day'+(out?' out':'')+(sel?' sel':'')+(today?' today':'')+'" data-act="cal-day" data-d="'+k+'">'+
@@ -7524,7 +7524,7 @@ function renderCalendar(){
         '<div style="font-size:15px;font-weight:700">'+niceDate(curDate)+'</div>'+
         '<div style="font-size:12.5px;color:var(--muted);margin-top:3px">核心 '+cd+'/'+CORE.length+' · 专注 '+fm+' 分钟 · 冥想 '+(d.meditation.min||0)+' 分钟</div>'+
         '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:9px">'+
-          Object.keys(byCat).map(c=>'<span class="tag" style="color:'+CATS[c].c+';background:'+CATS[c].c+'1f">'+CATS[c].n+' '+byCat[c]+'′</span>').join('')+
+          Object.keys(byCat).filter(c=>CATS[c]).map(c=>'<span class="tag" style="color:'+CATS[c].c+';background:'+CATS[c].c+'1f">'+CATS[c].n+' '+byCat[c]+'′</span>').join('')+
           (Object.keys(byCat).length?'':'<span class="hint">这一天还没有打卡记录</span>')+
         '</div>'+
         '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">'+subjLine+'</div>'+
@@ -8446,7 +8446,7 @@ function buildSubjDayContext(s,userInput){
     L.push('\n## 今天（'+curDate+'）与该项目绑定的时段');
     rel.forEach(b=>{
       const st=(d.blocks&&d.blocks[b.id]&&d.blocks[b.id].s)||'未打卡';
-      L.push('- '+b.id+' '+b.s+'-'+b.e+' '+b.t+' · '+CATS[b.cat].n+(b.core?' [核心]':'')+' · 当前：'+st);
+      L.push('- '+b.id+' '+b.s+'-'+b.e+' '+b.t+' · '+(CATS[b.cat]?CATS[b.cat].n:b.cat)+(b.core?' [核心]':'')+' · 当前：'+st);
     });
   }else{
     L.push('\n## 今天（'+curDate+'）没有直接绑定该项目的时段，请从下面的机动时段里分配');
@@ -11686,7 +11686,7 @@ function blkAiPlanPrompt(b,date){
   const mins=blkMin(b);
   const s=SUBJ_MAP[b.subj]||null;
   const L=[];
-  L.push('请为这条计划「'+b.t+'」（'+date+' '+b.s+'-'+b.e+'，共 '+mins+' 分钟，类别：'+CATS[b.cat].n+'）写今日执行待办。');
+  L.push('请为这条计划「'+b.t+'」（'+date+' '+b.s+'-'+b.e+'，共 '+mins+' 分钟，类别：'+(CATS[b.cat]?CATS[b.cat].n:b.cat)+'）写今日执行待办。');
   L.push('');
   L.push('## 这条计划是做什么的');
   L.push((b.tip&&b.tip.trim())||b.t);
@@ -12494,7 +12494,7 @@ function openOnboard(){ obStep=1; obRole=''; obPack=''; renderOnboard(); const m
 function closeOnboard(){ const m=$('#onboardModal'); if(m) m.classList.remove('on'); }
 function onboardFinish(){
   const s=currentSettings(); if(obRole) s.role=obRole;
-  save(); closeOnboard(); switchView('board'); toast('🎉 欢迎使用全天候成长看板！');
+  save(); closeOnboard(); switchView('board'); toast('🎉 欢迎使用 Dayboard！');
 }
 function renderOnboard(){
   const steps=$('#obSteps');

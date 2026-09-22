@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全天候成长看板 · 帮助手册（离线）</title><style>:root{--bg:#0d1117;--bg2:#161b22;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--line:#30363d;--code:#161b22}
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dayboard · 帮助手册（离线）</title><style>:root{--bg:#0d1117;--bg2:#161b22;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--line:#30363d;--code:#161b22}
 :root{color-scheme:dark}
 [data-theme="light"]{--bg:#fff;--bg2:#f6f8fa;--text:#1f2328;--muted:#656d76;--accent:#0969da;--line:#d0d7de;--code:#f6f8fa}
 *{box-sizing:border-box}html,body{margin:0;height:100%}
@@ -27,7 +27,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",san
 .top .title{font-weight:600;font-size:14.5px;flex:1}
 .top .btn{border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:7px;padding:6px 12px;font-size:13px;cursor:pointer}
 .backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40}.backdrop.show{display:block}
-@media(max-width:760px){.sidebar{position:fixed;top:0;left:0;bottom:0;z-index:50;transform:translateX(-101%);transition:transform .22s;width:280px;box-shadow:4px 0 20px rgba(0,0,0,.4)}.sidebar.open{transform:none}.top .hamb{display:block}.pages{padding:20px 18px 80px}.doc h1{font-size:22px}}</style></head><body><div class="layout"><aside class="sidebar"><div class="brand"><div class="t">📖 帮助手册</div><div class="s">全天候成长看板 · 离线单文件</div></div><nav class="navwrap"><div class="navgroup">🚀 开始</div><a href="#index">帮助索引</a>
+@media(max-width:760px){.sidebar{position:fixed;top:0;left:0;bottom:0;z-index:50;transform:translateX(-101%);transition:transform .22s;width:280px;box-shadow:4px 0 20px rgba(0,0,0,.4)}.sidebar.open{transform:none}.top .hamb{display:block}.pages{padding:20px 18px 80px}.doc h1{font-size:22px}}</style></head><body><div class="layout"><aside class="sidebar"><div class="brand"><div class="t">📖 帮助手册</div><div class="s">Dayboard · 全天候成长看板 · 离线单文件</div></div><nav class="navwrap"><div class="navgroup">🚀 开始</div><a href="#index">帮助索引</a>
 <a href="#onboard">新手引导</a>
 <div class="navgroup">📅 日常使用</div><a href="#board">今日看板</a>
 <a href="#pomo">番茄钟</a>
@@ -48,8 +48,8 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",san
 <div class="navgroup">🤖 AI · 数据</div><a href="#ai">AI 增强</a>
 <a href="#settings">设置</a>
 <a href="#backup">数据备份与恢复</a>
-<div class="navgroup">📚 备考专项</div><a href="#mistake">错题本</a></nav><div class="foot">v2026-09-22 · 22 篇 · 离线可看 · 侧边导航</div></aside><div class="backdrop"></div><div class="content"><div class="top"><button class="hamb" type="button">☰</button><span class="title">全天候成长看板 · 帮助手册</span><button class="btn theme" type="button">☀ 亮色</button></div><div class="pages"><section class="doc" id="index"><h1>📖 帮助中心 · 索引</h1>
-<blockquote>全天候成长看板 · Daily Board 的<strong>分功能帮助文档</strong>。每个功能一份独立说明，按需查阅。<br>返回主文档：<code>../README.md</code></blockquote>
+<div class="navgroup">📚 备考专项</div><a href="#mistake">错题本</a></nav><div class="foot">v2026-09-22 · 22 篇 · 离线可看 · 侧边导航</div></aside><div class="backdrop"></div><div class="content"><div class="top"><button class="hamb" type="button">☰</button><span class="title">Dayboard · 全天候成长看板 · 帮助手册</span><button class="btn theme" type="button">☀ 亮色</button></div><div class="pages"><section class="doc" id="index"><h1>📖 帮助中心 · 索引</h1>
+<blockquote><strong>Dayboard（全天候成长看板）</strong> 的分功能帮助文档。每个功能一份独立说明，按需查阅。<br>返回主文档：<code>../README.md</code></blockquote>
 <p>---</p>
 <h2>🚀 先看这个</h2>
 <table><thead><tr><th>文档</th><th>一句话</th></tr></thead><tbody><tr><td><a href="#onboard"><code>新手引导.md</code></a></td><td>第一次打开怎么快速上手、把日程和打卡跑起来</td></tr></tbody></table>
@@ -307,7 +307,7 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",san
 <p>A：id 相同会自动改名变成两条；想避免先删旧的。详见导入帮助文档。</p>
 <blockquote>想用示例快速体验：进入本模块 →「📥 导入行程」→ 选 <code>demos/travel-chengdu-demo.json</code>（7 条成都周边行程）。</blockquote></section>
 <section class="doc" id="trips-import"><h1>旅行日程 · 导入行程 使用帮助</h1>
-<blockquote>本文档详细介绍「全天候成长看板」里 <strong>✈️ 旅行日程 → 📥 导入行程</strong> 功能怎么用。<br>它和「数据 → 导入备份」是<strong>两套入口、两种行为</strong>，读完你就清楚什么时候用哪个。</blockquote>
+<blockquote>本文档详细介绍 <strong>Dayboard（全天候成长看板）</strong> 里 <strong>✈️ 旅行日程 → 📥 导入行程</strong> 功能怎么用。<br>它和「数据 → 导入备份」是<strong>两套入口、两种行为</strong>，读完你就清楚什么时候用哪个。</blockquote>
 <p>---</p>
 <h2>一、这个功能解决什么</h2>
 <p>「旅行日程」是看板里一个<strong>和每日打卡、周期排程完全独立</strong>的模块，专门放你的出游行程（一日游、多日游都行）。</p>
