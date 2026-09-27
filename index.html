@@ -1231,6 +1231,7 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
         <button data-view="stats">📊 数据分析</button>
         <button data-view="summary">📑 周期总结</button>
         <button data-view="week">📈 周 / 双周对比</button>
+        <button data-view="review">🔍 检索回顾</button>
       </div>
     </div>
   </nav>
@@ -1656,6 +1657,52 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
     <div class="card">
       <div class="card-b" id="sumArchived" style="max-height:420px;overflow:auto">
         <div style="font-size:12.5px;color:var(--muted)">还没有归档的总结。生成后点「归档」可在此回看。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 🔍 检索回顾（按日查 / 关键词检索 / 项目总结+建议） ============ -->
+  <section class="view" id="view-review">
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-h">
+        <h2>🔍 检索回顾</h2>
+        <span class="sub">哪天做过什么 · 完成情况 · 收获沉淀 · 项目总结与建议</span>
+      </div>
+      <div class="card-b">
+        <div class="mode-tabs" id="rvwTabs">
+          <button data-act="rvw-tab" data-v="day" class="on">📅 按日期查</button>
+          <button data-act="rvw-tab" data-v="search">🔎 关键词检索</button>
+          <button data-act="rvw-tab" data-v="proj">📂 项目总结</button>
+        </div>
+
+        <div style="margin-top:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <input type="date" class="inp" id="rvDate" style="max-width:200px">
+          <button class="btn pri" data-act="rvw-day">查询这一天</button>
+          <span style="font-size:11.5px;color:var(--muted)">含：各时段完成状态 / 待办 / 备注 / 学科收获 / 成就·感悟·复盘</span>
+        </div>
+        <div id="rvwDayOut" style="margin-top:14px"></div>
+        <div style="margin-top:12px">
+          <button class="btn" data-act="rvw-ai-day" id="rvwAiDayBtn">✨ AI 点评这一天</button>
+        </div>
+        <div class="ai-out" id="rvwDayAiOut" style="margin-top:14px;display:none"></div>
+
+        <div style="margin-top:18px;padding-top:14px;border-top:1px dashed rgba(148,163,184,.4)">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+            <input class="inp" id="rvQ" placeholder="搜：时段名 / 待办 / 备注 / 收获 / 复盘 的关键词" style="flex:1;min-width:220px">
+            <button class="btn pri" data-act="rvw-search">检索</button>
+          </div>
+          <div id="rvwHitsOut" style="margin-top:14px"></div>
+        </div>
+
+        <div style="margin-top:18px;padding-top:14px;border-top:1px dashed rgba(148,163,184,.4)">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+            <select class="inp" id="rvSubj" style="max-width:280px"></select>
+            <button class="btn pri" data-act="rvw-proj">生成项目总结</button>
+            <button class="btn" data-act="rvw-ai-proj" id="rvwAiProjBtn">✨ AI 深度总结 + 建议</button>
+          </div>
+          <div id="rvwProjOut" style="margin-top:14px"></div>
+          <div class="ai-out" id="rvwProjAiOut" style="margin-top:14px;display:none"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -9291,6 +9338,21 @@ document.addEventListener('click',function(e){
     if(act==='summary-ai'){ genSummary(); return; }
     if(act==='summary-copy'){ copySummary(); return; }
     if(act==='summary-archive'){ archiveSummary(); return; }
+    // ---- 检索回顾（按日查 / 关键词检索 / 项目总结+建议） ----
+    if(act==='rvw-day'){ rvwRunDay(); return; }
+    if(act==='rvw-ai-day'){ rvwDayAI(); return; }
+    if(act==='rvw-search'){ rvwRunSearch(); return; }
+    if(act==='rvw-visit'){ const _k=e.target.getAttribute('data-k'); if(_k) rvwVisit(_k); return; }
+    if(act==='rvw-proj'){ rvwRunProj(); return; }
+    if(act==='rvw-ai-proj'){ rvwProjAI(); return; }
+    if(act==='rvw-tab'){
+      const _tv=e.target.getAttribute('data-v')||'day';
+      $$('#rvwTabs button').forEach(b=>b.classList.toggle('on',b===e.target));
+      if(_tv==='day') rvwRunDay(); else if(_tv==='search') rvwRunSearch(); else rvwRunProj();
+      const _sec={day:'#rvDate',search:'#rvQ',proj:'#rvSubj'}[_tv];
+      const _el=_sec&&$(_sec); if(_el&&_el.scrollIntoView) _el.scrollIntoView({behavior:'smooth',block:'center'});
+      return;
+    }
     // ---- 提示词模板库 ----
     if(act==='tpl-open'){ openTpl(e.target.getAttribute('data-id')||'', tplTargetSid); return; }
     if(act==='tpl-apply-global'){ applyTplGlobal(); return; }
@@ -11351,7 +11413,7 @@ function switchView(v){
   if(curView && curView!==v && optChimeOn() && (IS_HARMONY || !document.hidden)) AMB.chime();
   curView=v;
   $$('nav.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.view===v));
-  const _prog=['study','stats','summary','week'].indexOf(v)>=0;
+  const _prog=['study','stats','summary','week','review'].indexOf(v)>=0;
   $$('.nav-dd-trig').forEach(b=>b.classList.toggle('on',_prog));
   const _dd=document.getElementById('navDd'); if(_dd) _dd.classList.remove('open');
   $$('.view').forEach(s=>s.classList.toggle('on',s.id==='view-'+v));
@@ -11365,6 +11427,7 @@ function switchView(v){
   if(v==='countdown') renderCountdown();
   if(v==='summary') renderSummary();
   if(v==='week') renderWeekCompare();
+  if(v==='review') rvwEnter();
   if(v==='board'){ renderBoard(); renderReplan(); checkAutoReplan(); }
   if(v==='tasks') renderTasks();
   // 左侧抽屉：高亮当前视图对应的入口（番茄钟/模板是动作型，不持久高亮）
@@ -12350,6 +12413,319 @@ function copySummary(){
   if(!sumLastText){ toast('没有可复制的内容'); return; }
   try{ const ta=document.createElement('textarea'); ta.value=sumLastText; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); toast('已复制'); }
   catch(e){ toast('复制失败，请手动选择'); }
+}
+
+/* ============================================================
+   🔍 检索回顾：按日查 / 关键词检索 / 项目总结+建议
+   只读已有数据：day.blocks / day.subjects / day.wins / day.reflection / day.review
+   ============================================================ */
+let rvwBusy=false;
+function rvwTagOf(st){
+  if(st==='done') return '<span class="pj-tag ok">✓ 完成</span>';
+  if(st==='part') return '<span class="pj-tag warn">◐ 部分完成</span>';
+  if(st==='skip') return '<span class="pj-tag red">✗ 跳过</span>';
+  return '<span class="pj-tag" style="opacity:.65">— 未判定</span>';
+}
+function rvwSubjName(id){
+  if(!id) return '';
+  try{ const s=SUBJ_MAP[id]; if(s) return s.name; }catch(_e){}
+  return String(id);
+}
+/* ---- 按日期查 ---- */
+function rvwDayHasData(k){
+  const d=state.days[k]; if(!d) return false;
+  if(d.blocks&&Object.keys(d.blocks).length) return true;
+  if(d.subjects){ let hit=false; Object.keys(d.subjects).forEach(sid=>{ const r=d.subjects[sid]; if(r&&(Number(r.min)||String(r.sum||'').trim())) hit=true; }); if(hit) return true; }
+  if(String(d.review||'').trim()||String(d.reflection||'').trim()) return true;
+  if((d.wins||[]).some(w=>w&&String(w).trim())) return true;
+  return false;
+}
+function rvwCollectDay(k){
+  const day=state.days[k]||{};
+  const defs=(dayBlocksArr(k)||[]);
+  const rows=[]; let coreN=0, coreDone=0;
+  defs.forEach(b=>{
+    const rec=(day.blocks&&day.blocks[b.id])||{};
+    if(b.core){ coreN++; if(rec.s==='done') coreDone++; }
+    const dn=(rec.todos||[]).filter(t=>t.done).map(t=>t.text);
+    const un=(rec.todos||[]).filter(t=>!t.done).map(t=>t.text);
+    rows.push({b:b, st:rec.s||'', dn:dn, un:un, note:String(rec.note||'').trim().replace(/\s+/g,' ')});
+  });
+  let focus=0;
+  Object.keys(day.subjects||{}).forEach(sid=>{ focus+=Number((day.subjects||{})[sid]&&day.subjects[sid].min)||0; });
+  const seen={}; const subjRecs=[];
+  // 1) 与当天时段绑定的项目
+  defs.forEach(b=>{
+    if(!b.subj||seen[b.subj]) return;
+    const r=(day.subjects||{})[b.subj];
+    if(r&&(Number(r.min)||String(r.sum||'').trim())){ seen[b.subj]=1; subjRecs.push({id:b.subj,min:Number(r.min)||0,sum:String(r.sum||'').trim()}); }
+  });
+  // 2) 当天有 min/sum 但没有时段绑定的项目（比如只写了收获小结）也要展示，避免数据“看不见”
+  Object.keys(day.subjects||{}).forEach(sid=>{
+    if(seen[sid]) return;
+    const r=day.subjects[sid];
+    if(r&&(Number(r.min)||String(r.sum||'').trim())){ seen[sid]=1; subjRecs.push({id:sid,min:Number(r.min)||0,sum:String(r.sum||'').trim()}); }
+  });
+  return {k:k,rows:rows,coreN:coreN,coreDone:coreDone,focus:focus,subjRecs:subjRecs,
+    wins:(day.wins||[]).filter(w=>w&&String(w).trim()),
+    reflection:String(day.reflection||'').trim(),review:String(day.review||'').trim()};
+}
+function rvwRunDay(){
+  const di=$('#rvDate'), out=$('#rvwDayOut'); if(!di||!out) return;
+  const k=String(di.value||'').trim();
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(k)){ out.innerHTML=''; toast('请先选择日期'); return; }
+  const ao=$('#rvwDayAiOut'); if(ao){ ao.style.display='none'; ao.innerHTML=''; }
+  if(!rvwDayHasData(k)){ out.innerHTML='<div style="font-size:13px;color:var(--muted);padding:18px 0;text-align:center">'+esc(k)+' 还没有打卡 / 复盘记录。先去「今日看板」打卡，再来这里查。</div>'; return; }
+  const c=rvwCollectDay(k);
+  let h='<div class="kpis" style="margin-bottom:10px">';
+  h+=kpi('核心完成率', c.coreN?Math.round(c.coreDone/c.coreN*100)+'%':'—');
+  h+=kpi('专注投入', c.focus?((c.focus/60).toFixed(1)+' h'):'0');
+  h+=kpi('已判定时段', c.rows.filter(r=>r.st).length+' / '+c.rows.length);
+  h+='</div>';
+  if(c.subjRecs.length){
+    h+='<div class="plan-sec-title">📚 学科 / 项目当日收获（'+c.subjRecs.length+' 项）</div><div class="pp-box">';
+    c.subjRecs.forEach(r=>{
+      h+='<div class="pp-row"><span class="nm"><span>'+esc(rvwSubjName(r.id))+'</span></span><span class="pp-state on">'+(r.min?r.min+"′":"—")+'</span></div>';
+      if(r.sum) h+='<div class="pp-sub">收获：'+esc(r.sum)+'</div>';
+    });
+    h+='</div>';
+  }
+  h+='<div class="plan-sec-title">🕐 时段执行清单（'+c.rows.length+'）</div><div class="pp-box">';
+  c.rows.forEach(r=>{
+    const subjName=r.b.subj?rvwSubjName(r.b.subj):'';
+    h+='<div class="pp-row"><span class="nm"><span style="color:var(--muted);flex:0 0 86px">'+esc(r.b.s)+'–'+esc(r.b.e)+'</span><span>'+esc(r.b.t)+(subjName?(' <span style="color:var(--muted);font-size:11px">· '+esc(subjName)+'</span>'):'')+'</span></span>'+rvwTagOf(r.st)+'</div>';
+    const doneTxt=r.dn.length?('已完成：'+r.dn.map(esc).join('、')):'';
+    const unTxt=r.un.length?('未完成：'+r.un.map(esc).join('、')):'';
+    const parts=[doneTxt,unTxt,r.note?('备注：'+esc(r.note)):''].filter(x=>x);
+    if(parts.length) h+='<div class="pp-sub" style="padding-left:0">'+parts.join('｜')+'</div>';
+  });
+  h+='</div>';
+  if(c.wins.length){
+    h+='<div class="plan-sec-title">✍️ 当日成就（'+c.wins.length+' 条）</div><div class="grid2">';
+    c.wins.forEach(w=>{ h+='<div class="pblock"><div style="font-size:13px;line-height:1.6">'+esc(String(w).trim())+'</div></div>'; });
+    h+='</div>';
+  }
+  if(c.reflection) h+='<div class="plan-sec-title">💡 当日感悟</div><div class="pblock"><div style="font-size:13px;line-height:1.7">'+esc(c.reflection)+'</div></div>';
+  if(c.review) h+='<div class="plan-sec-title">📝 当日复盘</div><div class="pblock"><div style="font-size:13px;line-height:1.7">'+esc(c.review)+'</div></div>';
+  out.innerHTML=h;
+}
+async function rvwDayAI(){
+  const di=$('#rvDate'), ao=$('#rvwDayAiOut'), btn=$('#rvwAiDayBtn');
+  const k=String((di&&di.value)||'').trim();
+  if(!ao) return;
+  if(rvwBusy){ toast('正在生成另一份，请稍候'); return; }
+  if(!rvwDayHasData(k)){ toast('这一天还没有记录，AI 点评无从下手'); return; }
+  rvwBusy=true; if(btn) btn.disabled=true;
+  const c=rvwCollectDay(k);
+  const stName=s=>s==='done'?'完成':s==='part'?'部分完成':s==='skip'?'跳过':'未判定';
+  const L=['日期：'+k];
+  L.push('时段执行：'+(c.rows.length?c.rows.map(r=>r.b.s+'-'+r.b.e+' '+r.b.t+'['+stName(r.st)+']').join('；'):'（无）'));
+  c.subjRecs.forEach(r=>L.push('项目 '+rvwSubjName(r.id)+': '+(r.min?(r.min+' 分钟'):'未计时')+(r.sum?('，收获：'+r.sum):'')));
+  if(c.wins.length) L.push('当日成就：'+c.wins.map(w=>String(w).trim()).join('；'));
+  if(c.reflection) L.push('当日感悟：'+c.reflection);
+  if(c.review) L.push('当日复盘：'+c.review);
+  try{
+    const txt=await callOllama([
+      {role:'system',content:'你是用户的成长复盘教练。基于真实数据写简明的当日点评，不空话、不编造。输出：【一句话点评】1-2 句 + 【改进建议】2 条具体可操作的建议。'},
+      {role:'user',content:L.join('\n')}
+    ]);
+    ao.style.display=''; ao.innerHTML=mdSimple(txt);
+  }catch(e){
+    ao.style.display=''; ao.innerHTML='<div style="color:#e11d48;font-size:12.5px">生成失败：'+esc(e.message||e)+'（未配置 Ollama 时可先看上方规则统计）</div>';
+  }finally{ rvwBusy=false; if(btn) btn.disabled=false; }
+}
+/* ---- 关键词检索 ---- */
+function rvwSearchAll(q){
+  q=String(q||'').trim().toLowerCase();
+  if(q.length<1) return [];
+  const hits=[]; const cap=80;
+  const push=fn=>{ if(hits.length<cap) hits.push(fn()); };
+  const keys=Object.keys(state.days||{}).sort().reverse();
+  keys.forEach(k=>{
+    const d=state.days[k]||{};
+    // 1) 时段：标题 / 备注 / 待办
+    (dayBlocksArr(k)||[]).forEach(b=>{
+      const rec=(d.blocks&&d.blocks[b.id])||{};
+      const lines=[];
+      if(b.t&&String(b.t).toLowerCase().indexOf(q)>=0) lines.push('时段「'+String(b.t).trim()+'」');
+      if(rec.note&&String(rec.note).toLowerCase().indexOf(q)>=0) lines.push('备注：'+String(rec.note).trim().replace(/\s+/g,' ').slice(0,80));
+      (rec.todos||[]).forEach(t=>{
+        if(t.text&&String(t.text).toLowerCase().indexOf(q)>=0) lines.push((t.done?'✓ 已完成：':'○ 未完成：')+String(t.text).slice(0,80));
+      });
+      if(lines.length) push(()=>({k:k, t:String(b.t||'时段').trim(), subj:b.subj||'', st:rec.s||'', lines:lines}));
+    });
+    // 2) 学科 / 项目当日总结（收获）
+    Object.keys(d.subjects||{}).forEach(sid=>{
+      const r=d.subjects[sid]||{};
+      if(String(r.sum||'').toLowerCase().indexOf(q)>=0){
+        push(()=>({k:k, t:rvwSubjName(sid)+' · 当日收获', subj:sid, st:'', lines:[String(r.sum).trim().replace(/\s+/g,' ').slice(0,80)]}));
+      }
+    });
+    // 3) 成就 / 感悟 / 复盘
+    (d.wins||[]).forEach(w=>{
+      if(w&&String(w).toLowerCase().indexOf(q)>=0) push(()=>({k:k, t:'当日成就', subj:'', st:'', lines:[String(w).trim().slice(0,80)]}));
+    });
+    if(d.reflection&&String(d.reflection).toLowerCase().indexOf(q)>=0) push(()=>({k:k, t:'当日感悟', subj:'', st:'', lines:[String(d.reflection).trim().slice(0,80)]}));
+    if(d.review&&String(d.review).toLowerCase().indexOf(q)>=0) push(()=>({k:k, t:'当日复盘', subj:'', st:'', lines:[String(d.review).trim().slice(0,80)]}));
+  });
+  return hits;
+}
+function rvwRunSearch(){
+  const qIn=$('#rvQ'), out=$('#rvwHitsOut'); if(!qIn||!out) return;
+  const q=String(qIn.value||'').trim();
+  if(q.length<2){ out.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:10px 0">至少输入 2 个字符再检索</div>'; return; }
+  const hits=rvwSearchAll(q);
+  if(!hits.length){ out.innerHTML='<div style="font-size:13px;color:var(--muted);padding:18px 0;text-align:center">没有找到与「'+esc(q)+'」相关的记录。换个关键词试试（时段名 / 待办 / 备注内容）</div>'; return; }
+  let h='<div style="font-size:12.5px;color:var(--muted);margin-bottom:10px">共 '+hits.length+' 条命中（最多显示 80 条）· 点「去那看」查看当天详情</div><div class="pp-box">';
+  hits.forEach(it=>{
+    h+='<div class="pp-row"><span class="nm"><span style="color:var(--muted);flex:0 0 92px">'+esc(it.k)+'</span><span>'+esc(it.t)+'</span></span>'+rvwTagOf(it.st)+'</div>';
+    it.lines.forEach(l=>{ h+='<div class="pp-sub">'+esc(l)+'</div>'; });
+    h+='<div style="margin-top:5px"><button class="btn sm" data-act="rvw-visit" data-k="'+esc(it.k)+'">📅 去那看</button></div>';
+  });
+  h+='</div>';
+  out.innerHTML=h;
+}
+/* ---- 项目总结 + 建议 ---- */
+function rvwProjStats(sid){
+  const s=(function(){ try{ return SUBJ_MAP[sid]; }catch(_e){ return null; } })();
+  const subj=s||{id:sid,name:String(sid)};
+  const names=Object.keys(state.days||{}).sort();
+  let recDays=0, totalMin=0, stDone=0, stPart=0, stSkip=0;
+  const harvests=[]; const recDates=[];
+  names.forEach(k=>{
+    const d=state.days[k]||{};
+    const r=(d.subjects||{})[sid]||null;
+    const defs=(dayBlocksArr(k)||[]).filter(b=>b.subj===sid);
+    let touched=false;
+    defs.forEach(b=>{
+      const rec=((d.blocks||{})[b.id])||{};
+      if(rec.s==='done') stDone++; else if(rec.s==='part') stPart++; else if(rec.s==='skip') stSkip++;
+      if(rec.s||String(rec.note||'').trim()||(rec.todos&&rec.todos.length)) touched=true;
+    });
+    const hasMin=r?(Number(r.min)||0):0;
+    const hasSum=r?String(r.sum||'').trim():'';
+    if(touched||hasMin>0||hasSum){
+      recDays++; recDates.push(k);
+      if(hasMin) totalMin+=hasMin;
+      if(hasSum) harvests.push({k:k,text:hasSum});
+    }
+  });
+  const judged=stDone+stPart+stSkip;
+  const ms=(subj.milestones||[]).filter(m=>m&&m.name);
+  return {sid:sid, subj:subj, name:subj.name, recDays:recDays, recDates:recDates, totalMin:totalMin,
+    stDone:stDone, stPart:stPart, stSkip:stSkip, judged:judged,
+    rate:judged?Math.round(stDone/judged*100):null, harvests:harvests,
+    msTotal:ms.length, msDone:ms.filter(m=>m.done).length};
+}
+function rvwSuggest(st){
+  const L=[]; const today=ymd();
+  const subj=st.subj||{};
+  function daysAgo(kd){
+    const a=String(kd).split('-').map(Number), b=String(today).split('-').map(Number);
+    if(a.length<3||b.length<3) return 0;
+    return Math.round((Date.UTC(b[0],b[1]-1,b[2])-Date.UTC(a[0],a[1]-1,a[2]))/86400000);
+  }
+  if(!st.recDays){
+    L.push('⚠️ 还没有任何执行记录。建议今天从最小动作起步：1 个番茄钟（25 分钟）+ 把第一条未完成里程碑拆成当天可执行的一步。');
+    return L;
+  }
+  const gap=daysAgo(st.recDates[st.recDates.length-1]);
+  if(gap>=7) L.push('⚠️ 距上次投入已 '+gap+' 天：建议今天重新点火——1 个番茄钟 + 15 分钟复盘上次卡在哪，降低重启成本。');
+  if(st.rate!==null && st.rate<60) L.push('时段完成率仅 '+st.rate+'%：建议把每段目标降档（一次只做 1 个最小动作），先把「完成」的密度做回来，再谈强度。');
+  if(st.msTotal>0 && st.msDone<st.msTotal){
+    const first=(subj.milestones||[]).find(m=>m&&m.name&&!m.done);
+    L.push('里程碑进度 '+st.msDone+'/'+st.msTotal+(first?('，当前卡在「'+first.name+'」'):'')+ '：建议本周只围绕它产出一个可见成果。');
+  }
+  const wk=parseFloat(subj.wk);
+  if(wk>0){
+    const weeks=Math.max(1, Math.round(st.recDays/7));
+    const avg=(st.totalMin/60)/weeks;
+    if(avg<wk*0.6) L.push('投入量偏低：周目标 '+wk+' h，近期活跃周均约 '+avg.toFixed(1)+' h。建议固定到每天同一时段，优先保住这个时段。');
+  }
+  if(st.harvests.length>=5) L.push('已积累 '+st.harvests.length+' 条当日收获：建议花 20 分钟整理成一页「经验清单」，考前 / 汇报前直接复用。');
+  if(!L.length) L.push('整体节奏健康：保持当前投入节奏，重点推进未完成里程碑。');
+  return L.slice(0,4);
+}
+function rvwRunProj(){
+  const sel=$('#rvSubj'), out=$('#rvwProjOut'); if(!sel||!out) return;
+  const sid=sel.value; if(!sid){ toast('先在上方选择一个项目'); return; }
+  const ao=$('#rvwProjAiOut'); if(ao){ ao.style.display='none'; ao.innerHTML=''; }
+  const st=rvwProjStats(sid);
+  let h='<div class="kpis" style="margin-bottom:10px">';
+  h+=kpi('记录天数', st.recDays+' 天');
+  h+=kpi('累计专注', (st.totalMin/60).toFixed(1)+' h');
+  h+=kpi('时段完成率', st.rate===null?'—':st.rate+'%');
+  h+=kpi('里程碑', st.msTotal?(st.msDone+' / '+st.msTotal):'—');
+  h+='</div>';
+  if(!st.recDays){
+    out.innerHTML=h+'<div style="font-size:13px;color:var(--muted);padding:14px 0;text-align:center">这个项目还没有执行记录。先去「今日看板」做 1-2 个时段，再来生成总结。</div>';
+    return;
+  }
+  h+='<div class="plan-sec-title">🧭 规则建议</div><div class="pp-box">';
+  rvwSuggest(st).forEach(sg=>{ h+='<div class="pp-row"><span class="nm" style="white-space:normal"><span>'+esc(sg)+'</span></span></div>'; });
+  h+='</div>';
+  if(st.harvests.length){
+    const show=st.harvests.slice(-8).reverse();
+    h+='<div class="plan-sec-title">📚 收获沉淀（共 '+st.harvests.length+' 条，显示最近 '+show.length+' 条）</div><div class="pp-box">';
+    show.forEach(x=>{ h+='<div class="pp-row"><span class="nm"><span style="color:var(--muted);flex:0 0 96px">'+esc(x.k)+'</span><span style="white-space:normal">'+esc(x.text)+'</span></span></div>'; });
+    h+='</div>';
+  }
+  out.innerHTML=h;
+}
+async function rvwProjAI(){
+  const sel=$('#rvSubj'), ao=$('#rvwProjAiOut'), btn=$('#rvwAiProjBtn');
+  if(!sel||!ao) return;
+  const sid=sel.value; if(!sid){ toast('先在上方选择一个项目'); return; }
+  if(rvwBusy){ toast('正在生成另一份，请稍候'); return; }
+  const st=rvwProjStats(sid);
+  rvwBusy=true; if(btn) btn.disabled=true;
+  const subj=st.subj||{};
+  const L=['项目「'+st.name+'」'];
+  if(subj.goal) L.push('目标：'+String(subj.goal).trim());
+  if(subj.extra) L.push('本阶段重点：'+String(subj.extra).trim());
+  const wk=parseFloat(subj.wk); if(wk>0) L.push('周目标：'+wk+' 小时');
+  if(subj.deadline) L.push('截止日：'+subj.deadline);
+  if(st.msTotal){
+    const first=(subj.milestones||[]).find(m=>m&&m.name&&!m.done);
+    L.push('里程碑 '+st.msDone+'/'+st.msTotal+' 完成'+(first?('，下一条：'+first.name):'，已全部完成'));
+  }
+  L.push('统计：记录 '+st.recDays+' 天，累计专注 '+st.totalMin+' 分钟'+(st.rate!==null?('，时段完成率 '+st.rate+'%'):'')+'（完成 '+st.stDone+' / 部分 '+st.stPart+' / 跳过 '+st.stSkip+'）');
+  if(st.harvests.length) L.push('当日收获（最近 5 条）：'+st.harvests.slice(-5).map(x=>x.k+' '+x.text).join(' ｜ '));
+  let recent='';
+  try{ recent=subjRecentExec(sid, ymd(), 14); }catch(_e){ recent=''; }
+  if(recent && recent.indexOf('没有执行记录')<0) L.push('近期执行记录：\n'+recent);
+  try{
+    const txt=await callOllama([
+      {role:'system',content:'你是用户的项目执行教练。基于真实数据写项目总结与可执行建议，不空话、不编造、不复述未发生的进度。'},
+      {role:'user',content:L.join('\n')+'\n\n输出要求：\n【项目总结】3-5 句，如实概括投入、成果与暴露出的卡点。\n【建议】恰好 3 条，每条是可立即执行的具体动作（写清做什么、做多少）。'}
+    ]);
+    ao.style.display=''; ao.innerHTML=mdSimple(txt);
+  }catch(e){
+    ao.style.display=''; ao.innerHTML='<div style="color:#e11d48;font-size:12.5px">生成失败：'+esc(e.message||e)+'（未配置 Ollama 时可先看上方规则建议）</div>';
+  }finally{ rvwBusy=false; if(btn) btn.disabled=false; }
+}
+/* ---- 跳转某天 / 进入面板 ---- */
+function rvwVisit(k){
+  const di=$('#rvDate'); if(di) di.value=k;
+  rvwRunDay();
+  const el=$('#rvwDayOut'); if(el&&el.scrollIntoView) el.scrollIntoView({behavior:'smooth',block:'start'});
+  toast('已显示 '+k+' 的详情');
+}
+function rvwEnter(){
+  const sel=$('#rvSubj');
+  if(sel && sel.options.length===0){
+    let subs=(typeof SUBJECTS!=='undefined'&&Array.isArray(SUBJECTS))?SUBJECTS.slice():[];
+    subs.sort(function(a,b){
+      const af=(a&&a.status==='active'&&a.inv===true)?0:1;
+      const bf=(b&&b.status==='active'&&b.inv===true)?0:1;
+      return af-bf || String(a&&a.name||'').localeCompare(String(b&&b.name||''),'zh');
+    });
+    sel.innerHTML=subs.map(s=>'<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>').join('');
+  }
+  const di=$('#rvDate'); if(di && !di.value) di.value=ymd();
+  rvwRunDay();
+  const ho=$('#rvwHitsOut'); if(ho && !ho.innerHTML.trim()) ho.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:10px 0">在上方输入关键词点「检索」即可开始（时段 / 待办 / 备注 / 收获 / 复盘 都能搜）</div>';
+  const po=$('#rvwProjOut'); if(po && !po.innerHTML.trim()) po.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:10px 0">选择项目后点「生成项目总结」，查看记录天数 / 完成率 / 收获沉淀 + 规则建议</div>';
 }
 
 /* ============================================================
