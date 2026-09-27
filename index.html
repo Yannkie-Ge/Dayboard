@@ -1243,6 +1243,7 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
   <button class="dbtn" data-act="bn-pomo" title="番茄钟"><span class="ico">🍅</span><span class="lab">番茄钟</span></button>
   <button class="dbtn" data-act="bn-view" data-v="countdown" title="倒计时"><span class="ico">⏳</span><span class="lab">倒计时</span></button>
   <button class="dbtn" data-act="bn-view" data-v="calendar" title="日历"><span class="ico">🗓️</span><span class="lab">日历</span></button>
+  <button class="dbtn" data-act="bn-view" data-v="book" title="拆书工作台：一本书=一个项目 · 书前报告 + P/A/C/I 四层循环"><span class="ico">📕</span><span class="lab">拆书</span></button>
   <button class="dbtn" data-act="open-tpl-editor" title="模板"><span class="ico">📐</span><span class="lab">模板</span></button>
   <button class="dbtn" data-act="bn-proj" data-t="mine" title="项目管理"><span class="ico">📂</span><span class="lab">项目</span></button>
   <div class="dsep"></div>
@@ -1704,6 +1705,69 @@ body.dock-open .wrap{padding-left:calc(80px + 20px)}
           <div class="ai-out" id="rvwProjAiOut" style="margin-top:14px;display:none"></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ============ 📕 拆书工作台（书=项目：书前报告 → 概念里程碑 → 阅读队列） ============ -->
+  <section class="view" id="view-book">
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-h">
+        <h2>📕 拆书工作台</h2>
+        <span class="sub">一本书 = 一个项目：先出书前报告，再按 P 找 / A 压 / C 搭 / I 拷 四层拆</span>
+      </div>
+      <div class="card-b">
+        <div class="plan-sec-title">① 书目资料</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px">
+          <input class="inp" id="bkTitle" placeholder="书名（必填）">
+          <input class="inp" id="bkAuthor" placeholder="作者（可选）">
+          <input class="inp" id="bkPages" placeholder="总页数（可选）">
+          <select class="inp" id="bkType" title="类型决定读法模板与里程碑颗粒">
+            <option value="textbook">📘 教材 / 工具（概念轴 · 费曼+练习）</option>
+            <option value="popularsci">📗 科普 / 认知（核心章严格费曼）</option>
+            <option value="business">📙 商业 / 方法论（案例+行动）</option>
+            <option value="lit">📔 小说 / 文学（沉浸+主题线 · 不费曼）</option>
+            <option value="philosophy">📕 哲学 / 经典（慢读+二读）</option>
+            <option value="exam">📚 应试 / 职业（大纲+刷题）</option>
+          </select>
+          <select class="inp" id="bkMode" title="报告档位">
+            <option value="full">深度报告 · ~4000 字（8 区块）</option>
+            <option value="lite">轻量报告 · ~1500 字（6 区块）</option>
+          </select>
+          <select class="inp" id="bkDays" title="拆书周期">
+            <option value="14">14 天拆完</option>
+            <option value="21">21 天拆完</option>
+            <option value="30">30 天拆完</option>
+          </select>
+        </div>
+        <textarea class="inp" id="bkToc" rows="5" style="width:100%;margin-top:8px;line-height:1.6;font-size:12.5px" placeholder="目录 / 章节清单（一行一章，例：&#10;第 1 章 神经网络基础&#10;第 2 章 计算图&#10;第 5 章 现代神经网络"></textarea>
+        <input class="inp" id="bkExtra" style="width:100%;margin-top:8px" placeholder="你现在的目标 / 读这本书想解决什么（选填，会让报告第 3 区块更贴你）">
+
+        <div class="plan-sec-title" style="margin-top:16px">② 书前报告（开读前必过关卡）</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="btn pri" data-act="bk-gen" id="bkGenBtn">✨ AI 生成书前报告</button>
+          <button class="btn" data-act="bk-manual">📝 手动模板（无 AI 兜底）</button>
+          <span style="font-size:11.5px;color:var(--muted)" id="bkRptStatus">AI 需本机 Ollama 在线；每区块可单独「重写这块」</span>
+        </div>
+        <div id="bkRptOut" style="margin-top:12px"></div>
+
+        <div class="plan-sec-title" style="margin-top:16px">③ 里程碑骨架（概念 = 验收单位，章 = 阅读轴）</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn" data-act="bk-skel">📥 从目录导入章节</button>
+          <button class="btn" data-act="bk-skel-add">➕ 加一条里程碑（概念 / 方法点）</button>
+          <span style="font-size:11.5px;color:var(--muted);align-self:center">⭐核心=必须 A 级 · 过章=轻量可过 · 参考=可跳；验证标准写「怎样算会」</span>
+        </div>
+        <div id="bkSkelOut" style="margin-top:10px"></div>
+
+        <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="btn pri" data-act="bk-create">✅ 创建拆书项目（进入阅读队列）</button>
+          <span style="font-size:11.5px;color:var(--muted)">创建后默认「待执行」= 阅读队列；点「🔥 点火」才转为正在执行、开始排程拆书</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-h"><h2>📚 阅读队列</h2><span class="sub">书的先后：拆完一本，报告里的推荐书就在这里点火下一本</span></div>
+      <div class="card-b" id="bkQueueOut"></div>
     </div>
   </section>
 
@@ -3644,8 +3708,13 @@ if(!['init','active','pending','done'].includes(s.status)) s.status='active';
   if(s.wk===undefined||s.wk===null||s.wk==='') s.wk=Math.max(1,Math.round((Number(s.h)||30)/12));
   s.wk=Math.max(1,Number(s.wk)||1);
   if(!Array.isArray(s.milestones)) s.milestones=[];
+  // 兼容「概念轴」里程碑（拆书工作台）：core=核心必答A / pass=过章 / ref=参考；qs=验收问句
   s.milestones=s.milestones.filter(Boolean).map(m=>(
-    (typeof m==='string')?{name:m,done:false}:{name:String(m.name||''),done:!!m.done}
+    (typeof m==='string')?{name:m,done:false,depth:'pass',srcCh:'',verify:'',qs:[]}
+    :{name:String(m.name||''),done:!!m.done,
+      depth:(m.depth==='core'||m.depth==='ref'||m.depth==='pass')?m.depth:'pass',
+      srcCh:String(m.srcCh||''),verify:String(m.verify||''),
+      qs:Array.isArray(m.qs)?m.qs.map(q=>String(q)).filter(Boolean):[]}
   ));
   return s;
 }
@@ -9353,6 +9422,16 @@ document.addEventListener('click',function(e){
       const _el=_sec&&$(_sec); if(_el&&_el.scrollIntoView) _el.scrollIntoView({behavior:'smooth',block:'center'});
       return;
     }
+    // ---- 📕 拆书工作台 ----
+    if(act==='bk-gen'){ bkCollectDraft(); bkGenReport(); return; }
+    if(act==='bk-manual'){ bkDraft.report={}; bkRenderReport(); {const st=$('#bkRptStatus'); if(st) st.textContent='手动模式：请按每块右上角的字数要求逐块填写（或粘贴外部报告再让 AI 逐块润色）';} return; }
+    if(act==='bk-regen'){ bkCollectDraft(); bkRegenBlock(Number(e.target.getAttribute('data-b'))); return; }
+    if(act==='bk-skel'){ bkSkelFromToc(); return; }
+    if(act==='bk-skel-add'){ bkSkelAdd(); return; }
+    if(act==='bk-skel-del'){ bkCollectSkel(); bkSkelDel(Number(e.target.getAttribute('data-i'))); return; }
+    if(act==='bk-create'){ bkCollectDraft(); bkCollectSkel(); bkCreateBook(); return; }
+    if(act==='bk-ignite'){ bkIgnite(e.target.getAttribute('data-id'), true); return; }
+    if(act==='bk-unign'){ bkIgnite(e.target.getAttribute('data-id'), false); return; }
     // ---- 提示词模板库 ----
     if(act==='tpl-open'){ openTpl(e.target.getAttribute('data-id')||'', tplTargetSid); return; }
     if(act==='tpl-apply-global'){ applyTplGlobal(); return; }
@@ -11428,6 +11507,7 @@ function switchView(v){
   if(v==='summary') renderSummary();
   if(v==='week') renderWeekCompare();
   if(v==='review') rvwEnter();
+  if(v==='book') bkEnter();
   if(v==='board'){ renderBoard(); renderReplan(); checkAutoReplan(); }
   if(v==='tasks') renderTasks();
   // 左侧抽屉：高亮当前视图对应的入口（番茄钟/模板是动作型，不持久高亮）
@@ -12726,6 +12806,312 @@ function rvwEnter(){
   rvwRunDay();
   const ho=$('#rvwHitsOut'); if(ho && !ho.innerHTML.trim()) ho.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:10px 0">在上方输入关键词点「检索」即可开始（时段 / 待办 / 备注 / 收获 / 复盘 都能搜）</div>';
   const po=$('#rvwProjOut'); if(po && !po.innerHTML.trim()) po.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:10px 0">选择项目后点「生成项目总结」，查看记录天数 / 完成率 / 收获沉淀 + 规则建议</div>';
+}
+
+/* ============================================================
+   📕 拆书工作台：S0 书目资料 → S1 书前报告（AI/手动双通道 · 逐块可重写）→ S2 里程碑骨架（概念轴）→ 创建入阅读队列
+   约定：一本书 = 一个项目（s.pcat==='book'；status: pending=队列待执行 / active=已点火）
+   里程碑 = 概念轴验收单位：{name, done, depth:core|pass|ref, srcCh, verify, qs[]}
+   报告双写：s.book.report = {'1':正文,'2':…}（key=区块序号，从 1 计）
+   ============================================================ */
+const BK_TYPES={ textbook:'教材 / 工具', popularsci:'科普 / 认知', business:'商业 / 方法论', lit:'小说 / 文学', philosophy:'哲学 / 经典', exam:'应试 / 职业' };
+const BK_BLOCK_FULL=[
+  {t:'一句话定位', req:'≤50 字 · 这本书最核心的价值'},
+  {t:'全书概述', req:'≤800 字 · 结构 / 核心体系 / 与同类书差异'},
+  {t:'它能帮你什么 · 读它的意义', req:'≤600 字 · 对目标读者的具体改变，不夸大'},
+  {t:'类型判断 · 适合谁 · 读法总纲', req:'≤700 字 · 含「这类书和教材/小说读法有何不同」'},
+  {t:'从哪里开始读（切入点）', req:'≤600 字 · 先读什么 / 跳过什么 / 顺序与耗时'},
+  {t:'各章节简述', req:'≤800 字 · 逐章 1-2 句，章多时按部分聚合'},
+  {t:'重点章节 ⭐（必须精读）', req:'≤400 字 · 3-5 个核心章 + 为什么重点 + 精读时做什么'},
+  {t:'读完后读什么（进阶推荐）', req:'≤200 字 · 2-4 本，含「下一本」推荐'}
+];
+const BK_BLOCK_LITE=[
+  {t:'一句话定位', req:'≤40 字'},
+  {t:'全书概述', req:'≤400 字'},
+  {t:'适合谁 · 怎么读', req:'≤300 字'},
+  {t:'切入点与阅读路径', req:'≤300 字'},
+  {t:'章节简述 + 重点章 ⭐', req:'≤300 字 · 重点章标 ⭐'},
+  {t:'读后推荐', req:'≤100 字 · 2 本以内'}
+];
+let bkDraft={report:{}};   // 在编报告缓存 {'1':正文,…}
+let bkSkel=[];             // 里程碑骨架 [{name,srcCh,depth,verify,qs}]
+let bkBusy=false;
+
+function bkCurBlocks(){ return ($('#bkMode') && $('#bkMode').value==='lite') ? BK_BLOCK_LITE : BK_BLOCK_FULL; }
+function bkSetStatus(t){ const st=$('#bkRptStatus'); if(st && t) st.textContent=t; }
+
+function bkEnter(){
+  bkRenderQueue();
+  const ro=$('#bkRptOut');
+  if(ro && !ro.innerHTML.trim()) ro.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:8px 0">先在上方填好书名（建议带目录），再「✨ AI 生成书前报告」或「📝 手动模板」。报告是开读前关卡：定位 · 意义 · 读法 · 切入点 · 章节 · 重点 · 后续书。</div>';
+  const so=$('#bkSkelOut');
+  if(so && !so.innerHTML.trim()) so.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:8px 0">里程碑以「概念」为验收单位：核心章必须 A 级掌握；章只是排程轴。可从目录一键导入，再逐条标深度 / 写验收标准。</div>';
+}
+
+function bkCollectDraft(){
+  bkDraft.report=bkDraft.report||{};
+  bkCurBlocks().forEach((b,i)=>{
+    const ta=document.querySelector('#bkRptOut .bk-rt[data-b="'+(i+1)+'"]');
+    if(ta) bkDraft.report[String(i+1)]=ta.value;
+  });
+}
+
+function bkBasePrompt(){
+  const title=($('#bkTitle').value||'').trim();
+  const author=($('#bkAuthor').value||'').trim();
+  const pages=($('#bkPages').value||'').trim();
+  const type=($('#bkType')?$('#bkType').value:'textbook');
+  const extra=($('#bkExtra').value||'').trim();
+  const lines=($('#bkToc').value||'').trim().split('\n').map(s=>s.trim()).filter(Boolean);
+  let s='';
+  s+=('书名：'+(title||'（未填）')+'\n');
+  if(author) s+=('作者：'+author+'\n');
+  if(pages) s+=('总页数：'+pages+'\n');
+  s+=('类型：'+(BK_TYPES[type]||type)+'\n');
+  if(lines.length) s+=('目录 / 章节清单：\n'+lines.map((l,i)=>('  '+(i+1)+'. '+l)).join('\n')+'\n');
+  if(extra) s+=('读者目标：'+extra+'\n');
+  return s;
+}
+
+async function bkGenReport(){
+  if(bkBusy) return;
+  if(!($('#bkTitle').value||'').trim()){ toast('先填书名'); return; }
+  bkBusy=true;
+  bkSetStatus('正在生成书前报告…（本机 Ollama，约数十秒）');
+  try{
+    const blocks=bkCurBlocks();
+    const sys='你是一位严谨的拆书平台主编。基于读者提供的书目信息生成「书前报告」。规则：诚实、不编造不确定的内容；若某章节信息不足，基于该类书的常见结构给出判断并注明「以下为推断」；严格按给定顺序分块输出，每块以「## N. 区块标题」开头（N 为序号），块与块之间空一行。';
+    const user=bkBasePrompt()+'\n\n请按以下 '+blocks.length+' 个区块依次输出书前报告（标题序号严格对应）：\n'+blocks.map((b,i)=>((i+1)+'. '+b.t+'（'+b.req+'）')).join('\n');
+    const text=await callOllama([
+      {role:'system', content:sys},
+      {role:'user', content:user}
+    ]);
+    bkParseReport(text||'');
+    const body=bkDraft.report['2']?String(bkDraft.report['2']):'';
+    if(body.length<10) bkSetStatus('⚠️ AI 返回内容偏少：可重新点「✨ AI 生成书前报告」，或改用手动模板');
+    else bkSetStatus('✅ 书前报告已生成：可逐块修改，每块右上角「↻ 重写这块」可单块重写');
+  }catch(err){
+    bkSetStatus('⚠️ AI 生成失败：'+((err&&err.message)||err)+' —— 可改用「📝 手动模板」兜底');
+    toast('AI 生成失败，可用手动模板');
+  }finally{ bkBusy=false; }
+}
+
+function bkParseReport(text){
+  const blocks=bkCurBlocks();
+  const cleaned=(text||'').trim();
+  const out={};
+  if(cleaned){
+    const segs=cleaned.split(/\n(?=##\s*\d)/);
+    if(segs.length>=2){
+      segs.forEach(seg=>{
+        const mm=seg.match(/^##\s*(\d+)/);
+        if(!mm) return;
+        const n=Number(mm[1]);
+        if(n>=1 && n<=blocks.length) out[String(n)]=seg.replace(/^##\s*\d+\s*[\.、]?\s*/,'').trim();
+      });
+    }else{
+      out['2']=cleaned;
+    }
+  }
+  blocks.forEach((b,i)=>{
+    const k=String(i+1);
+    if(!out[k] || !out[k].trim()) out[k]='（本块暂无内容：可点右上角「↻ 重写这块」补充，或直接手填）';
+  });
+  bkDraft.report=out;
+  bkRenderReport();
+}
+
+function bkRenderReport(){
+  const out=$('#bkRptOut'); if(!out) return;
+  const blocks=bkCurBlocks();
+  const rpt=bkDraft.report||{};
+  let h='';
+  blocks.forEach((b,i)=>{
+    const n=i+1;
+    const val=rpt[String(n)]||'';
+    const rows=Math.max(3,Math.min(16,Math.ceil(val.length/18)||3));
+    h+='<div style="border:1px solid rgba(127,127,160,.28);border-radius:10px;padding:10px 12px;margin-bottom:10px">'
+      +'<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px">'
+      +'<b style="font-size:13px">'+n+'. '+esc(b.t)+'</b>'
+      +'<span style="font-size:11px;color:var(--muted)">'+esc(b.req)+'</span>'
+      +'<button class="btn sm" style="margin-left:auto" data-act="bk-regen" data-b="'+n+'" title="只重写这一块">↻ 重写这块</button>'
+      +'</div>'
+      +'<textarea class="inp bk-rt" data-b="'+n+'" rows="'+rows+'" style="width:100%;resize:vertical">'+esc(val)+'</textarea>'
+      +'</div>';
+  });
+  out.innerHTML=h;
+}
+
+async function bkRegenBlock(n){
+  if(bkBusy) return;
+  const b=bkCurBlocks()[n-1];
+  if(!b) return;
+  if(!($('#bkTitle').value||'').trim()){ toast('先填书名'); return; }
+  bkBusy=true;
+  bkSetStatus('正在重写第 '+n+' 块「'+b.t+'」…');
+  try{
+    const user=bkBasePrompt()+'\n\n请只写书前报告的第 '+n+' 个区块「'+b.t+'」（要求：'+b.req+'）。只输出该块正文：不要标题、不要序号、不要多余装饰。';
+    const text=await callOllama([
+      {role:'system', content:'你是严谨的拆书平台主编，只输出正文，不编造。'},
+      {role:'user', content:user}
+    ]);
+    let clean=(text||'').trim().replace(/^##\s*\d*\s*[\.、]?\s*/,'').trim();
+    if(!clean) clean='（AI 返回为空，可再试一次）';
+    bkDraft.report[String(n)]=clean;
+    bkRenderReport();
+    bkSetStatus('✅ 第 '+n+' 块已重写');
+  }catch(err){
+    bkSetStatus('⚠️ 第 '+n+' 块重写失败：'+((err&&err.message)||err));
+  }finally{ bkBusy=false; }
+}
+
+/* ---- ③ 里程碑骨架（概念轴） ---- */
+function bkRenderSkel(){
+  const out=$('#bkSkelOut'); if(!out) return;
+  if(!bkSkel || !bkSkel.length){
+    out.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:6px 0">还没有里程碑。点「从目录导入章节」，或「➕ 加一条里程碑（概念）」，定下这本书的验收单位。</div>';
+    return;
+  }
+  let h='<div style="display:flex;flex-direction:column;gap:6px">';
+  bkSkel.forEach((m,i)=>{
+    h+='<div style="display:grid;grid-template-columns:minmax(150px,1.3fr) 60px 92px minmax(130px,1fr);gap:6px;align-items:center">'
+      +'<input class="inp" data-i="'+i+'" data-f="name" value="'+esc(m.name||'')+'" placeholder="里程碑：概念 / 方法点（验收单位）">'
+      +'<input class="inp" data-i="'+i+'" data-f="srcCh" value="'+esc(m.srcCh||'')+'" placeholder="章">'
+      +'<select class="inp" data-i="'+i+'" data-f="depth">'
+      +'<option value="core"'+(m.depth==='core'?' selected':'')+'>⭐ 核心</option>'
+      +'<option value="pass"'+(m.depth==='pass'?' selected':'')+'>过章</option>'
+      +'<option value="ref"'+(m.depth==='ref'?' selected':'')+'>参考</option>'
+      +'</select>'
+      +'<input class="inp" data-i="'+i+'" data-f="verify" value="'+esc(m.verify||'')+'" placeholder="验收标准：怎样算会">'
+      +'</div>'
+      +'<div style="display:flex;gap:6px;align-items:flex-end">'
+      +'<textarea class="inp bk-sk-qs" data-i="'+i+'" rows="1" style="width:100%;resize:vertical" placeholder="验收问句（每行一条，可选；读完逐条自测）">'+esc((m.qs||[]).join('\n'))+'</textarea>'
+      +'<button class="btn sm" data-act="bk-skel-del" data-i="'+i+'" title="删除这条">🗑</button>'
+      +'</div>';
+  });
+  h+='</div>';
+  out.innerHTML=h;
+}
+
+function bkCollectSkel(){
+  if(!bkSkel) return;
+  document.querySelectorAll('#bkSkelOut [data-f]').forEach(el=>{
+    const i=Number(el.getAttribute('data-i'));
+    const f=el.getAttribute('data-f');
+    if(bkSkel[i] && f) bkSkel[i][f]=el.value;
+  });
+  document.querySelectorAll('#bkSkelOut .bk-sk-qs').forEach(ta=>{
+    const i=Number(ta.getAttribute('data-i'));
+    if(bkSkel[i]) bkSkel[i].qs=ta.value.split('\n').map(s=>s.trim()).filter(Boolean);
+  });
+}
+
+function bkSkelFromToc(){
+  const lines=($('#bkToc').value||'').trim().split('\n').map(s=>s.trim()).filter(Boolean);
+  if(!lines.length){ toast('「目录 / 章节清单」是空的：每行写一章，或点「➕ 加一条」'); return; }
+  bkSkel=lines.map((l,i)=>({name:l, srcCh:String(i+1), depth:(i===0?'core':'pass'), verify:'', qs:[]}));
+  bkRenderSkel();
+  toast('已导入 '+lines.length+' 条里程碑：请确认重点章=⭐核心（默认仅第 1 条），并逐条补验收标准');
+}
+
+function bkSkelAdd(){
+  bkSkel.push({name:'',srcCh:'',depth:'core',verify:'',qs:[]});
+  bkRenderSkel();
+}
+
+function bkSkelDel(i){
+  if(!bkSkel[i]) return;
+  bkSkel.splice(i,1);
+  bkRenderSkel();
+}
+
+/* ---- 创建项目 → 阅读队列 ---- */
+function bkCreateBook(){
+  const title=($('#bkTitle').value||'').trim();
+  if(!title){ toast('书名必填'); return; }
+  if(!bkSkel || !bkSkel.length){ toast('至少 1 条里程碑（概念 / 章）才能创建'); return; }
+  const type=($('#bkType')?$('#bkType').value:'textbook');
+  const mode=($('#bkMode')?$('#bkMode').value:'full');
+  const days=Number($('#bkDays')?$('#bkDays').value:14)||14;
+  const author=($('#bkAuthor').value||'').trim();
+  const pages=($('#bkPages').value||'').trim();
+  const extra=($('#bkExtra').value||'').trim();
+  const s={
+    id:'book-'+Date.now().toString(36),
+    ic:'📕',
+    name:'《'+title+'》拆书',
+    pcat:'book',
+    wk:Math.max(1,Math.round(days/7)),
+    status:'pending',
+    inv:true,
+    goal:(extra||('用 '+days+' 天拆完《'+title+'》')).slice(0,80),
+    milestones:bkSkel.map(m=>({ name:(m.name||'').trim()||'（未命名里程碑）', done:false, depth:(m.depth||'pass'), srcCh:(m.srcCh||'').trim(), verify:(m.verify||'').trim(), qs:(m.qs||[]).slice() })),
+    book:{ type:type, mode:mode, days:days, author:author, pages:pages, report:Object.assign({},(bkDraft.report||{})), next:[] }
+  };
+  SUBJECTS=clonePlan(SUBJECTS.concat([s]));
+  normSubjects(SUBJECTS);
+  state.plan=state.plan||{blocks:[],subjects:[]};
+  state.plan.subjects=clonePlan(SUBJECTS);
+  const td=state.days[ymd()];
+  if(td && td.plan) td.plan.subjects=clonePlan(SUBJECTS);
+  try{ repoExpanded['cat:book']=true; }catch(_e){}
+  rebuildIndex();
+  if(curDate===ymd()) syncDayPlan();
+  renderAll();
+  subjDirty=true; save();
+  bkRenderQueue();
+  toast('✅ 《'+title+'》已创建，进入阅读队列（待执行）；点火后开始拆');
+  bkDraft={report:{}}; bkSkel=[];
+  bkRenderReport();
+  bkRenderSkel();
+  ['#bkTitle','#bkAuthor','#bkPages','#bkToc','#bkExtra'].forEach(sel=>{ const el=$(sel); if(el) el.value=''; });
+}
+
+/* ---- 📚 阅读队列：点火 / 熄火 ---- */
+function bkRenderQueue(){
+  const out=$('#bkQueueOut'); if(!out) return;
+  const books=(SUBJECTS||[]).filter(s=>s && s.pcat==='book');
+  if(!books.length){
+    out.innerHTML='<div style="font-size:12.5px;color:var(--muted);padding:8px 0">阅读队列还是空的：在上方创建一本拆书项目，它会以「待执行」排进队列；拆完一本，报告里推荐的下一本就在这里点火。</div>';
+    return;
+  }
+  let h='<div style="display:flex;flex-direction:column;gap:8px">';
+  books.forEach(s=>{
+    const ms=(s.milestones||[]);
+    const doneN=ms.filter(m=>m&&m.done).length;
+    const coreN=ms.filter(m=>m&&m.depth==='core').length;
+    const active=s.status==='active';
+    h+='<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;border:1px solid rgba(127,127,160,.28);border-radius:10px;padding:8px 10px">'
+      +'<div style="flex:1;min-width:180px">'
+      +'<div style="font-weight:600;font-size:13.5px">'+(s.ic||'📕')+' '+esc(s.name)+'</div>'
+      +'<div style="font-size:11.5px;color:var(--muted);margin-top:2px">'+(BK_TYPES[(s.book&&s.book.type)]||'')+' · '+(s.book&&s.book.days?s.book.days+' 天':'—')+' · 里程碑 '+doneN+'/'+ms.length+'（核心 '+coreN+'）</div>'
+      +'</div>'
+      +'<span style="font-size:11px;padding:2px 10px;border-radius:999px;background:'+(active?'rgba(47,125,72,.14);':'rgba(120,120,140,.14);')+'color:'+(active?'#2f7d48':'#666')+'">'+(active?'🔥 执行中':'⏸ 待执行')+'</span>'
+      +(active
+        ?'<button class="btn sm" data-act="bk-unign" data-id="'+s.id+'">❄ 熄火（回队列）</button>'
+        :'<button class="btn sm pri" data-act="bk-ignite" data-id="'+s.id+'">🔥 点火（开始拆）</button>')
+      +'</div>';
+  });
+  h+='</div>';
+  out.innerHTML=h;
+}
+
+function bkIgnite(id,toActive){
+  const s=(SUBJECTS||[]).find(x=>x && x.id===id); if(!s) return;
+  s.status=toActive?'active':'pending';
+  SUBJECTS=clonePlan(SUBJECTS);
+  normSubjects(SUBJECTS);
+  state.plan=state.plan||{blocks:[],subjects:[]};
+  state.plan.subjects=clonePlan(SUBJECTS);
+  const td=state.days[ymd()];
+  if(td && td.plan) td.plan.subjects=clonePlan(SUBJECTS);
+  rebuildIndex();
+  if(curDate===ymd()) syncDayPlan();
+  renderAll();
+  subjDirty=true; save();
+  bkRenderQueue();
+  const bare=(s.name||'').replace(/[《》]/g,'');
+  toast(toActive?('🔥 已点火「'+bare+'」：转为执行中，可开始排程拆书'):('❄「'+bare+'」已熄火，回待执行队列'));
 }
 
 /* ============================================================
